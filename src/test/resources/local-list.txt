@@ -1,0 +1,3 @@
+# Always whitelist these domains:
+www.eblocker.com
+www.etracker.com

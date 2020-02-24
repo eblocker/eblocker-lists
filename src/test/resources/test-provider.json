@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "key": "a0",
+    "name": {
+      "en": "test-filter-a0",
+      "de": "test-filter-a0"
+    },
+    "description": {
+      "en": "description",
+      "de": "description"
+    },
+    "category": "ADS",
+    "version": "1",
+    "filterType": "blacklist",
+    "provider": "provider-a",
+    "providerParameters": "parameter0"
+  },
+  {
+    "id": 1,
+    "key": "a1",
+    "name": {
+      "en": "test-filter-a1",
+      "de": "test-filter-a1"
+    },
+    "description": {
+      "en": "description",
+      "de": "description"
+    },
+    "category": "TRACKERS",
+    "version": "2",
+    "filterType": "whitelist",
+    "provider": "provider-a",
+    "providerParameters": "parameter1"
+  },
+  {
+    "id": 2,
+    "key": "b",
+    "name": {
+      "en": "test-filter-b",
+      "de": "test-filter-b"
+    },
+    "description": {
+      "en": "description",
+      "de": "description"
+    },
+    "category": "ADS_TRACKERS_BLOOM_FILTER",
+    "version": "3",
+    "filterType": "bloom",
+    "provider": "provider-b",
+    "providerParameters": "parameter2"
+  }
+]

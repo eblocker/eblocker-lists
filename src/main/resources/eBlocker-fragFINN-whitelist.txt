@@ -1,0 +1,9 @@
+# These domains are necessary for the search on fragfinn.de to work:
+cse.google.com
+googleapis.com
+www.googleapis.com
+www.google.com
+# If fragFINN is used in an english speaking eBlocker, duckduckgo search form
+# is displayed and this domain must be accessible in order for the search form to be useful.
+duckduckgo.com
+

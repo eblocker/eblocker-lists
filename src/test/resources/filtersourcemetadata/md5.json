@@ -1,0 +1,38 @@
+{
+  "id": 4,
+  "key": "e",
+  "name": {
+    "en": "test-filter-e",
+    "de": "test-filter-e"
+  },
+  "description": {
+    "en": "description",
+    "de": "description"
+  },
+  "category": "PARENTAL_CONTROL",
+  "version": "0",
+  "filterType": "blacklist",
+  "provider": "test",
+  "providerParameters": {
+    "contentType": "md5",
+    "providers": [
+      {
+        "provider": "a",
+        "sourceParameters": {
+          "date": "20180101"
+        }
+      },
+      {
+        "provider": "e",
+        "sourceParameters": {
+        }
+      },
+      {
+        "provider": "eex",
+        "exclude": true,
+        "sourceParameters": {
+        }
+      }
+    ]
+  }
+}

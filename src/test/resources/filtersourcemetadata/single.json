@@ -1,0 +1,27 @@
+{
+  "id": 0,
+  "key": "a",
+  "name": {
+    "en": "test-filter-a",
+    "de": "test-filter-a"
+  },
+  "description": {
+    "en": "description",
+    "de": "description"
+  },
+  "category": "ADS",
+  "version": "1",
+  "filterType": "blacklist",
+  "provider": "test",
+  "providerParameters": {
+    "contentType": "string",
+    "providers": [
+      {
+        "provider": "a",
+        "sourceParameters": {
+          "date": "20180101"
+        }
+      }
+    ]
+  }
+}

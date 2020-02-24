@@ -1,0 +1,9 @@
+Package: [[artifactId]]
+Version: [[version]]~[[type]][[timestamp]]
+Section: misc
+Priority: optional
+Architecture: all
+Depends: eblocker-icapserver
+Maintainer: eBlocker Open Source UG <dev@eblocker.com>
+Description: eBlocker Lists (easylist downloads and own lists, patterns for url-blocking)
+Distribution: development

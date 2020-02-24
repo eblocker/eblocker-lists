@@ -1,0 +1,33 @@
+{
+  "id": 2,
+  "key": "c",
+  "name": {
+    "en": "test-filter-c",
+    "de": "test-filter-c"
+  },
+  "description": {
+    "en": "description",
+    "de": "description"
+  },
+  "category": "PARENTAL_CONTROL",
+  "version": "2",
+  "filterType": "blacklist",
+  "provider": "test",
+  "providerParameters": {
+    "contentType": "string",
+    "providers": [
+      {
+        "provider": "a",
+        "sourceParameters": {
+          "date": "20180101"
+        }
+      },
+      {
+        "provider": "b",
+        "sourceParameters": {
+          "date": "20180201"
+        }
+      }
+    ]
+  }
+}

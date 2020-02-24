@@ -1,0 +1,5 @@
+#  Example URL shortener list: Blacklist compiled for use as a Squid Proxy ACL 01-15-2017.
+#
+.ax.ag
+.sharetabs.com
+.zzz.ee

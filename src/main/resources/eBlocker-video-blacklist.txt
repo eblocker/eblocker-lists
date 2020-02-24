@@ -1,0 +1,3 @@
+# Youtube App:
+.googlevideo.com
+youtubei.googleapis.com

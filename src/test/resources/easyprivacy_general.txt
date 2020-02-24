@@ -1,0 +1,24 @@
+[Adblock Plus 1.1]
+! Checksum: 10u9q4iTl0Tf15quxhnjWA
+! Version: 201607211140
+! Title: EasyPrivacy
+! Last modified: 21 Jul 2016 11:40 UTC
+! Expires: 4 days (update frequency)
+!----------------------------------!
+&trackingserver=
+-AdTracking.
+.AdmPixelsCacheController?
+/!crd_prm!.
+//feedproxy.*/~r/*$image
+/0pixel.php?
+/a.php?ref=
+/ads/track/*
+/ads_tracker.
+/ads_tracking.
+/google-analytics.
+cgi-bin/counter
+/cdn-cgi/pe/bag2?*geoiplookup
+||0tracker.com^$third-party
+||aaddzz.com^$third-party
+||googleadservices.com^$third-party
+@@/cdn-cgi/pe/bag2?*geoiplookup$xmlhttprequest,domain=orain.org

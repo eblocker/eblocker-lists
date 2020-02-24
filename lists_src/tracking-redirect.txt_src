@@ -1,0 +1,10 @@
+#
+#0    1        2      3               4                 5                       6                       7
+#TYPE PRIORITY DOMAIN REGEX/MATCHTYPE PATTERN/SUBSTRING REFERRERDOMAINWHITELIST REFERRERDOMAINBLACKLIST REDIRECTPARAM
+#
+# Attention: Empty fields are not allowed! Enter a dash (-) for empty fields!
+#
+ASK	HIGH	-	REGEX	https?://[^:/]+\.google\.[^:/]+(:|/|$).*	-	-	url
+REDIRECT	HIGH	msn.com	CONTAINS	&u=	-	-	u
+ASK	DEFAULT	-	REGEX	.*	-	-	-
+

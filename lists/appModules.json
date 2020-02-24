@@ -1,0 +1,2653 @@
+[
+  {
+    "name": "INTERNAL_TEMP_MODULE",
+    "description": {
+      "en": "INTERNAL_TEMP_MODULE",
+      "de": "INTERNAL_TEMP_MODULE"
+    },
+    "whitelistedDomains": [],
+    "id": 0,
+    "enabledPerDefault": false,
+    "builtin": true,
+    "hidden": true
+  },
+  {
+    "name": "German Banks",
+    "description": {
+      "en": "German Banks",
+      "de": "Deutsche Banken"
+    },
+    "whitelistedDomains": [
+      "bundesbank.de",
+      "ecb.europa.eu",
+      "bayernlb.de",
+      "commerzbank.com",
+      "commerzbank.de",
+      "consorsbank.de",
+      "kfw.de",
+      "dzbank.de",
+      "hypovereinsbank.de",
+      "lbbw-business.de",
+      "lbbw-markets.de",
+      "nordlb.de",
+      "helaba.de",
+      "postbank.de",
+      "haspa.de",
+      "nrwbank.de",
+      "ing-diba.de",
+      "deka.de",
+      "internetbanking.hsh-nordbank-banking.de",
+      "asp2.paybillag.com",
+      "wgzbank.de",
+      "rentenbank.de",
+      "pfandbriefbank.com",
+      "hypothekenbankfrankfurt.com",
+      "dkb.de",
+      "l-bank.de",
+      "s-fints-pt-dkb.de",
+      "s-fints-pt-bw.de",
+      "s-fints-pt-by.de",
+      "s-fints-pt-be.de",
+      "s-fints-pt-bb.de",
+      "s-fints-pt-hb.de",
+      "s-fints-pt-hh.de",
+      "s-fints-pt-he.de",
+      "s-fints-pt-nv.de",
+      "s-fints-pt-ni.de",
+      "s-fints-pt-nw.de",
+      "s-fints-pt-rl.de",
+      "s-fints-pt-rp.de",
+      "s-fints-pt-sl.de",
+      "s-fints-pt-sn.de",
+      "s-fints-pt-st.de",
+      "s-fints-pt-sh.de",
+      "s-fints-pt-th.de",
+      "s-fints-pt-hs.de",
+      "s-fints-pt-wl.de",
+      "s-pushtan-bw01.de",
+      "s-pushtan-bw02.de",
+      "s-pushtan-bw03.de",
+      "s-pushtan-bw04.de",
+      "s-pushtan-bw05.de",
+      "s-pushtan-bw06.de",
+      "s-pushtan-by01.de",
+      "s-pushtan-by02.de",
+      "s-pushtan-by03.de",
+      "s-pushtan-by04.de",
+      "s-pushtan-by05.de",
+      "s-pushtan-by06.de",
+      "s-pushtan-by07.de",
+      "s-pushtan-by08.de",
+      "s-pushtan-hs01.de",
+      "s-pushtan-hs02.de",
+      "s-pushtan-hs03.de",
+      "s-pushtan-hs04.de",
+      "s-pushtan-hs05.de",
+      "s-pushtan-hs06.de",
+      "s-pushtan-hs07.de",
+      "s-pushtan-ni01.de",
+      "s-pushtan-ni02.de",
+      "s-pushtan-ni03.de",
+      "s-pushtan-ni04.de",
+      "s-pushtan-rp01.de",
+      "s-pushtan-rp02.de",
+      "s-pushtan-rp03.de",
+      "s-pushtan-rp04.de",
+      "s-pushtan-sh01.de",
+      "s-pushtan-sh02.de",
+      "s-pushtan-sh03.de",
+      "s-pushtan-sh04.de",
+      "s-pushtan-wl01.de",
+      "s-pushtan-wl02.de",
+      "s-pushtan-wl03.de",
+      "s-pushtan-wl04.de",
+      "s-pushtan-wl05.de",
+      "s-pushtan-wl06.de",
+      "s-pushtan-wl07.de",
+      "fints.norisbank.de",
+      "kreditkarten-banking.lbb.de",
+      "deutsche-bank.de",
+      "fints.comdirect.de",
+      "fiducia.de",
+      "gad.de",
+      "sparda.de",
+      "sparda-bw.de",
+      "rabodirect.de",
+      "lbs.de",
+      "sparkassen-chat.de",
+      "sparkasse.de",
+      "ksk-koeln.de",
+      "spkhb.de",
+      "volkswagenbank.de",
+      "ikb.de",
+      "moneyou.de",
+      "pluscard.de"
+    ],
+    "labels": {
+      "bundesbank.de": "Deutsche Bundesbank",
+      "ecb.europa.eu": "European Central Bank",
+      "bayernlb.de": "Bayern LB",
+      "commerzbank.com": "Commerzbank AG",
+      "commerzbank.de": "Commerzbank AG (deutsch)",
+      "consorsbank.de": "Consorsbank",
+      "kfw.de": "Kreditanstalt für Wiederaufbau",
+      "dzbank.de": "DZ Bank",
+      "hypovereinsbank.de": "Hypovereinsbank",
+      "lbbw-business.de": "Landesbank Baden Württemberg Business Portal",
+      "lbbw-markets.de": "Landesbank Baden Württemberg Market Portal",
+      "nordlb.de": "Nord LB",
+      "helaba.de": "Helaba Invest",
+      "postbank.de": "Postbank",
+      "haspa.de": "Hamburger Sparkasse",
+      "nrwbank.de": "NRW Bank",
+      "ing-diba.de": "ING DiBa",
+      "deka.de": "DekaBank",
+      "internetbanking.hsh-nordbank-banking.de": "HSH Nordbank Internetbanking",
+      "asp2.paybillag.com": "HSH Nordbank Kreditkartenbanking",
+      "wgzbank.de": "WGZ Bank",
+      "rentenbank.de": "Landwirtschaftliche Rentenbank",
+      "pfandbriefbank.com": "Deutsche Pfandbriefbank",
+      "hypothekenbankfrankfurt.com": "Hypothekenbank Frankfurt",
+      "dkb.de": "Deutsche Kreditbank",
+      "l-bank.de": "Landeskreditbank Baden-Württemberg - Förderbank",
+      "s-fints-pt-dkb.de": "Deutsche Kreditbank",
+      "s-fints-pt-bw.de": "Financial Transaction Services",
+      "s-fints-pt-by.de": "Financial Transaction Services",
+      "s-fints-pt-be.de": "Financial Transaction Services",
+      "s-fints-pt-bb.de": "Financial Transaction Services",
+      "s-fints-pt-hb.de": "Financial Transaction Services",
+      "s-fints-pt-hh.de": "Financial Transaction Services",
+      "s-fints-pt-he.de": "Financial Transaction Services",
+      "s-fints-pt-nv.de": "Financial Transaction Services",
+      "s-fints-pt-ni.de": "Financial Transaction Services",
+      "s-fints-pt-nw.de": "Financial Transaction Services",
+      "s-fints-pt-rl.de": "Financial Transaction Services",
+      "s-fints-pt-rp.de": "Financial Transaction Services",
+      "s-fints-pt-sl.de": "Financial Transaction Services",
+      "s-fints-pt-sn.de": "Financial Transaction Services",
+      "s-fints-pt-st.de": "Financial Transaction Services",
+      "s-fints-pt-sh.de": "Financial Transaction Services",
+      "s-fints-pt-th.de": "Financial Transaction Services",
+      "s-fints-pt-hs.de": "Financial Transaction Services",
+      "s-fints-pt-wl.de": "Financial Transaction Services",
+      "s-pushtan-bw01.de": "PushTAN",
+      "s-pushtan-bw02.de": "PushTAN",
+      "s-pushtan-bw03.de": "PushTAN",
+      "s-pushtan-bw04.de": "PushTAN",
+      "s-pushtan-bw05.de": "PushTAN",
+      "s-pushtan-bw06.de": "PushTAN",
+      "s-pushtan-by01.de": "PushTAN",
+      "s-pushtan-by02.de": "PushTAN",
+      "s-pushtan-by03.de": "PushTAN",
+      "s-pushtan-by04.de": "PushTAN",
+      "s-pushtan-by05.de": "PushTAN",
+      "s-pushtan-by06.de": "PushTAN",
+      "s-pushtan-by07.de": "PushTAN",
+      "s-pushtan-by08.de": "PushTAN",
+      "s-pushtan-hs01.de": "PushTAN",
+      "s-pushtan-hs02.de": "PushTAN",
+      "s-pushtan-hs03.de": "PushTAN",
+      "s-pushtan-hs04.de": "PushTAN",
+      "s-pushtan-hs05.de": "PushTAN",
+      "s-pushtan-hs06.de": "PushTAN",
+      "s-pushtan-hs07.de": "PushTAN",
+      "s-pushtan-ni01.de": "PushTAN",
+      "s-pushtan-ni02.de": "PushTAN",
+      "s-pushtan-ni03.de": "PushTAN",
+      "s-pushtan-ni04.de": "PushTAN",
+      "s-pushtan-rp01.de": "PushTAN",
+      "s-pushtan-rp02.de": "PushTAN",
+      "s-pushtan-rp03.de": "PushTAN",
+      "s-pushtan-rp04.de": "PushTAN",
+      "s-pushtan-sh01.de": "PushTAN",
+      "s-pushtan-sh02.de": "PushTAN",
+      "s-pushtan-sh03.de": "PushTAN",
+      "s-pushtan-sh04.de": "PushTAN",
+      "s-pushtan-wl01.de": "PushTAN",
+      "s-pushtan-wl02.de": "PushTAN",
+      "s-pushtan-wl03.de": "PushTAN",
+      "s-pushtan-wl04.de": "PushTAN",
+      "s-pushtan-wl05.de": "PushTAN",
+      "s-pushtan-wl06.de": "PushTAN",
+      "s-pushtan-wl07.de": "PushTAN",
+      "fints.norisbank.de": "Norisbank",
+      "kreditkarten-banking.lbb.de": "Landesbank Baden Württemberg",
+      "deutsche-bank.de": "Deutsche Bank",
+      "comdirect.de": "Comdirect",
+      "fiducia.de": "Fiducia & GAD IT AG",
+      "gad.de": "Fiducia & GAD IT AG",
+      "sparda.de": "Sparda-Bank",
+      "sparda-bw.de": "Sparda-Bank",
+      "rabodirect.de": "Rabobank",
+      "lbs.de": "Bausparkasse der Sparkassen",
+      "sparkassen-chat.de": "Kundenchat System der Sparkassen",
+      "sparkasse.de": "Dachverband der Sparkassen",
+      "ksk-koeln.de": "Kreissparkasse Köln",
+      "spkhb.de": "Sparkasse Harburg-Buxtehude",
+      "volkswagenbank.de": "Volkswagen Financial Service",
+      "ikb.de": "Deutsche Indusriebank",
+      "moneyou.de": "Marke der niederländischen ABN AMRO Bank",
+      "pluscard.de": "Sparkassen Organisation"
+    },
+    "id": 9999,
+    "enabledPerDefault": true,
+    "builtin": true,
+    "hidden": false
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "id": 1,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "id": 2,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "id": 13,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "whitelistedIPs": [],
+    "id": 3,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "Adobe",
+    "description": {
+      "en": "Adobe Software contacts several servers to provide all features",
+      "de": "Adobe Programme kontaktieren einige Server, um alle Funktionen zur Verfügung zu stellen"
+    },
+    "whitelistedDomains": [
+      "adobe.com",
+      "adobedtm.com",
+      "adobeoobe.com",
+      "adobe.demdex.net",
+      "adobesc.com",
+      "adobe.io",
+      "adobelogin.com",
+      "adobeexchange.com",
+      "behance.net",
+      "typekit.com",
+      "typekit.net"
+    ],
+    "id": 4,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Avira Antivir",
+    "description": {
+      "en": "Updates for the Avira Anti Virus Scanner",
+      "de": "Updates für den Avira Anti Virus Scanner"
+    },
+    "whitelistedDomains": [
+      "avira-update.com"
+    ],
+    "id": 5,
+    "enabledPerDefault": true
+  },
+  {
+    "name": "Dropbox",
+    "description": {
+      "en": "Data exchange and backup provider",
+      "de": "Datenaustausch- und Backupdienst"
+    },
+    "whitelistedDomains": [
+      "dl.dropbox.usercontent.com",
+      "dropbox.com",
+      "cf.dropboxpayments.com",
+      "clientupdates.dropboxstatic.com",
+      "fonts.googleapis.com"
+    ],
+    "id": 6,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Facebook (Web App Messenger)",
+    "description": {
+      "en": "Connections required to use the Facebook App",
+      "de": "Verbindungen, die benötigt werden, um die Facebook App zu benutzen"
+    },
+    "whitelistedDomains": [
+      "facebook.com",
+      "fbcdn.net"
+    ],
+    "whitelistedIPs": [
+      "31.13.74.0/24",
+      "31.13.84.4/24",
+      "31.13.92.0/24",
+      "31.13.93.0/24"
+    ],
+    "id": 7,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Google (Books, Drive, Mail, Movie, Store, Blog)",
+    "description": {
+      "en": "Google services",
+      "de": "Google Services"
+    },
+    "whitelistedDomains": [
+      "blogblog.com",
+      "ggpht.com",
+      "gstatic.com",
+      "googledrive.com",
+      "google.com",
+      "google.de",
+      "google.co.uk",
+      "google.org",
+      "google.net",
+      "google.ie",
+      "google.fr",
+      "google.it",
+      "google.hu",
+      "google.ru",
+      "google.ro",
+      "google.se",
+      "google.pt",
+      "google.pl",
+      "google.no",
+      "google.nl",
+      "google.co.kr",
+      "google.at",
+      "google.co.nz",
+      "google.co.th",
+      "google.co.za",
+      "google.com.ar",
+      "google.com.br",
+      "google.com.hk",
+      "google.com.mx",
+      "google.com.au",
+      "google.com.ua",
+      "google.com.sg",
+      "google.com.tw",
+      "google.es",
+      "google.dk",
+      "google.fi",
+      "google.gr",
+      "google.ae",
+      "google.be",
+      "google.co.id",
+      "google.ch",
+      "google.ca",
+      "google.co.jp",
+      "google.co.in",
+      "googleapis.com",
+      "googlemaps.com",
+      "googletagmanager.com",
+      "googlevideo.com",
+      "googleusercontent.com",
+      "gvt1.com",
+      "gvt2.com",
+      "gvt3.com",
+      "youtube.de",
+      "youtube.com",
+      "ytimg.com",
+      "youtubegaming.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 8,
+    "enabledPerDefault": true
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "whitelistedIPs": [],
+    "id": 9,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "Threema",
+    "description": {
+      "en": "Instant Messaging Service",
+      "de": "Instant Messaging Dienst"
+    },
+    "whitelistedDomains": [
+      "threema.ch"
+    ],
+    "id": 10,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "WhatsApp",
+    "description": {
+      "en": "Instant Messaging Service",
+      "de": "Instant Messaging Dienst"
+    },
+    "whitelistedDomains": [
+      "whatsapp.net",
+      "whatsapp.com"
+    ],
+    "id": 11,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Twitter",
+    "description": {
+      "en": "Microblogging Service / Social Network",
+      "de": "Microblogging Dienst / Soziales Netwerk"
+    },
+    "whitelistedDomains": [
+      "twimg.com",
+      "twitter.com",
+      "t.co"
+    ],
+    "id": 12,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "StarMoney + Sparkasse+",
+    "description": {
+      "en": "Banking software",
+      "de": "Online Banking Programm"
+    },
+    "whitelistedDomains": [
+      "starfinanz.de",
+      "starfinanz.com",
+      "swebkiss.mdgms.com"
+    ],
+    "id": 14,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Tutanota",
+    "description": {
+      "en": "Mail client for the e-mail-provider Tutanota",
+      "de": "Mail-Client des E-Mail-Anbieters Tutanota"
+    },
+    "whitelistedDomains": [
+      "app.tutanota.de"
+    ],
+    "id": 15,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Evernote",
+    "description": {
+      "en": "App for taking notes",
+      "de": "App für Notizen"
+    },
+    "whitelistedDomains": [
+      "evernote.com"
+    ],
+    "whitelistedIPs": [
+      "204.154.94.81"
+    ],
+    "id": 16,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Telegram",
+    "description": {
+      "en": "Instant Messaging Service",
+      "de": "Instant Messaging Dienst"
+    },
+    "whitelistedDomains": [],
+    "whitelistedIPs": [
+      "149.154.164.0/22"
+    ],
+    "id": 17,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Spotify",
+    "description": {
+      "en": "Music-on-Demand service",
+      "de": "Music-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "scdn.co",
+      "spotify.com"
+    ],
+    "whitelistedIPs": [
+      "194.132.162.0/24",
+      "194.132.196.0/22",
+      "194.132.204.0/22",
+      "151.101.12.246"
+    ],
+    "id": 18,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "7TV App iOS",
+    "description": {
+      "en": "Video-on-Demand service",
+      "de": "Video-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "sim-technik.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 19,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Acorn macOS",
+    "description": {
+      "en": "Picture and photo editor",
+      "de": "Bild- und Fotobearbeitung"
+    },
+    "whitelistedDomains": [
+      "secure.flyingmeat.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 20,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Amazon (Web, App, Video, Music, Kindle)",
+    "description": {
+      "en": "Amazon Services",
+      "de": "Amazon Services"
+    },
+    "whitelistedDomains": [
+      "amazon.de",
+      "amazon.com",
+      "amazon.co.uk",
+      "amazonaws.com",
+      "amazon.eu",
+      "audible.de",
+      "amazonvideo.com",
+      "ssl-images-amazon.com",
+      "media-amazon.com",
+      "amazonpay.com"
+    ],
+    "whitelistedIPs": [
+      "52.84.0.0/16",
+      "52.88.0.0/16",
+      "54.224.0.0/16",
+      "72.21.192.0/19",
+      "176.32.96.0/21",
+      "178.236.0.0/21",
+      "205.251.192.0/18",
+      "207.171.160.0/19"
+    ],
+    "id": 21,
+    "enabledPerDefault": true
+  },
+  {
+    "name": "AMPYA App iOS Android Web",
+    "description": {
+      "en": "Video-on-Demand service",
+      "de": "Video-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "ampya.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 22,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Apple (macOS and iOS Service)",
+    "description": {
+      "en": "Apple Inc. service IPs",
+      "de": "Apple Inc Service IPs"
+    },
+    "whitelistedDomains": [
+      "aaplimg.com",
+      "apple.com",
+      "appplemusic.com",
+      "apple-dns.net",
+      "cdn-apple.com",
+      "ichat.com",
+      "icloud.com",
+      "icloud-content.com",
+      "itunes.com",
+      "iwork.com",
+      "kts-af.net",
+      "me.com",
+      "mac.com",
+      "mzstatic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 23,
+    "enabledPerDefault": true
+  },
+  {
+    "name": "Flightradar 24 App and Web",
+    "description": {
+      "en": "Internet-based service that shows real-time aircraft flight information on a map",
+      "de": "Online-Dienst zur Echtzeit-Positionsdarstellung von Flugzeugen."
+    },
+    "whitelistedDomains": [
+      "flightradar24.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 24,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "IMDB - Internet Movie Database App",
+    "description": {
+      "en": "Internet Movie Database the source for movie, TV and celebrity content.",
+      "de": "Internet Movie Database die Quelle für Film, TV und Informationen über Prominente."
+    },
+    "whitelistedDomains": [
+      "imdbws.com",
+      "imdb.com",
+      "media-imdb.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 25,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Inteago",
+    "description": {
+      "en": "Intego has been making security and utility software exclusively for Apple products.",
+      "de": "Intego entwickelt Sicherheits- und Dienstprogramme exklusiv für Apple-Produkte."
+    },
+    "whitelistedDomains": [
+      "intego.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 26,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Kaspersky Lab",
+    "description": {
+      "en": "Antivirus and Internet Security software",
+      "de": "Antivirus und Internet Security Software"
+    },
+    "whitelistedDomains": [
+      "kaspersky.com",
+      "kaspersky-labs.com"
+    ],
+    "whitelistedIPs": [
+      "212.73.235.0/26"
+    ],
+    "id": 27,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Kickstarter",
+    "description": {
+      "en": "Global crowdfunding platform",
+      "de": "Internetplattform zur Projektfinanzierung über Crowdfunding"
+    },
+    "whitelistedDomains": [
+      "kickstarter.com",
+      "kck.st",
+      "ksr-ugc.imgix.net",
+      "ksr-video.imgix.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 28,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Windows (Updates, Store, XBox, Live, Office 365, Outlook)",
+    "description": {
+      "en": "Microsoft services",
+      "de": "Microsoft Services"
+    },
+    "whitelistedDomains": [
+      "1drv.com",
+      "acompli.net",
+      "azurewebsites.net",
+      "bing.com",
+      "bing.net",
+      "bingapis.com",
+      "gfx.ms",
+      "hotmail.de",
+      "live.com",
+      "live.net",
+      "msedge.net",
+      "sfx.ms",
+      "microsoft.com",
+      "microsoft.net",
+      "microsoftonline.com",
+      "microsoftonline-p.com",
+      "lync.com",
+      "msn.com",
+      "msn.net",
+      "office.com",
+      "office365.com",
+      "onedrive.com",
+      "outlook.de",
+      "outlook.com",
+      "passport.com",
+      "passport.net",
+      "s-microsoft.com",
+      "s-msn.com",
+      "skype.com",
+      "skzpe.net",
+      "virtualearth.com",
+      "virtualearth.net",
+      "windows.com",
+      "windows.net",
+      "windowsupdate.com",
+      "xboxlive.com",
+      "xboxlive.net",
+      "windowsupdate.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 29,
+    "enabledPerDefault": true
+  },
+  {
+    "name": "Netflix",
+    "description": {
+      "en": "Video-on-Demand service",
+      "de": "Video-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "netflix.com",
+      "nflxext.com",
+      "nflximg.net",
+      "netflix.net",
+      "nflxso.net",
+      "nflxvideo.net"
+    ],
+    "whitelistedIPs": [
+      "198.38.96.0/19"
+    ],
+    "id": 30,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Opera Browser",
+    "description": {
+      "en": "Free browser",
+      "de": "Kostenloser Browser"
+    },
+    "whitelistedDomains": [
+      "opera.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 31,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Pluto TV",
+    "description": {
+      "en": "Video-on-Demand service",
+      "de": "Video-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "api.prod.pluto.tv",
+      "cdn-mobile.api.pluto.tv",
+      "api.pluto.tv",
+      "players.pluto.tv"
+    ],
+    "whitelistedIPs": [],
+    "id": 32,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Resources Android App",
+    "description": {
+      "en": "RESOURCES GAME is a location based multiplayer game.",
+      "de": "RESOURCES GAME ist eine standortbezogene Multiplayer Spiel."
+    },
+    "whitelistedDomains": [
+      "ssl2.resources-game.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 33,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Mozilla Thunderbird / Firefox",
+    "description": {
+      "en": "Free mail client / web browser",
+      "de": "Freies E-Mail-Programm / Web-Browser"
+    },
+    "whitelistedDomains": [
+      "mozilla.net",
+      "mozilla.org",
+      "mozilla.com",
+      "mozillamessaging.com",
+      "thunderbird.net"
+    ],
+    "whitelistedIPs": [
+      "63.245.208.0/20"
+    ],
+    "id": 34,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Vodafone TV App",
+    "description": {
+      "en": "TV App for Vodafone customers.",
+      "de": "TV App für Vodafone Kunden"
+    },
+    "whitelistedDomains": [
+      "iptv.kabel-deutschland.de",
+      "forum.vodafone.de",
+      "fc.vodafone.de",
+      "was.vodafone.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 35,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "ZATTOO App iOS",
+    "description": {
+      "en": "Video-on-Demand service",
+      "de": "Video-on-Demand Service"
+    },
+    "whitelistedDomains": [
+      "zattoo.com",
+      "zattic.com",
+      "zahs.tv"
+    ],
+    "whitelistedIPs": [],
+    "id": 36,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Android Update Server",
+    "description": {
+      "en": "Sony and Samsung Updateserver",
+      "de": "Sony und Samsung Updateserver"
+    },
+    "whitelistedDomains": [
+      "sonymobile.com",
+      "ospserver.net"
+    ],
+    "whitelistedIPs": [
+      "93.184.221.76",
+      "93.184.221.187",
+      "213.71.30.137"
+    ],
+    "id": 37,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Wire",
+    "description": {
+      "en": "A messenger app offering free text, voice, video, pictures, and much more.",
+      "de": "Kostenloser Instant Messenger für Smartphones"
+    },
+    "whitelistedDomains": [
+      "wire.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 38,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "WeatherProHD",
+    "description": {
+      "en": "Waether App",
+      "de": "Wetter App"
+    },
+    "whitelistedDomains": [
+      "meteogroup.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 39,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "KATWARN",
+    "description": {
+      "en": "German emergency information system",
+      "de": "Deutschlandweit einheitliches Warn- und Informationssystem"
+    },
+    "whitelistedDomains": [
+      "katwarn.de",
+      "kwrn.de",
+      "katwarn.at"
+    ],
+    "whitelistedIPs": [],
+    "id": 40,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "whitelistedIPs": [],
+    "id": 41,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "Sky go (DE)",
+    "description": {
+      "en": "Sky go - PayTV app (Germany)",
+      "de": "Sky go - PayTV App (Deutschland)"
+    },
+    "whitelistedDomains": [
+      "config.sky.com",
+      "id.sky.de",
+      "init.sky.com",
+      "p.sky.com",
+      "qms-content.de.skyq.sky.com",
+      "sentry-prod.nowtv.bskyb.com",
+      "skydeutschland.sc.omtrdc.net",
+      "skygo.sky.de",
+      "skyq.sky.com",
+      "wvguard.sky.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 42,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Payback (DE)",
+    "description": {
+      "en": "Paybacl app - Loyalty programm in Germany",
+      "de": "Payback App - Bonusprogramm (Deutschland)"
+    },
+    "whitelistedDomains": [
+      "payback.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 43,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Oracle VM VirtualBox",
+    "description": {
+      "en": "A free and open-source hypervisor for x86 computers from Oracle Corporation",
+      "de": "Oracle VM VirtualBox ist eine Virtualisierungssoftware"
+    },
+    "whitelistedDomains": [
+      "update.virtualbox.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 44,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Steam",
+    "description": {
+      "en": "Distribution platform for games and software",
+      "de": "Vertriebsplattform für Computerspiele und Software"
+    },
+    "whitelistedDomains": [
+      "api.steampowered.com",
+      "steamcommunity-a.akamaihd.net",
+      "steamcloudams.blob.core.windows.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 45,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Skype",
+    "description": {
+      "en": "Instant messaging server from Microsoft",
+      "de": "Instant Messaging Dienst von Microsoft"
+    },
+    "whitelistedDomains": [
+      "skype.com",
+      "skype.net",
+      "skypeassets.com",
+      "skypesms.trafficmanager.net",
+      "bing.com",
+      "microsofttranslator.com",
+      "msn.com",
+      "hotmail.com",
+      "microsoft.com",
+      "trouter.io",
+      "live.com",
+      "live.net",
+      "lync.com",
+      "msecnd.net"
+    ],
+    "whitelistedIPs": [
+      "194.69.127.0/19",
+      "40.77.226.0/24",
+      "23.103.236.0/13"
+    ],
+    "id": 46,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "leer",
+    "description": {
+      "en": "",
+      "de": ""
+    },
+    "whitelistedDomains": [],
+    "id": 47,
+    "enabledPerDefault": false,
+    "hidden": true
+  },
+  {
+    "name": "500px",
+    "description": {
+      "en": "Online Photo Community",
+      "de": "Online Foto Community"
+    },
+    "whitelistedDomains": [
+      "drscdn.500px.org",
+      "api.500px.com",
+      "mobileapi.500px.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 48,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Flickr",
+    "description": {
+      "en": "Online Photo Community",
+      "de": "Online Foto Community"
+    },
+    "whitelistedDomains": [
+      "flickr.com",
+      "staticflickr.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 49,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "HRS",
+    "description": {
+      "en": "Hotel Reservation Service",
+      "de": "Hotel-Buchungsportal im Internet"
+    },
+    "whitelistedDomains": [
+      "p-mobile-service.hrs.com",
+      "sosc.hrs.com",
+      "foto.hrsstatic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 50,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Elster",
+    "description": {
+      "en": "German finance software",
+      "de": "Finanzverwaltung"
+    },
+    "whitelistedDomains": [
+      "elster.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 51,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Parallels",
+    "description": {
+      "en": "Software providing hardware virtualization for Mac OS X",
+      "de": "Virtualisierungssoftware für Mac OS X"
+    },
+    "whitelistedDomains": [
+      "adobesc.com",
+      "parallels.com",
+      "myparallels.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 52,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Propellerhead Software",
+    "description": {
+      "en": "Music software by Propellerhead, e.g. Reason",
+      "de": "Musik-Software von Propellerhead, z.B. Reason"
+    },
+    "whitelistedDomains": [
+      "authorization.propellerheads.se"
+    ],
+    "whitelistedIPs": [],
+    "id": 53,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "ZDF Mediathek",
+    "description": {
+      "en": "German TV station ZDF - video portal",
+      "de": "Videoportal des ZDF"
+    },
+    "whitelistedDomains": [
+      "cellular.de",
+      "akamaihd.net",
+      "zdf.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 54,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "car2go",
+    "description": {
+      "en": "Car sharing",
+      "de": "Carsharing"
+    },
+    "whitelistedDomains": [
+      "driver.eu.car2go.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 55,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "DriveNow",
+    "description": {
+      "en": "Car sharing",
+      "de": "Carsharing"
+    },
+    "whitelistedDomains": [
+      "prod.drive-now-content.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 56,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Trillian",
+    "description": {
+      "en": "Trillian is a proprietary multiprotocol instant messaging application.",
+      "de": "Instant Messenger des Unternehmens Cerulean Studios für verschiedene Protokolle."
+    },
+    "whitelistedDomains": [
+      "trillian.im"
+    ],
+    "whitelistedIPs": [],
+    "id": 57,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "PayPal",
+    "description": {
+      "en": "Online payments system",
+      "de": "Online-Bezahlsystems"
+    },
+    "whitelistedDomains": [
+      "paypal.com",
+      "paypalobjects.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 58,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Electronic Arts - Origin",
+    "description": {
+      "en": "Electronic Arts",
+      "de": "Electronic Arts"
+    },
+    "whitelistedDomains": [
+      "ea.com",
+      "origin.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 59,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Buhl Data - WISO",
+    "description": {
+      "en": "Buhl Data Service GmbH",
+      "de": "Buhl Data Service GmbH"
+    },
+    "whitelistedDomains": [
+      "buhl.de",
+      "buhl-data.com",
+      "buhl-data.de",
+      "buhl-finance.com",
+      "buhl-finance.de"
+    ],
+    "whitelistedIPs": [
+      "62.159.27.0/24"
+    ],
+    "id": 60,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "eBay",
+    "description": {
+      "en": "consumer-to-consumer and business-to-consumer sales services",
+      "de": "Online-Marktplatz"
+    },
+    "whitelistedDomains": [
+      "ebay.de",
+      "ebay.com",
+      "ebayimg.com",
+      "ebay-kleinanzeigen.de",
+      "ir.ebaystatic.com",
+      "p.ebaystatic.com"
+    ],
+    "whitelistedIPs": [
+      "66.135.192.0/19",
+      "66.211.172.0/22",
+      "66.211.179.0/24"
+    ],
+    "id": 61,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "SecureSafe",
+    "description": {
+      "en": "SecureSafe - Cloud Service",
+      "de": "SecureSafe - Cloud Service"
+    },
+    "whitelistedDomains": [
+      "securesafe.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 62,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "GeForce / Nvidia",
+    "description": {
+      "en": "Manufacturer of graphics processor technologies for computing",
+      "de": "Entwickler von Grafikprozessoren und Chipsätzen für Personal Computer"
+    },
+    "whitelistedDomains": [
+      "nvidia.com",
+      "geforce.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 63,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Linux Mint",
+    "description": {
+      "en": "A Linux distribution based on Ubuntu Linux",
+      "de": "Eine Linux-Distribution basierent auf Ubuntu Linux"
+    },
+    "whitelistedDomains": [
+      "linuxmint.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 64,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "My Movies (Web App)",
+    "description": {
+      "en": "My Movies is a product brand of Binnerup Consult",
+      "de": "My Movies ist ein Produkt von Binnerup Consult"
+    },
+    "whitelistedDomains": [
+      "api.mymovies.dk",
+      "movieservice.mymovies.dk",
+      "covers.mymovies.dk"
+    ],
+    "whitelistedIPs": [],
+    "id": 65,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Bitdefender",
+    "description": {
+      "en": "Bitdefender - Romanian Internet security software company",
+      "de": "Bitdefender - Rumänischer Hersteller von Antiviren-Programmpaketen"
+    },
+    "whitelistedDomains": [
+      "bitdefender.net",
+      "bitdefender.de",
+      "bitdefender.com",
+      "bitdefender.biz",
+      "bdnsrt.org",
+      "amazonaws.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 66,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Feral Interactive",
+    "description": {
+      "en": "Feral Interactive is a video games publisher",
+      "de": "Feral Interactive ist ein Videospiel-Publisher"
+    },
+    "whitelistedDomains": [
+      "feralinteractive.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 67,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Eidos Interactive Limited",
+    "description": {
+      "en": "Eidos Interactive Limited is a video games publisher",
+      "de": "Eidos Interactive Limited ist ein Videospiel-Publisher"
+    },
+    "whitelistedDomains": [
+      "eidos.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 68,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Hitman (2016) - Game (Steam PC / Linux)",
+    "description": {
+      "en": "Please activate also the exception list Feral Interactive and Steam",
+      "de": "Bitte auch die Ausnahmelisten Feral Interactive und Steam aktivieren"
+    },
+    "whitelistedDomains": [
+      "hitman.io",
+      "iohmpcprodstorage.blob.core.windows.net",
+      "iohmpcprodshard2.blob.core.windows.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 69,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "ImmobilienScout24",
+    "description": {
+      "en": "ImmobilienScout24 is a German property portal",
+      "de": "ImmobilienScout24 ist ein Immobilienportal"
+    },
+    "whitelistedDomains": [
+      "immobilienscout24.de",
+      "static-immobilienscout24.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 70,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Perfect Privacy",
+    "description": {
+      "en": "A Swiss VPN Provider",
+      "de": "Ein Schweizer VPN Anbieter"
+    },
+    "whitelistedDomains": [
+      "perfect-privacy.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 71,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Tumblr",
+    "description": {
+      "en": "Tumblr is a microblogging and social networking website.",
+      "de": "Tumblr ist eine Blogging-Plattform."
+    },
+    "whitelistedDomains": [
+      "tumblr.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 72,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Minecraft",
+    "description": {
+      "en": "Minecraft is a sandbox video game.",
+      "de": "Minecraft ist ein Indie-Open-World-Spiel."
+    },
+    "whitelistedDomains": [
+      "mojang.com",
+      "msgamestudios.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 73,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "MLB TV",
+    "description": {
+      "en": "Major League Baseball TV App",
+      "de": "Major League Baseball TV App"
+    },
+    "whitelistedDomains": [
+      "mlb.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 74,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Slack",
+    "description": {
+      "en": "Cloud-based team collaboration tool",
+      "de": "Webbasierter Instant-Messaging-Dienst"
+    },
+    "whitelistedDomains": [
+      "slack.com",
+      "slack-msgs.com",
+      "slack-files.com ",
+      "slack-imgs.com",
+      "slack-edge.com",
+      "slack-core.com",
+      "slack-redir.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 75,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Twitch",
+    "description": {
+      "en": "Twitch is a live streaming video platform",
+      "de": "Twitch ist ein Live-Streaming-Videoportal"
+    },
+    "whitelistedDomains": [
+      "twitch.tv",
+      "ttvnw.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 76,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Immowelt",
+    "description": {
+      "en": "German real estate portal",
+      "de": "Deutsches Immobilienportal"
+    },
+    "whitelistedDomains": [
+      "immowelt.org",
+      "immowelt.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 77,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Overcast",
+    "description": {
+      "en": "Podcast player",
+      "de": "Podcast-Player"
+    },
+    "whitelistedDomains": [
+      "api.overcast.fm"
+    ],
+    "whitelistedIPs": [],
+    "id": 78,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Instagram",
+    "description": {
+      "en": "Internet-based photo- and video sharing application",
+      "de": "Ein kostenloser Online-Dienst zum Teilen von Fotos und Videos"
+    },
+    "whitelistedDomains": [
+      "instagram.com",
+      "cdninstagram.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 79,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "TuneIn",
+    "description": {
+      "en": "Streaming broadcast radio station and Internet radio",
+      "de": "Streaming von Radiosendern und Internetradio ermöglicht"
+    },
+    "whitelistedDomains": [
+      "tunein.com",
+      "radiotime.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 80,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Snapchat",
+    "description": {
+      "en": "Image messaging and multimedia mobile application",
+      "de": "Mobile Multimedia und Bild-Nachrichten Anwendung"
+    },
+    "whitelistedDomains": [
+      "snapchat.com",
+      "gcs.sc-cdn.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 81,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Telekom - MagentaCLOUD",
+    "description": {
+      "en": "Telekom Cloud Service",
+      "de": "Telekom Cloud Service"
+    },
+    "whitelistedDomains": [
+      "telekom.com",
+      "magentacloud.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 82,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "AVAST AVG Antivirus",
+    "description": {
+      "en": "Avast Antivirus and AVG Antivirus",
+      "de": "Avast Antivirus und AVG Antivirus"
+    },
+    "whitelistedDomains": [
+      "avast.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 83,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "ESET",
+    "description": {
+      "en": "ESET is a company that offers anti-virus and firewall products",
+      "de": "ESET ist ein Unternehmen für Sicherheitssoftware"
+    },
+    "whitelistedDomains": [
+      "eset.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 84,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "F-Secure",
+    "description": {
+      "en": "F-Secure Corporation is a cyber security and privacy company",
+      "de": "Die F-Secure Corporation ist ein Anbieter von IT-Sicherheitslösungen und Antivirenprogrammen "
+    },
+    "whitelistedDomains": [
+      "f-secure.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 85,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "G Data",
+    "description": {
+      "en": "G Data Software AG is a software company that focuses on computer security solutions",
+      "de": "Die G Data Software AG ist ein Softwarehaus mit Schwerpunkt auf IT-Sicherheitslösungen"
+    },
+    "whitelistedDomains": [
+        "gdatasecurity.de",
+        "gdatasecurity.com",
+        "gdataupdate-a.akamaihd.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 86,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "McAfee",
+    "description": {
+      "en": "McAfee Inc. is a  global computer security software company",
+      "de": "McAfee ist ein Hersteller von Antivirus-, Netzwerk-, Computersicherheitssoftware und -hardware"
+    },
+    "whitelistedDomains": [
+      "mcafee.com"
+    ],
+    "whitelistedIPs": [
+      "161.69.0.0/16"    
+    ],
+    "id": 87,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Symantec",
+    "description": {
+      "en": "Symantec Corporation - An American software company headquartered in Mountain View, California - USA",
+      "de": "Symantec Corporation - Ein US-amerikanisches Softwarehaus"
+    },
+    "whitelistedDomains": [
+      "symantec.com",
+      "norton.com",
+      "nortoncdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 88,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "GOG GALAXY",
+    "description": {
+      "en": "The GOG gaming Client",
+      "de": "Der GOG Spiele Client"
+    },
+    "whitelistedDomains": [
+      "gog.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 89,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "SwiftKey",
+    "description": {
+      "en": "An input method for Android and iOS devices",
+      "de": "Eingabemethode für Geräte mit Touchscreens wie Smartphones und Tabletcomputer"
+    },
+    "whitelistedDomains": [
+      "swiftkey.com",
+      "swiftkey.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 90,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Congstar",
+    "description": {
+      "en": "Package delivery company and a provider of supply chain management solutions",
+      "de": "Eine Tochtergesellschaft der Telekom Deutschland"
+    },
+    "whitelistedDomains": [
+      "congstar.de",
+      "congstar-media.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 91,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "UPS",
+    "description": {
+      "en": "A subsidiary of Telekom Deutschland",
+      "de": "Ein global tätiges Kurier-Express-Paket-Dienst Unternehmen"
+    },
+    "whitelistedDomains": [
+      "ups.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 92,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Hermes",
+    "description": {
+      "en": "Parcel delivery company",
+      "de": "Paketversand Service"
+    },
+    "whitelistedDomains": [
+        "hermesworld.com",
+        "myhermes.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 93,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "DHL",
+    "description": {
+      "en": "Courier, parcel and express mail services",
+      "de": "Paket- und Brief-Express-Dienst"
+    },
+    "whitelistedDomains": [
+      "dhl.de",
+      "dhl.com",
+      "paket.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 94,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Scout24",
+    "description": {
+      "en": "Scout24 AG - Offers different online marketplaces",
+      "de": "Scout24 AG - Bietet verschiedene Online-Marktplätze an"
+    },
+    "whitelistedDomains": [
+      "scout24.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 95,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Hamburg Energie ",
+    "description": {
+      "en": "A privately organized energy supply company",
+      "de": "Ein privatwirtschaftlich organisiertes Energieversorgungsunternehmen"
+    },
+    "whitelistedDomains": [
+      "hamburgenergie.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 96,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Vattenfall",
+    "description": {
+      "en": "A Swedish energy company",
+      "de": "Ein schwedisches Energieunternehmen"
+    },
+    "whitelistedDomains": [
+      "vattenfall.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 97,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "EWE AG",
+    "description": {
+      "en": "An energy and telecommunications company",
+      "de": "Ein Strom und Telekommunikations Unternehmen"
+    },
+    "whitelistedDomains": [
+      "ewe.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 98,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "engie",
+    "description": {
+      "en": "An internationally active energy supply company",
+      "de": "Ein international tätiger Energieversorgungskonzern"
+    },
+    "whitelistedDomains": [
+      "engie-deutschland.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 99,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Green City Energy",
+    "description": {
+      "en": "A German energy company",
+      "de": "Ein schwedisches Energieunternehmen"
+    },
+    "whitelistedDomains": [
+      "greencity-energy.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 100,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Ubuntu",
+    "description": {
+      "en": "A Debian-based Linux operating system",
+      "de": "Eine kostenlose Linux-Distribution, die auf Debian basiert"
+    },
+    "whitelistedDomains": [
+      "ubuntu.com",
+      "snapcraft.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 101,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Fedora",
+    "description": {
+      "en": "Fedora is an operation system",
+      "de": "Fedora ist eine Linux Distribution"
+    },
+    "whitelistedDomains": [
+      "fedoraproject.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 102,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "GNOME",
+    "description": {
+      "en": "GNOME is a desktop environment composed of free and open-source software that runs on Linux and most BSD derivatives",
+      "de": "GNOME ist eine Desktop-Umgebung für Unix- und Unix-ähnliche Systeme"
+    },
+    "whitelistedDomains": [
+      "gnome.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 103,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Maps Linux",
+    "description": {
+      "en": "A desktop map app for GNOME",
+      "de": "Eine Kartenanwendung für GNOME"
+    },
+    "whitelistedDomains": [
+      "goverpass-api.de",
+      "tiles.mapbox.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 104,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "OnlineTVRecorder",
+    "description": {
+      "en": "OnlineTVRecorder (OTR) is a web-based online service",
+      "de": "OnlineTVRecorder (OTR) ist ein webbasierter Online-Dienst"
+    },
+    "whitelistedDomains": [
+      "onlinetvrecorder.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 105,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Swiss Banks",
+    "description": {
+      "en": "Swiss Banks",
+      "de": "Schweizer Banken"
+    },
+    "whitelistedDomains": [
+      "ubs.com",
+      "credit-suisse.com",
+      "raiffeisen.ch",
+      "zkb.ch",
+      "hsbcprivatebank.com",
+      "postfinance.ch",
+      "bnpparibas.com",
+      "juliusbaer.com",
+      "group.pictet",
+      "lombardodier.com",
+      "bcv.ch"
+    ],
+    "labels": {
+      "ubs.com": "UBS",
+      "credit-suisse.com": "Credit-Suisse",
+      "raiffeisen.ch": "Raiffeisen Schweiz",
+      "zkb.ch": "Zürcher Kantonalbank",
+      "hsbcprivatebank.com": "HSBC",
+      "postfinance.ch": "Postfinance",
+      "bnpparibas.com": "BNP Paribas",
+      "juliusbaer.com": "Julius Bär",
+      "group.pictet": "Pictet Group",
+      "lombardodier.com": "Bank Lombard Odier & Co",
+      "bcv.ch": "Banque Cantonale Vaudoise"
+    },
+    "id": 106,
+    "enabledPerDefault": true,
+    "builtin": true,
+    "hidden": false
+  },
+  {
+    "name": "RoboForm",
+    "description": {
+      "en": "A password manager for macOS, iOS, Windows and Android",
+      "de": "A Passwort Manager für macOS, iOS, Windows and Android"
+    },
+    "whitelistedDomains": [
+      "roboform.com"
+    ],
+    "whitelistedIPs": [
+    "67.208.88.192/27"
+    ],
+    "id": 107,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Here Maps",
+    "description": {
+      "en": "An online geodata service and a navigation program",
+      "de": "Ein Online-Geodatendienst und ein Navigationsprogramm"
+    },
+    "whitelistedDomains": [
+      "here.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 108,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "VMware",
+    "description": {
+      "en": "Coud computing and platform virtualization software",
+      "de": "Coud-Computing und Plattform Virtualisierung Software"
+    },
+    "whitelistedDomains": [
+      "vmware.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 109,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Kachelmann Radar & Blitz HD",
+    "description": {
+      "en": "A weather app for Germany",
+      "de": "Eine Wetter App für Deutschland"
+    },
+    "whitelistedDomains": [
+      "kachelmann.link-innovation.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 110,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Navigon",
+    "description": {
+      "en": "Navigon GmbH is a German manufacturer of GPS devices and GPS navigation software",
+      "de": "Die Navigon GmbH ist ein deutscher Hersteller von GPS-Geräten und GPS-Navigationssoftware"
+    },
+    "whitelistedDomains": [
+      "navigon.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 111,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Boxcryptor",
+    "description": {
+      "en": "Boxcryptor is a software for data encryption of cloud storage",
+      "de": "Boxcryptor ist eine Software zur Datenverschlüsselung von Cloud-Speichern"
+    },
+    "whitelistedDomains": [
+      "api.boxcryptor.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 112,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "TomTom",
+    "description": {
+      "en": "Manufacturer of GPS devices and GPS navigation software",
+      "de": "Hersteller von GPS-Geräten und GPS-Navigationssoftware"
+    },
+    "whitelistedDomains": [
+      "tomtom.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 113,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Jimdo (Web & App)",
+    "description": {
+      "en": "A German web hosting service",
+      "de": "Ein deutscher Web-Hosting-Service"
+    },
+    "whitelistedDomains": [
+      "jimdo.com",
+      "jimcdn.com",
+      "jimstatic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 114,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "AusweisApp2",
+    "description": {
+      "en": "A German electronic authentication App",
+      "de": "Eine deutsche elektronische Authentifizierung App"
+    },
+    "whitelistedDomains": [
+      "governikus-eid.de",
+      "governikus-asp.de",
+      "autentapp.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 115,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Comodo Internet Security",
+    "description": {
+      "en": "Comodo Internet Security developed and distributed by Comodo Group",
+      "de": "Comodo Internet Security von der Comodo Group"
+    },
+    "whitelistedDomains": [
+      "comodo.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 116,
+    "enabledPerDefault": false
+  },
+  {
+    "name": "Logitech Harmoney",
+    "description": {
+      "en": "Logitech remote control",
+      "de": "Logitech Fernbedienung"
+    },
+    "whitelistedDomains": [
+      "myharmony.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 117,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Telekom Kundenportal",
+    "description": {
+      "en": "Telekom Deutschland GmbH customer portal",
+      "de": "Telekom Deutschland GmbH Kundenportal"
+    },
+    "whitelistedDomains": [
+      "telekom.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 118,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Home Connect App",
+    "description": {
+      "en": "Home Connect GmbH",
+      "de": "Home Connect GmbH"
+    },
+    "whitelistedDomains": [
+      "homeconnecthca.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 119,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Finanzblick App",
+    "description": {
+      "en": "BUHL Data Service GmbH",
+      "de": "BUHL Data Service GmbH"
+    },
+    "whitelistedDomains": [
+      "homeconnecthca.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 120,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "GMX Services",
+    "description": {
+      "en": "1&1 Mail & Media GmbH - Mail service",
+      "de": "1&1 Mail & Media GmbH - Mail Service"
+    },
+    "whitelistedDomains": [
+        "gmx.net",
+        "sdthumbs.ui-static.net",
+        "storage-gmx.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 121,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Netgear Arlo",
+    "description": {
+      "en": "Netgear Inc. - A global networking company based in the USA",
+      "de": "Netgear Inc. - Ein Unternehmen mit Sitz im Silicon Valley"
+    },
+    "whitelistedDomains": [
+      "netgear.com",
+      "arlo.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 122,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Bild App",
+    "description": {
+      "en": "A German newspaper published by Axel Springer AG",
+      "de": "Eine deutsche Tageszeitung von Axel Springer AG"
+    },
+    "whitelistedDomains": [
+      "bild.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 123,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "TeamViewer",
+    "description": {
+      "en": "TeamViewer is a proprietary computer software package for remote control, desktop sharing, online meetings, web conferencing and file transfer between computers",
+      "de": "TeamViewer ist eine Fernwartungssoftware für Screen-Sharing, Videokonferenzen, Dateitransfer und VPN"
+    },
+    "whitelistedDomains": [
+      "teamviewer.com",
+      "dl.tvcdn.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 124,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Microsoft IP Addresses",
+    "description": {
+      "en": "IP addresses assigned to Microsoft",
+      "de": "IP-Adressen, die Microsoft zugeordnet sind"
+    },
+    "whitelistedDomains": [
+    ],
+    "whitelistedIPs": [
+        "40.74.0.0/16",
+        "40.75.0.0/16",
+        "40.76.0.0/16",
+        "40.77.0.0/16",
+        "40.78.0.0/16",
+        "40.79.0.0/16",
+        "40.80.0.0/16",
+        "40.81.0.0/16",
+        "40.82.0.0/16",
+        "40.83.0.0/16",
+        "40.84.0.0/16",
+        "40.85.0.0/16",
+        "40.86.0.0/16",
+        "40.87.0.0/16",
+        "40.88.0.0/16",
+        "40.89.0.0/16",
+        "40.90.0.0/16",
+        "40.91.0.0/16",
+        "40.92.0.0/16",
+        "40.93.0.0/16",
+        "40.94.0.0/16",
+        "40.95.0.0/16",
+        "40.96.0.0/16",
+        "40.97.0.0/16",
+        "40.98.0.0/16",
+        "40.99.0.0/16",
+        "40.100.0.0/16",
+        "40.101.0.0/16",
+        "40.102.0.0/16",
+        "40.103.0.0/16",
+        "40.104.0.0/16",
+        "40.105.0.0/16",
+        "40.106.0.0/16",
+        "40.107.0.0/16",
+        "40.108.0.0/16",
+        "40.109.0.0/16",
+        "40.110.0.0/16",
+        "40.111.0.0/16",
+        "40.112.0.0/16",
+        "40.113.0.0/16",
+        "40.114.0.0/16",
+        "40.115.0.0/16",
+        "40.116.0.0/16",
+        "40.117.0.0/16",
+        "40.118.0.0/16",
+        "40.119.0.0/16",
+        "40.120.0.0/16",
+        "40.121.0.0/16",
+        "40.122.0.0/16",
+        "40.123.0.0/16",
+        "40.124.0.0/16",
+        "40.125.0.0/17"
+    ],
+    "id": 125,
+    "enabledPerDefault": false
+  },
+    {
+    "name": "Aldi Talk App",
+    "description": {
+      "en": "Aldi Talk App",
+      "de": "Aldi Talk App"
+    },
+    "whitelistedDomains": [
+      "alditalk-kundenbetreuung.de",
+      "maecc.eplus.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 126,
+    "enabledPerDefault": false
+  },
+    {
+        "name": "Plex",
+        "description": {
+            "en": "Plex is a media server and media center",
+            "de": "Plex ist ein Media Server und Media Center"
+        },
+        "whitelistedDomains": [
+            "plex.tv",
+            "plex.bz"
+        ],
+        "whitelistedIPs": [],
+        "id": 127,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "n-tv App",
+        "description": {
+            "en": "n-tv is a German television news channel",
+            "de": "n-tv ist ein Deutscher Nachrichtensender"
+        },
+        "whitelistedDomains": [
+            "n-tv.de",
+            "kursdaten.teleboerse.de"
+        ],
+        "whitelistedIPs": [],
+        "id": 128,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Trend Micro",
+        "description": {
+            "en": "A PC security package developed by the Japanese software manufacturer Trend Micro",
+            "de": "Ein PC-Sicherheitspaket, welches vom japanischen Softwarehersteller Trend Micro entwickelt wurde"
+        },
+        "whitelistedDomains": [
+            "trendmicro.com"
+        ],
+        "whitelistedIPs": [],
+        "id": 129,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "TK App",
+        "description": {
+            "en": "Techniker Krankenkasse (TK) - German health insurance App",
+            "de": "Techniker Krankenkasse (TK)"
+        },
+        "whitelistedDomains": [
+            "tk.de",
+            "kobil.tk.de"
+        ],
+        "whitelistedIPs": [],
+        "id": 130,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Pinterest",
+        "description": {
+            "en": "Pinterest is a social network in which users can attach picture collections with descriptions to virtual pin boards",
+            "de": "Pinterest ist ein soziales Netzwerk, in dem Nutzer Bilderkollektionen mit Beschreibungen an virtuelle Pinnwände heften können"
+        },
+        "whitelistedDomains": [
+            "api.pinterest.com",
+            "pinimg.com",
+            "pinterest.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 131,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Aliexpress",
+        "description": {
+            "en": "AliExpress.com is an online retail service",
+            "de": "AliExpress.com ist ein Online-Einzelhandelsservice"
+        },
+        "whitelistedDomains": [
+            "api.aliexpress.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 132,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Farm Heroes (App / Website)",
+        "description": {
+            "en": "A game from King Digital Entertainment",
+            "de": "Ein Spiel von King Digital Entertainment"
+        },
+        "whitelistedDomains": [
+            "farmheroesmobile.king.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 133,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Pokemon (Niantic Labs App)",
+        "description": {
+            "en": "A game from Nicantic Labs",
+            "de": "Ein Spiel von Niantic Labs"
+        },
+        "whitelistedDomains": [
+            "pgorelease.nianticlabs.com"
+        ],
+        "whitelistedIPs": [
+            "130.211.14.80"
+        ],
+        "id": 134,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Nest Labs",
+        "description": {
+            "en": "Nest Labs Inc. is an automation company based in Palo Alto",
+            "de": "Nest Labs Inc. ist ein Automatisierungsunternehmen mit Sitz in Palo Alto"
+        },
+        "whitelistedDomains": [
+            "nest.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 135,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "GitHub",
+        "description": {
+            "en": "A web-based hosting service for version control using git. It is mostly used for computer code",
+            "de": "Ein webbasierter Online-Dienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting)"
+        },
+        "whitelistedDomains": [
+            "github.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 136,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "CleanMyMac",
+        "description": {
+            "en": "Clean My Mac is a program for maintaining and optimizing macOS",
+            "de": "Clean My Mac ist ein Programm zur Pflege und Optimierung für macOS"
+        },
+        "whitelistedDomains": [
+            "api-lytics.macpaw.com",
+            "app.hello.devmate.com",
+            "activations.devmate.com",
+            "software.macpaw.com",
+            "updates.devmate.com",
+            "dl.devmate.com",
+            "images.macpaw.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 137,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Spritmonitor.de App",
+        "description": {
+            "en": "Web portal that provides information about the real fuel consumpion of vehicles",
+            "de": "Webportal, das Information über den wirklichen Kraftstoffverbrauch von Fahrzeugen bereitstellt"
+        },
+        "whitelistedDomains": [
+            "api.spritmonitor.de"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 138,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "mobile.de App",
+        "description": {
+            "en": "Used cars market",
+            "de": "Online-Fahrzeugmarkt"
+        },
+        "whitelistedDomains": [
+            "mobile.de"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 139,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Signal Private Messenger",
+        "description": {
+            "en": "Free encrypted communication",
+            "de": "Freie verschlüsselte Kommunikation"
+        },
+        "whitelistedDomains": [
+            "textsecure-service.whispersystems.org"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 140,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Samsung Bixby",
+        "description": {
+            "en": "Virtual assistant",
+            "de": "Virtueller Assistent"
+        },
+        "whitelistedDomains": [
+            "sbixby.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 141,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "OpenSUSE",
+        "description": {
+            "en": "OpenSUSE - Linux Distribution",
+            "de": "OpenSUSE - Linux Distribution"
+        },
+        "whitelistedDomains": [
+            "opensuse.org"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 142,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "1Password",
+        "description": {
+            "en": "Password Manager",
+            "de": "Passwort-Manager"
+        },
+        "whitelistedDomains": [
+            "agilebits.com",
+            "1password.com",
+            "1password.eu",
+            "1password.ca",
+            "pwnedpasswords.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 143,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Doodle",
+        "description": {
+            "en": "Application for appointment determination",
+            "de": "Anwendung zur Terminfindung"
+        },
+        "whitelistedDomains": [
+            "api.doodle.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 144,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Welt.de",
+        "description": {
+            "en": "German news portal",
+            "de": "Deutsches Nachrichtenportal"
+        },
+        "whitelistedDomains": [
+            "mypass.de",
+            "welt.de"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 145,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Readly",
+        "description": {
+            "en": "Magazine flatrate app",
+            "de": "App mit Flatrate für Zeitschriften"
+        },
+        "whitelistedDomains": [
+            "appsflyer.com",
+            "d3og6tlt23zks5.cloudfront.net",
+            "d3ry4o1su9a59w.cloudfront.net",
+            "readly.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 146,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Radio.de",
+        "description": {
+            "en": "Online Radio App",
+            "de": "Online Radio App"
+        },
+        "whitelistedDomains": [
+            "radio.de"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 147,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "Samsung Galaxy Apps",
+        "description": {
+            "en": "Samsungs App Store",
+            "de": "Samsungs App Store"
+        },
+        "whitelistedDomains": [
+            "samsungapps.com",
+            "dls.di.atlas.samsung.com",
+            "eu-auth2.samsungosp.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 148,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "AutoScout24",
+        "description": {
+            "en": "AutoScout24 GmbH is an online marketplace for the purchase and sale of new cars, used cars, motorcycles and commercial vehicles.",
+            "de": "AutoScout24 GmbH ist ein Online-Marktplatz für den Kauf und Verkauf von Neuwagen, Gebrauchtwagen, Motorrädern und Nutzfahrzeugen."
+        },
+        "whitelistedDomains": [
+            "autoscout24.com"
+        ],
+        "whitelistedIPs": [
+        ],
+        "id": 149,
+        "enabledPerDefault": false
+    },
+    {
+        "name": "support.eblocker.com",
+        "description": {
+            "en": "Allows user to access eBlocker support page when HTTPS support is enabled, but certificate is not yet imported.",
+            "de": "Durch diesen Eintrag kann der Benutzer auf die eBlocker Hilfe-Seite zugreifen, wenn HTTPS-Unterstützung aktiviert ist, das Zertifikat aber noch nicht importiert wurde."
+        },
+        "whitelistedDomains": [
+            "support.eblocker.com",
+            "eblocker.zendesk.com",
+            "p14.zdassets.com",
+            "theme.zdassets.com",
+            "static.zdassets.com"
+        ],
+        "whitelistedIPs": [],
+        "id": 150,
+        "enabledPerDefault": true,
+        "builtin": true,
+        "hidden": true
+    },
+    {
+        "name": "Lufthansa",
+        "description": {
+            "en": "App by Lufthansa Airline",
+            "de": "App der Fluggesellschaft Lufthansa"
+        },
+        "whitelistedDomains": [
+            "app.lufthansa.com"
+        ],
+        "whitelistedIPs": [],
+        "id": 151,
+        "enabledPerDefault": false,
+        "builtin": true,
+        "hidden": false
+    },
+    {
+        "name": "SBB",
+        "description": {
+            "en": "App by Swiss Federal Railways",
+            "de": "App der Schweizerischen Bundesbahnen"
+        },
+        "whitelistedDomains": [
+            "sbb-ssl.wemfbox.ch",
+            "sbb.ch",
+            "sbbmobile.ch"
+        ],
+        "whitelistedIPs": [],
+        "id": 152,
+        "enabledPerDefault": false,
+        "builtin": true,
+        "hidden": false
+    },
+    {
+        "name": "Amazon Music on Sonos",
+        "description": {
+            "en": "Needed for amazon music to work with the sonos musicsystem",
+            "de": "Benötigt, damit Amazon Music mit dem Sonos Musiksystem zusammenarbeiten kann"
+        },
+        "whitelistedDomains": [
+            "album-art-storage-eu.s3.amazonaws.com",
+            "images-eu.ssl-images-amazon.com",
+            "s3.amazonaws.com",
+            "sonos.amazonmusic.com",
+            "sslvalidator.sonos.com",
+            "system-api.sonos.com"
+        ],
+        "whitelistedIPs": [],
+        "id": 153,
+        "enabledPerDefault": false,
+        "builtin": true,
+        "hidden": false
+    },
+    {
+        "name": "Smartfrog",
+        "description": {
+            "en": "Smartfrog Camera and App",
+            "de": "Smartfrog Kamera und App"
+        },
+        "whitelistedDomains": [
+            "smartfrog.com",
+            "images.ctfassets.net"
+        ],
+        "whitelistedIPs": [],
+        "id": 154,
+        "enabledPerDefault": false,
+        "builtin": true,
+        "hidden": false
+    }
+]

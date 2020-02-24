@@ -1,0 +1,393 @@
+[
+  {
+    "id": 0,
+    "key": "misc",
+    "name": {
+      "de": "Unangemessene Inhalte",
+      "en": "Inappropriate Content"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für illegale und gefährliche Inhalte bekannt sind.",
+      "en": "Blocks access to websites known for illegal and dangerous content."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/agressif/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/bitcoin/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/cryptojacking/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/dangerous_material/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/dating/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/ddos/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/download/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/drogue/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/hacking/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/redirector/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/remote-control/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/sect/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/stalkerware/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/tricheur/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/vpn/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "key": "gambling",
+    "name": {
+      "de": "Glücksspiel",
+      "en": "Gambling"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für Poker, Casinos, Wetten und sonstige Glücksspiele bekannt sind.",
+      "en": "Blocks access to websites known for poker, slots, casinos, wagering, betting and gambling."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/gambling/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/arjel/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "key": "gaming",
+    "name": {
+      "de": "Online-Spiele",
+      "en": "Online-Gaming"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für Online-Spiele bekannt sind.",
+      "en": "Blocks access to websites known for gaming content."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/games/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "key": "music",
+    "name": {
+      "de": "Musik",
+      "en": "Music"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für Musik-Inhalte bekannt sind.",
+      "en": "Blocks access to websites knows for musical content."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/radio/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "key": "porn",
+    "name": {
+      "de": "Pornographie",
+      "en": "Pornography"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für Nacktheit oder sexuelle Inhalte bekannt sind.",
+      "en": "Blocks access to websites known for nudity or sexual content."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/adult/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/mixed_adult/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "key": "smedia",
+    "name": {
+      "de": "Soziale Netzwerke",
+      "en": "Social Networks"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf soziale Netzwerke.",
+      "en": "Blocks access to social networks."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/social_networks/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "key": "video",
+    "name": {
+      "de": "Video",
+      "en": "Video"
+    },
+    "description": {
+      "de": "Blockiert Zugriff auf Websites, die für Videoinhalte bekannt sind.",
+      "en": "Blocks access to websites known for video content."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/audio-video/domains"}},
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:eBlocker-video-blacklist.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "key": "ads",
+    "name": {
+      "de": "Ads",
+      "en": "Ads"
+    },
+    "description": {
+      "de": "dns block list ads",
+      "en": "dns block list ads"
+    },
+    "category": "ADS",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {
+          "provider": "list",
+          "sourceParameters": {
+            "url": "https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt"
+          }
+        },
+        {
+          "provider": "targz",
+          "sourceParameters": {
+            "url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz",
+            "path": "blacklists/publicite/domains"
+          }
+        },
+        {
+          "provider": "list",
+          "exclude": true,
+          "sourceParameters": {
+            "url": "https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:eBlocker-ads-blacklist.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "exclude": true,
+          "sourceParameters": {
+            "resource": "classpath:eBlocker-ads-whitelist.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:umbrella-easylist.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:umbrella-easylistgermany.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "key": "trackers",
+    "name": {
+      "de": "Trackers",
+      "en": "Trackers"
+    },
+    "description": {
+      "de": "dns block list trackers",
+      "en": "dns block list trackers"
+    },
+    "category": "TRACKERS",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {
+          "provider": "list",
+          "sourceParameters": {
+            "url": "https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:umbrella-easyprivacy.txt"
+          }
+        },
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:eBlocker-tracker-blacklist.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "key": "fragfinn",
+    "name": {
+      "de": "fragFINN",
+      "en": "fragFINN"
+    },
+    "description": {
+      "de": "fragFINN",
+      "en": "fragFINN"
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": "0",
+    "filterType": "whitelist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "sha1",
+      "providers": [
+        {
+          "provider": "localList",
+          "sourceParameters": {
+            "resource": "classpath:eBlocker-fragFINN-whitelist.txt",
+            "format": "sha1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "key": "piracy",
+    "name": {
+      "de": "Illegale Downloads",
+      "en": "Illegal Filesharing"
+    },
+    "description": {
+      "de": "Dieser Kategorie-Filter blockiert illegale Downloads.",
+      "en": "This category filter blocks illegal downloads."
+    },
+    "category": "PARENTAL_CONTROL",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/filehosting/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/warez/domains"}}
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "key": "top-level-parental",
+    "category": "PARENTAL_CONTROL_BLOOM_FILTER",
+    "version": null,
+    "filterType": "bloom",
+    "provider": "bloom",
+    "providerParameters": {
+      "categories": [
+        "PARENTAL_CONTROL"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "key": "top-level-ads-trackers",
+    "category": "ADS_TRACKERS_BLOOM_FILTER",
+    "version": null,
+    "filterType": "bloom",
+    "provider": "bloom",
+    "providerParameters": {
+      "categories": [
+        "ADS",
+        "TRACKERS"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "key": "malware",
+    "name": {
+      "de": "Malware",
+      "en": "Malware"
+    },
+    "description": {
+      "de": "Dieser Kategorie-Filter blockiert Malware.",
+      "en": "This category filter blocks malware."
+    },
+    "category": "MALWARE",
+    "version": null,
+    "filterType": "blacklist",
+    "provider": "domain",
+    "providerParameters": {
+      "contentType": "string",
+      "providers": [
+        {
+          "provider": "phishtank"
+        },
+        {
+          "provider": "malwareFile",
+          "sourceParameters": {
+            "fileName": "eblocker-malware.json"
+          }
+        },
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/malware/domains"}},
+        {"provider": "targz", "sourceParameters": {"url": "https://dsi.ut-capitole.fr/blacklists/download/blacklists.tar.gz", "path": "blacklists/phishing/domains"}}
+      ]
+    }
+  }
+]

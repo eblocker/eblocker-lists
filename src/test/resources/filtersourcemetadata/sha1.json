@@ -1,0 +1,38 @@
+{
+  "id": 5,
+  "key": "f",
+  "name": {
+    "en": "test-filter-f",
+    "de": "test-filter-f"
+  },
+  "description": {
+    "en": "description",
+    "de": "description"
+  },
+  "category": "PARENTAL_CONTROL",
+  "version": "0",
+  "filterType": "blacklist",
+  "provider": "test",
+  "providerParameters": {
+    "contentType": "sha1",
+    "providers": [
+      {
+        "provider": "a",
+        "sourceParameters": {
+          "date": "20180101"
+        }
+      },
+      {
+        "provider": "f",
+        "sourceParameters": {
+        }
+      },
+      {
+        "provider": "fex",
+        "exclude": true,
+        "sourceParameters": {
+        }
+      }
+    ]
+  }
+}

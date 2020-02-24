@@ -1,0 +1,14 @@
+{
+  "id": 235,
+  "key": "test",
+  "category": "ADS_TRACKERS_BLOOM_FILTER",
+  "version": null,
+  "filterType": "bloom",
+  "provider": "bloom",
+  "providerParameters": {
+    "categories": [
+      "ADS",
+      "TRACKERS"
+    ]
+  }
+}

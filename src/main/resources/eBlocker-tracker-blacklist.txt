@@ -1,0 +1,2 @@
+# eBlocker Connection Check
+.tracker.domainblockercheck.eblocker.com

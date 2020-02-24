@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root count="4">
+    <u primary="true" knowledge="true" kids="true">f6eb9d33ca824f3f5f4a109179b3a532c1b0d5f0</u>
+    <u kids="true">f69be35574ecc6c94aa9227ce2c81520ba2048ae</u>
+    <u ssl="true">b53db8123bbb3f91d98d9d6c524a05048e9eef89</u>
+    <u>6a0cc7677aeed639e4aeb7e6b1fa39eead2ac131</u>
+</root>
+
+<!--
+sha1                                      domain
+f6eb9d33ca824f3f5f4a109179b3a532c1b0d5f0  .google.com
+f69be35574ecc6c94aa9227ce2c81520ba2048ae  .youtube.com
+b53db8123bbb3f91d98d9d6c524a05048e9eef89  .facebook.com
+6a0cc7677aeed639e4aeb7e6b1fa39eead2ac131  .baidu.com
+-->

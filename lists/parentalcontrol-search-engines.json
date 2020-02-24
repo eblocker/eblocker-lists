@@ -1,0 +1,12 @@
+{
+  "en": {
+    "title": "DuckDuckGo",
+    "text": "Search with DuckDuckGo to be on the safe side:",
+    "iframe": "<iframe src=\"https://duckduckgo.com/search.html?width=400&duck=yes&prefill=Search DuckDuckGo&kp=1\" style=\"overflow:hidden;margin:0;padding:0;width:533px;height:60px;\" frameborder=\"0\"></iframe>"
+  },
+  "de": {
+    "title": "fragFINN",
+    "text": "Suche mit fragFINN und Du bist sicher im Internet unterwegs:",
+    "iframe": "<iframe src=\"https://www.fragfinn.de/iframe/iframe-big.html\" frameborder=\"0\"  width=\"500\" height=\"140\"></iframe>"
+  }
+}

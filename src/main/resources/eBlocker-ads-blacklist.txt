@@ -1,0 +1,6 @@
+# Google ads:
+.googlesyndication.com
+.googletagmanager.com
+.googletagservices.com
+# eBlocker Connection Check
+.ads.domainblockercheck.eblocker.com

@@ -1,0 +1,30 @@
+#
+#0    1        2      3               4                 5                       6                       7
+#TYPE PRIORITY DOMAIN REGEX/MATCHTYPE PATTERN/SUBSTRING REFERRERDOMAINWHITELIST REFERRERDOMAINBLACKLIST REDIRECTPARAM
+#
+# Attention: Empty fields are not allowed! Enter a dash (-) for empty fields!
+# Attention: You must use tabs to separate fields!
+#
+PASS	DEFAULT	eblocker.com	STARTSWITH	http	-	-	-
+REDIRECT	HIGH	googleadservices.com	CONTAINS	&adurl=	-	-	adurl
+REDIRECT	HIGH	doubleclick.net	CONTAINS	%3fhttp	-	-	END_OF_URL&%3f
+ASK	HIGH	flashtalking.com	CONTAINS	/click/	-	-	-
+ASK	HIGH	mandrillapp.com	CONTAINS	/click/	-	-	-
+ASK	HIGH	zanox.com	CONTAINS	/ppc/	-	-	-
+ASK	HIGH	refinedads.com	CONTAINS	rfa?	-	-	-
+NO_CONTENT	HIGHEST	google.com	ENDSWITH	/generate_204	-	-	-
+NO_CONTENT	HIGHEST	gstatic.com	ENDSWITH	/generate_204	-	-	-
+NO_CONTENT	HIGHEST	android.com	ENDSWITH	/generate_204	-	-	-
+PASS	HIGH	google.com	ENDSWITH	/generate_204	-	-	-
+PASS	HIGH	gstatic.com	ENDSWITH	/generate_204	-	-	-
+PASS	HIGH	android.com	ENDSWITH	/generate_204	-	-	-
+BLOCK	HIGHEST	mein-deal.com	ENDSWITH	.js	-	mein-deal.com	-
+BLOCK	HIGHEST	mein-deal.com	CONTAINS	.js?	-	mein-deal.com	-
+BLOCK	HIGHEST	mein-deal.com	ENDSWITH	.jpg	-	mein-deal.com	-
+BLOCK	HIGHEST	mein-deal.com	CONTAINS	.jpg?	-	mein-deal.com	-
+PASS	HIGH	mein-deal.com	STARTSWITH	http	-	-	-
+ASK	MEDIUM	eff.org	CONTAINS	panopticlick.eff.org	-	panopticlick.eff.org	-
+BLOCK	HIGH	do-not-tracker.org	STARTSWITH	http	-	-	-
+BLOCK	HIGH	trackersimulator.org	STARTSWITH	http	-	-	-
+BLOCK	HIGH	eviltracker.net	STARTSWITH	http	-	-	-
+NO_CONTENT	HIGHEST	setup.eblocker.com	ENDSWITH	/_check_/pattern-blocker	-	-	-

@@ -1,0 +1,51 @@
+{
+  "categories": {
+    "Advertising": [
+      {
+        "ADTECH": {
+          "http://www.adtech.com/": [
+            "adtech.com",
+            "adtech.de"
+          ]
+        }
+      },
+      {
+        "Adless": {
+          "https://www.adless.io/": [
+            "adless.io"
+          ],
+          "performance": "true",
+          "cryptominer": "true"
+        }
+      }
+    ],
+    "Content": [
+      {
+        "AOL": {
+          "http://www.aol.com/": [
+            "aol.com",
+            "aolcdn.com"
+          ]
+        }
+      }
+    ],
+    "Analytics": [
+      {
+        "63 Squares": {
+          "http://63squares.com/": [
+            "63squares.com",
+            "i-stats.com"
+          ]
+        }
+      },
+      {
+        "ÖWA": {
+          "http://www.oewa.at/": [
+            "oewa.at",
+            "oewabox.at"
+          ]
+        }
+      }
+    ]
+  }
+}

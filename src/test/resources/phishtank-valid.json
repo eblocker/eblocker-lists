@@ -1,0 +1,182 @@
+[
+  {
+    "phish_id": "5273397",
+    "url": "http://www.traceyhole.com/production",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5273397",
+    "submission_time": "2017-10-10T04:10:16+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-10T04:31:36+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "27.121.64.169",
+        "cidr_block": "27.121.64.0/22",
+        "announcing_network": "24446",
+        "rir": "apnic",
+        "country": "AU",
+        "detail_time": "2017-10-10T04:10:54+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": "5273140",
+    "url": "http://vibehostelparaty.com.br/wp/wp-admin/Chaseonline/login.php",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5273140",
+    "submission_time": "2017-10-10T00:12:38+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-10T05:11:31+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "177.11.55.96",
+        "cidr_block": "177.11.52.0/22",
+        "announcing_network": "53243",
+        "rir": "lacnic",
+        "country": "BR",
+        "detail_time": "2017-10-10T00:13:22+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": "5273027",
+    "url": "http://bcpzonasegurauser.com/ingreso/",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5273027",
+    "submission_time": "2017-10-09T22:56:31+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T23:00:47+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "162.241.244.124",
+        "cidr_block": "162.241.0.0/16",
+        "announcing_network": "20013",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2017-10-09T22:57:52+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": "5272973",
+    "url": "https://sts-dnepr.com.ua/payqal.com/customer_center/customer-IDPP00C637/myaccount/signin/?country.x=US&locale.x=en_US",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272973",
+    "submission_time": "2017-10-09T22:09:39+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T23:00:47+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.196.0.19",
+        "cidr_block": "91.196.0.0/22",
+        "announcing_network": "41550",
+        "rir": "ripencc",
+        "country": "UA",
+        "detail_time": "2017-10-09T22:11:38+00:00"
+      }
+    ],
+    "target": "PayPal"
+  },
+  {
+    "phish_id": "5272889",
+    "url": "http://hualaihue.cl/nouh/kson/kin/new/chase/Chaseonline/Chase_Logon.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272889",
+    "submission_time": "2017-10-09T21:22:54+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-10T01:26:49+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "200.73.116.52",
+        "cidr_block": "200.73.116.0/24",
+        "announcing_network": "263237",
+        "rir": "lacnic",
+        "country": "CL",
+        "detail_time": "2017-10-09T21:23:11+00:00"
+      }
+    ],
+    "target": "JPMorgan Chase and Co."
+  },
+  {
+    "phish_id": "5272754",
+    "url": "http://domino.ua/update/wellz/wellsFFN/login.php?cmd=login_su=",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272754",
+    "submission_time": "2017-10-09T19:50:33+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T21:35:35+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "62.80.178.142",
+        "cidr_block": "62.80.160.0/19",
+        "announcing_network": "25386",
+        "rir": "ripencc",
+        "country": "UA",
+        "detail_time": "2017-10-09T19:54:17+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": "5272713",
+    "url": "https://vofiicedc.com/Boa/boa/index.php",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272713",
+    "submission_time": "2017-10-09T19:30:56+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T20:50:23+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "91.218.247.76",
+        "cidr_block": "91.218.247.0/24",
+        "announcing_network": "49335",
+        "rir": "ripencc",
+        "country": "RU",
+        "detail_time": "2017-10-09T19:31:27+00:00"
+      }
+    ],
+    "target": "JPMorgan Chase and Co."
+  },
+  {
+    "phish_id": "5272709",
+    "url": "http://www.humairarahman.com/nde/nef.erlan/mos.berf/index.php",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272709",
+    "submission_time": "2017-10-09T19:26:03+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T20:10:07+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "104.193.173.100",
+        "cidr_block": "104.193.172.0/23",
+        "announcing_network": "54643",
+        "rir": "arin",
+        "country": "CA",
+        "detail_time": "2017-10-09T19:26:40+00:00"
+      }
+    ],
+    "target": "Other"
+  },
+  {
+    "phish_id": "5272698",
+    "url": "https://marian.com.mx/main1/office/index.html",
+    "phish_detail_url": "http://www.phishtank.com/phish_detail.php?phish_id=5272698",
+    "submission_time": "2017-10-09T19:05:41+00:00",
+    "verified": "yes",
+    "verification_time": "2017-10-09T20:25:14+00:00",
+    "online": "yes",
+    "details": [
+      {
+        "ip_address": "199.101.51.238",
+        "cidr_block": "199.101.48.0/22",
+        "announcing_network": "23535",
+        "rir": "arin",
+        "country": "US",
+        "detail_time": "2017-10-09T19:06:22+00:00"
+      }
+    ],
+    "target": "Microsoft"
+  }
+]
