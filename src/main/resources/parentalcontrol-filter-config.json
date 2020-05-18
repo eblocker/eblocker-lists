@@ -377,6 +377,9 @@
       "contentType": "string",
       "providers": [
         {
+          "provider": "malwarepatrol"
+        },
+        {
           "provider": "phishtank"
         },
         {

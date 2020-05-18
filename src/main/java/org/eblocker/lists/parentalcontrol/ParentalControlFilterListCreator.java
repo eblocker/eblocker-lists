@@ -17,6 +17,10 @@
 package org.eblocker.lists.parentalcontrol;
 
 import com.auth0.jwt.internal.org.apache.commons.lang3.StringUtils;
+import org.eblocker.lists.malware.MalwarePatrolDownloader;
+import org.eblocker.lists.malware.MalwarePatrolSquidGuardParser;
+import org.eblocker.lists.parentalcontrol.provider.MalwarePatrolDomainProvider;
+import org.eblocker.lists.util.ProprietaryConfigurationLoader;
 import org.eblocker.server.common.blacklist.BlacklistCompiler;
 import org.eblocker.server.common.data.parentalcontrol.ParentalControlFilterMetaData;
 import org.eblocker.lists.bpjm.BpjmModulZipReader;
@@ -69,10 +73,19 @@ public class ParentalControlFilterListCreator {
     private final Properties properties;
 
     public static void main(String[] args) throws IOException {
+
         BlacklistCompiler blacklistCompiler = new BlacklistCompiler();
         ObjectMapper objectMapper = new ObjectMapper();
         HttpClient httpClient = HttpClientFactory.create();
         Properties malwareProperties = loadProperties(MALWARE_PROPERTIES);
+
+        // MalwarePatrol is not included by default
+        BlacklistProvider malwarePatrolProvider;
+        if (ProprietaryConfigurationLoader.addProprietaryConfiguration(malwareProperties)) {
+            malwarePatrolProvider = new MalwarePatrolDomainProvider(new MalwarePatrolDownloader(httpClient, new MalwarePatrolSquidGuardParser(), malwareProperties));
+        } else {
+            malwarePatrolProvider = new EmptyListProvider();
+        }
 
         Map<String, BlacklistProvider> blacklistProvidersByName = new HashMap<>();
         blacklistProvidersByName.put("fragFinn", new FragFinnProvider(httpClient));
@@ -83,7 +96,7 @@ public class ParentalControlFilterListCreator {
         blacklistProvidersByName.put("disconnect.me", new DisconnectMeProvider(httpClient));
         blacklistProvidersByName.put("localList", new LocalListProvider());
         blacklistProvidersByName.put("bpjm", new BpjmListProvider(loadProperties(BPJM_PROPERTIES), new BpjmModulZipReader(), httpClient));
-        //blacklistProvidersByName.put("malwarepatrol", new MalwarePatrolDomainProvider(new MalwarePatrolDownloader(httpClient, new MalwarePatrolSanitizedUrlsParser(), malwareProperties)));
+        blacklistProvidersByName.put("malwarepatrol", malwarePatrolProvider);
         blacklistProvidersByName.put("phishtank", new PhishtankDomainProvider(new PhishtankDownloader(malwareProperties, objectMapper, httpClient)));
         blacklistProvidersByName.put("malwareFile", new MalwareFileDomainProvider(objectMapper));
 
