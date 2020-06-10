@@ -17,11 +17,11 @@
 package org.eblocker.lists.util;
 
 import com.google.common.base.Strings;
-import com.google.common.io.ByteStreams;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -50,7 +50,7 @@ public class DefaultHttpClient implements HttpClient {
                 throw new IOException("Could not download " + url + ". Status " + response.getStatusLine().getStatusCode() + " returned");
             }
 
-            return new ByteArrayInputStream(ByteStreams.toByteArray(response.getEntity().getContent()));
+            return new ByteArrayInputStream(EntityUtils.toByteArray(response.getEntity()));
         }
     }
 
