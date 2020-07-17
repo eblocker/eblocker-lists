@@ -178,7 +178,6 @@ https://www.gstatic.com/og/_/js/k=og.og2.en_US.yENBhnZ7518.O/rt=j/m=def/exm=in,f
 https://www.gstatic.com/ui/v1/activityindicator/loading_24.gif
 https://www.ycombinator.com/apple-touch-icon.png
 https://www.youtube.com/
-https://www.youtube.com/api/stats/atr?ns=yt&el=detailpage&cpn=UWkdeLGVZ2WxzQO2&docid=e-Awi0zpPrY&ver=2&referrer=https%3A%2F%2Fwww.youtube.com%2F&cmt=4.597&plid=AAVigKJZhNjOsnig&ei=Dm9XWpSiHpuG1gK346rwDA&fmt=134&fs=0&rt=6.299&of=gwj64TbB6FRBrdxO_AIQAA&euri&lact=100&cl=181496919&mos=0&vm=CAEQARgE&volume=100&c=WEB&cver=2.20180110&cplayer=UNIPLAYER&cbr=Safari&cbrver=11.0.2&cos=Macintosh&cosver=10_13_2&hl=de_DE&cr=DE&len=379.205&fexp=23705739%2C23708904%2C23708906%2C23708910%2C23710476%2C23713711%2C23713888%2C23715611%2C23715858%2C23716257%2C23717309%2C23717506%2C23718332%2C23718438%2C23719519%2C23719526%2C9407156%2C9422596%2C9431754%2C9449243%2C9460172%2C9463154%2C9463578%2C9469037%2C9471235%2C9471647%2C9475700%2C9483860%2C9484237%2C9484344%2C9484505%2C9485000&feature=g-high-rec&afmt=140&at=2_3
 https://www.youtube.com/comment_service_ajax?action_get_comments=1&pbj=1&ctoken=EiYSC2UtQXdpMHpwUHJZwAEAyAEA4AEBogINKP___________wFAABgG&continuation=EiYSC2UtQXdpMHpwUHJZwAEAyAEA4AEBogINKP___________wFAABgG&itct=CEIQuy8YAiITCJTh25KK0NgCFRuDVQodt7EKzij4HQ%3D%3D
 https://www.youtube.com/get_endscreen?v=e-Awi0zpPrY&ei=Dm9XWpSiHpuG1gK346rwDA&client=1
 https://www.youtube.com/watch?v=e-Awi0zpPrY&pbj=1
