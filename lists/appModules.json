@@ -12,6 +12,304 @@
     "hidden": true
   },
   {
+    "name": "BlueCode",
+    "description": {
+      "en": "BlueCode Online Payment (#eBlocker Community)",
+      "de": "BlueCode Online-Bezahlsystem (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+      "app.bluecode.com",
+      "arc-assets.bluecode.com",
+      "mandat.bluecode.com",
+      "sdd-api.bluecode.com",
+      "sdk-api.bluecode.com"
+    ],
+    "id": 5000,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Ecovacs Home",
+    "description": {
+      "en": "Home Vacuum Robots (#eBlocker Community)",
+      "de": "Staubsauger-Roboter (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+      "gl-at-api.ecovacs.com",
+      "gl-at-openapi.ecovacs.com",
+      "gl-us-pub.ecovacs.com",
+      "portal-ww.ecouser.net",
+      "portal.ecouser.net"
+    ],
+    "id": 5001,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "FreeNow / MyTaxi",
+    "description": {
+      "en": "Taxi App (#eBlocker Community)",
+      "de": "Taxi App (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+      "api.live.free-now.com",
+      "api.mytaxi.com"
+    ],
+    "id": 5002,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Handysignatur",
+    "description": {
+      "en": "App for digital signatures and identification (Austria) (#eBlocker Community)",
+      "de": "App für digitalen Ausweis un Unterschrift in Österreich (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.a-trust.at"
+    ],
+    "id": 5003,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Handyparken",
+    "description": {
+      "en": "Digital parking ticketing (Austria) (#eBlocker Community)",
+      "de": "Österreiches System für Parktickets (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.parkbob.com",
+        "asmp.a1.net"
+    ],
+    "id": 5004,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Worx Landroid",
+    "description": {
+      "en": "Control app for mowing robot (#eBlocker Community)",
+      "de": "Steuer-App für Mähroboter (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.worxlandroid.com"
+    ],
+    "id": 5005,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "OneDrive",
+    "description": {
+      "en": "Login for Microsoft OneDrive (#eBlocker Community)",
+      "de": "Login für Microsoft OneDrive (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "logincdn.msauth.net"
+    ],
+    "id": 5006,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ProtonMail",
+    "description": {
+      "en": "Secure end-to-end email system (#eBlocker Community)",
+      "de": "Sichere Ende-zu-Ende EMail Kommunikation (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.protonmail.ch"
+    ],
+    "id": 5007,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "TripAdvisor",
+    "description": {
+      "en": "Tripadvisor booking App (#eBlocker Community)",
+      "de": "Tripadvisor Buchungs-App (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.tripadvisor.com",
+        "media-cdn.tripadvisor.com",
+        "osrm.maps.me",
+        "passport.maps.me",
+        "static.tacdn.com"
+    ],
+    "id": 5008,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ShareNow",
+    "description": {
+      "en": "Carsharing app (formerly DriveNow, car2go) (#eBlocker Community)",
+      "de": "Car Sharing (war früher DriveNow, car2go) (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "app-gateway.pricing.carsharedev.io",
+        "app.prod.share-now.com",
+        "driver.eu.share-now.com",
+        "pmm.car2go.com",
+        "www.car2go.com",
+        "www.share-now.com"
+    ],
+    "id": 5009,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Shpock",
+    "description": {
+      "en": "Secondhand trading app (#eBlocker Community)",
+      "de": "App zum privaten Kauf und Verkauf von Dingen (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.shpock.com",
+        "m1.secondhandapp.at",
+        "shubi.shpock.com"
+    ],
+    "id": 5010,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SoundTouch",
+    "description": {
+      "en": "Bose Soundtouch wireless loudspeakers (#eBlocker Community)",
+      "de": "Bose Soundtouch kabellose Lautprecher (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "content.api.bose.io",
+        "streaming.bose.com",
+        "streamingoauth.bose.com",
+        "worldwide.bose.com"
+    ],
+    "id": 5011,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Uber",
+    "description": {
+      "en": "Taxi on demand (#eBlocker Community)",
+      "de": "Ruftaxi-System (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "cn-dc1.uber.com",
+        "cn-geo1.uber.com"
+    ],
+    "id": 5012,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Discord",
+    "description": {
+      "en": "Gaming chat platform (#eBlocker Community)",
+      "de": "Soziale Plattform für Gamer (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "discord.com",
+        "discord.gg",
+        "discord.net",
+        "discordapp.com",
+        "media.discordapp.net"
+    ],
+    "id": 5013,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "EpicLauncher",
+    "description": {
+      "en": "Epic Games gaming launcher (#eBlocker Community)",
+      "de": "Epic Games Spiele-Zentrum (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "epicgames.com",
+        "unrealengine.com"
+    ],
+    "id": 5014,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Glasswire",
+    "description": {
+      "en": "Personal firewall and threat protection (#eBlocker Community)",
+      "de": "Persönliche Firewall und Angriffsschutz (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "activate.glasswire.com"
+    ],
+    "id": 5015,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Sophos Products",
+    "description": {
+      "en": "Sophos cyber security products (#eBlocker Community)",
+      "de": "Sophos Cybersicherheit Produkte (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "sophos.com"
+    ],
+    "id": 5016,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Ubisoft Uplay",
+    "description": {
+      "en": "Ubisoft gaming platform (#eBlocker Community)",
+      "de": "Ubisoft Spieleplattform (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "akamai.net",
+        "akamaihd.net",
+        "akamaized.net",
+        "cloudfront.net",
+        "fastly.net",
+        "public-ubiservices.ubi.com",
+        "ubi.com",
+        "ubisoft.com"
+    ],
+    "id": 5017,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Number26",
+    "description": {
+      "en": "German direct banking provider (#eBlocker Community)",
+      "de": "Deutsche Direktbank (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "n26.com"
+    ],
+    "id": 5018,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Booking.com iPhone",
+    "description": {
+      "en": "Booking.com iPhone app (#eBlocker Community)",
+      "de": "Booking.com iPhone App (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "iphone-xml.booking.com",
+        "secure-iphone-xml.booking.com"
+    ],
+    "id": 5019,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
     "name": "German Banks",
     "description": {
       "en": "German Banks",
@@ -322,6 +620,7 @@
     "whitelistedDomains": [
       "dl.dropbox.usercontent.com",
       "dropbox.com",
+      "api.dropboxapi.com",
       "cf.dropboxpayments.com",
       "clientupdates.dropboxstatic.com",
       "fonts.googleapis.com"
@@ -2589,7 +2888,8 @@
             "de": "App der Fluggesellschaft Lufthansa"
         },
         "whitelistedDomains": [
-            "app.lufthansa.com"
+            "app.lufthansa.com",
+            "www.lufthansa.com"
         ],
         "whitelistedIPs": [],
         "id": 151,
