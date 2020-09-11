@@ -333,10 +333,10 @@
       "de": "Tool für virtuelle Teams von webex.com"
     },
     "whitelistedDomains": [
-        "*.ciscospark.com",
-        "*.walkme.com",
-        "*.wbx2.com",
-        "*.webex.com"
+        "ciscospark.com",
+        "walkme.com",
+        "wbx2.com",
+        "webex.com"
     ],
     "id": 5021,
     "enabledPerDefault": false,
