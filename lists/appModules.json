@@ -780,9 +780,7 @@
     },
     "whitelistedDomains": [
       "whatsapp.net",
-      "whatsapp.com",
-      "media-frx5-1.cdn.whatsapp.net",
-      "mmg.whatsapp.net"
+      "whatsapp.com"
     ],
     "id": 11,
     "enabledPerDefault": false
@@ -3010,7 +3008,7 @@
         "pythonhosted.org"
       ],
       "id": 155,
-      "enabledPerDefault": true,
+      "enabledPerDefault": false,
       "hidden": false
     },
     {
@@ -3023,7 +3021,7 @@
         "ublock.org"
       ],
       "id": 156,
-      "enabledPerDefault": true,
+      "enabledPerDefault": false,
       "hidden": false
     },
     {
@@ -3039,7 +3037,7 @@
         "production.cloudflare.docker.com"
       ],
       "id": 157,
-      "enabledPerDefault": true,
+      "enabledPerDefault": false,
       "hidden": false
     },
     {
@@ -3052,7 +3050,7 @@
         "wikimedia.org"
       ],
       "id": 158,
-      "enabledPerDefault": true,
+      "enabledPerDefault": false,
       "hidden": false
     },
     {
@@ -3065,7 +3063,7 @@
         "www.pt.bfs.admin.ch"
       ],
       "id": 159,
-      "enabledPerDefault": true,
+      "enabledPerDefault": false,
       "hidden": false
     },
     {
