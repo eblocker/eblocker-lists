@@ -310,6 +310,39 @@
     "hidden": false
   },
   {
+    "name": "Bethesda Game Launcher Client",
+    "description": {
+      "en": "Game Launcher from Bethesda.net",
+      "de": "Gaming Launcher von Bethesda.net"
+    },
+    "whitelistedDomains": [
+        "api.bethesda.net",
+        "bethesda.net",
+        "buildinfo.cdp.bethesda.net",
+        "cdn.contentful.com",
+        "store.bethesda.net"
+    ],
+    "id": 5020,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Webex Teams",
+    "description": {
+      "en": "Team meeting solution by webex.com",
+      "de": "Tool für virtuelle Teams von webex.com"
+    },
+    "whitelistedDomains": [
+        "ciscospark.com",
+        "walkme.com",
+        "wbx2.com",
+        "webex.com"
+    ],
+    "id": 5021,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
     "name": "German Banks",
     "description": {
       "en": "German Banks",
@@ -2949,5 +2982,222 @@
         "enabledPerDefault": false,
         "builtin": true,
         "hidden": false
+    },
+    {
+      "name": "Binary Repos",
+      "description": {
+        "en": "Binary repositories for software development",
+        "de": "BinÃ¤r-Repositories für die Software-Entwicklung"
+      },
+      "whitelistedDomains": [
+        "repo.maven.apache.org",
+        "oss.sonatype.org",
+        "jcenter.bintray.com.",
+        "repository.jboss.org",
+        "repo.clojars.org",
+        "packages.atlassian.com",
+        "maven.oracle.com",
+        "maven.google.com ",
+        "maven-central.storage-download.googleapis.com",
+        "maven-central-eu.storage-download.googleapis.com",
+        "maven-central-asia.storage-download.googleapis.com",
+        "npmjs.org",
+        "powershellgallery.com",
+        "nuget.org",
+        "metacpan.org",
+        "pythonhosted.org"
+      ],
+      "id": 155,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "uBlock Origin",
+      "description": {
+        "en": "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking",
+        "de": "uBlock Origin ist ein freies, plattformübergreifendes Webbrowser-Plug-in zum Filtern von Webinhalten wie unter anderem beispielsweise Werbung, Webtracking oder Malvertising."
+      },
+      "whitelistedDomains": [
+        "ublock.org"
+      ],
+      "id": 156,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Docker",
+      "description": {
+        "en": "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers",
+        "de": "Docker ist ein Produkt, das Betriebssystem-Virtualisierung verwendet, um Software als Pakete in sogenannten Containern bereitzustellen"
+      },
+      "whitelistedDomains": [
+        "registry-1.docker.io",
+        "auth.docker.io",
+        "production.cloudflare.docker.io",
+        "production.cloudflare.docker.com"
+      ],
+      "id": 157,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Wikimedia",
+      "description": {
+        "de": "Die Wikimedia Foundation, Inc. ist eine gemeinnützige Gesellschaft nach US-amerikanischem Recht, die freies Wissen und freie Inhalte fÃ¶rdert.",
+        "en": "The Wikimedia Foundation, Inc. is an American non-profit and charitable organization headquartered in San Francisco, California."
+      },
+      "whitelistedDomains": [
+        "wikimedia.org"
+      ],
+      "id": 158,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "SwissCovid",
+      "description": {
+        "de": "SwissCovid ist eine COVID-19-App zur Kontaktnachverfolgung in der Schweiz",
+        "en": "SwissCovid is a COVID-19-App for contact tracing in Switzerland"
+      },
+      "whitelistedDomains": [
+        "www.pt.bfs.admin.ch"
+      ],
+      "id": 159,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Relive",
+      "description": {
+        "en": "Relive is an app for creating videos from GPS data of sportive activities",
+        "de": "Relive ist eine App um Videos basierend auf GPS-Daten von sportlichen AktivitÃ¤ten zu erstellen."
+      },
+      "whitelistedDomains": [
+        "mobile.api.relive.cc"
+      ],
+      "id": 160,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Homeway/Expedia",
+      "description": {
+        "de": "Expedia Group, Inc. ist ein US-amerikanisches Online-Reisebüro. FeWo-direkt ist eine App der Gruppe.",
+        "en": "Expedia Group is an American online travel shopping company. HomeAway is an app of the group."
+      },
+      "whitelistedDomains": [
+        "homeaway.com"
+      ],
+      "id": 161,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Sony Playstation",
+      "description": {
+        "de": "Die PlayStation ist eine stationÃ¤re Spielkonsole des japanischen Unternehmens Sony",
+        "en": "The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment."
+      },
+      "whitelistedDomains": [
+        "playstation.net",
+        "playstation.com",
+        "sonyentertainmentnetwork.com"
+      ],
+      "id": 162,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Little Snitch",
+      "description": {
+        "en": "Little Snitch is a host-based application firewall for macOS",
+        "de": "Little Snitch ist eine proprietÃ¤re Personal Firewall für macOS."
+      },
+      "whitelistedDomains": [
+        "obdev.at"
+      ],
+      "id": 163,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Codecheck",
+      "description": {
+        "de": "Codecheck ist eine App, die Informationen zu Inhaltsstoffen in Lebensmitteln und Kosmetik anzeigt",
+        "en": "Codecheck is an app that shows informations about ingredients in food, drinks, and cosmetics"
+      },
+      "whitelistedDomains": [
+        "codecheck.info"
+      ],
+      "id": 164,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Toppreise.ch",
+      "description": {
+        "de": "Schweizer Preisvergleich",
+        "en": "Swiss price price comparison service"
+      },
+      "whitelistedDomains": [
+        "toppreise.ch"
+      ],
+      "id": 165,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "zoom.us",
+      "description": {
+        "de": "Zoom Video Communications ist ein US-amerikanisches Softwareunternehmen, das Software für Videokonferenzen anbietet.",
+        "en": "Zoom is a videoconferencing software program developed by Zoom Video Communications."
+      },
+      "whitelistedDomains": [
+        "zoom.us"
+      ],
+      "id": 166,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Houseparty",
+      "description": {
+        "de": "Houseparty ist ein soziales Netzwerk, das Video-Gruppenchats mit mobilen und Desktop-Applikationen anbietet.",
+        "en": "Houseparty is a social networking service that enables group video chatting through mobile and desktop apps."
+      },
+      "whitelistedDomains": [
+        "thehousepartyapp.com"
+      ],
+      "id": 167,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Sky Switzerland",
+      "description": {
+        "en": "Swiss part of the Sky Group",
+        "de": "Schweizer Ableger des Pay-TV-Anbieters Sky"
+      },
+      "whitelistedDomains": [
+        "sky.ch"
+      ],
+      "id": 168,
+      "enabledPerDefault": false,
+      "hidden": false
+    },
+    {
+      "name": "Discord",
+      "description": {
+        "de": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen",
+        "en": "Discord is a proprietary freeware instant messaging and VoIP application and digital distribution platform"
+      },
+      "whitelistedDomains": [
+        "discordapp.com",
+        "discord.gg",
+        "discord.media"
+      ],
+      "id": 169,
+      "enabledPerDefault": false,
+      "hidden": false
     }
 ]
