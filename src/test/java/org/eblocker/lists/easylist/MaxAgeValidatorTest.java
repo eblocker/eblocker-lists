@@ -21,6 +21,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import org.junit.After;
 import org.junit.Before;
@@ -51,7 +52,7 @@ public class MaxAgeValidatorTest {
 
 	@Test
 	public void testValid() throws Exception {
-		Date now = new SimpleDateFormat("dd MMM yyyy HH:mm z").parse("23 Jul 2016 9:40 UTC");
+		Date now = new SimpleDateFormat("dd MMM yyyy HH:mm z", Locale.US).parse("23 Jul 2016 9:40 UTC");
 		InputStream input = easyPrivacyList.getInputStream();
 		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
 	}

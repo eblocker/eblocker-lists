@@ -1,2 +1,3 @@
 # eBlocker Connection Check
+.tracker.domainblockercheck.eblocker.org
 .tracker.domainblockercheck.eblocker.com
