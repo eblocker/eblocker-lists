@@ -10,7 +10,7 @@
       <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
       <!-- Used in Debian version (see control file) -->
       <timestamp>${maven.build.timestamp}</timestamp>
-      <java.release>8</java.release>
+      <java.release>11</java.release>
       <debTargetDir>${project.build.directory}</debTargetDir>
       <type>daily+</type>
       <includeProprietaryLists>false</includeProprietaryLists>
