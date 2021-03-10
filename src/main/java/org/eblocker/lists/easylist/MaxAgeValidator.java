@@ -27,14 +27,18 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MaxAgeValidator {
-	private final Pattern lastModifiedPattern = Pattern.compile("! Last modified: (.*)");
+	private final Pattern lastModifiedPattern = Pattern.compile("! (Last modified|Updated): (.*)");
 	private final Pattern expiresPattern = Pattern.compile("! Expires: (\\d+) (days|hours).*");
-	private final DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy HH:mm z", Locale.US);
+	private final List<DateFormat> dateFormats = List.of(
+		new SimpleDateFormat("dd MMM yyyy HH:mm z", Locale.US),
+		new SimpleDateFormat("yyyy-MM-dd HH:mm z", Locale.US)
+	);
 	 
 	/**
 	 * Checks whether the given EasyList is still valid at the given date
@@ -55,7 +59,7 @@ public class MaxAgeValidator {
 		while (null != (line = reader.readLine())) {
 			Matcher matcher = lastModifiedPattern.matcher(line);
 			if (matcher.matches()) {
-				lastModified = dateFormat.parse(matcher.group(1));
+				lastModified = parseDate(matcher.group(2));
 			}
 			
 			matcher = expiresPattern.matcher(line);
@@ -83,6 +87,16 @@ public class MaxAgeValidator {
 		}
 	}
 
+	private Date parseDate(String date) throws ParseException {
+		for (DateFormat format: dateFormats) {
+			try {
+				return format.parse(date);
+			} catch (ParseException e) {
+				// try next format
+			}
+		}
+		throw new ParseException("Could not parse date '" + date + "' with any of the available formats.", 0);
+	}
 
 	private MaxAgeValidationResult getValidationResult(Duration maxAge,	Date lastModified, Date now) {
 		Instant expirationDate = lastModified.toInstant().plus(maxAge);

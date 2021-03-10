@@ -1,0 +1,4 @@
+[Adblock Plus x.y]
+! Checksum: Wlf1mCNkagMCT8AsZwkQwQ
+hello
+world

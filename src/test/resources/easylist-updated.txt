@@ -1,0 +1,10 @@
+[Adblock Plus x.y]
+! Updated: 2021-03-10 09:00 UTC
+! Expires: 9 days (update frequency)
+This
+list
+uses
+"Updated"
+instead
+of
+"Last modified"
