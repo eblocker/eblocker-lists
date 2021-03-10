@@ -20,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -29,64 +30,95 @@ import java.util.regex.Pattern;
 
 /**
  * Validates the checksum of a list in EasyList format.
- * 
- * See also: https://adblockplus.org/en/filters, section "Comments", "Special comments"
+ * <p>
+ * See also: https://github.com/adblockplus/adblockplus/blob/master/validateChecksum.py
  */
 public class ChecksumValidator {
 
-	private final Pattern checksumPattern = Pattern.compile("! Checksum: (\\S+)");
-	private final byte[] newline = "\n".getBytes(StandardCharsets.UTF_8);
+    private final Pattern checksumPattern = Pattern.compile("! Checksum: (\\S+)");
+    private final byte[] newline = "\n".getBytes(StandardCharsets.UTF_8);
 
-	/**
-	 * Reads a list in EasyList format from the given input stream, finds the checksum
-	 * and verifies it.
-	 * 
-	 * KNOWN BUGS: if there is a newline at the end of the file, this method will probably fail
-	 * (if I understand the description at https://adblockplus.org/en/filters correctly).
-	 * The problem is that BufferedReader does not tell us if the last line was terminated with
-	 * a newline character. A possible solution would be to clone the MessageDigest and try
-	 * to verify the checksum again with: byte[] md5 = clonedDigest.digest(newline)
-	 * 
-	 * @param listStream
-	 * @return the result of the validation
-	 * @throws NoSuchAlgorithmException
-	 * @throws IOException
-	 */
-	public ChecksumValidationResult validate(InputStream listStream) throws NoSuchAlgorithmException, IOException {
+    /**
+     * Reads a list in EasyList format from the given input stream, finds the checksum
+     * and verifies it.
+     *
+     * @param listStream
+     * @return the result of the validation
+     * @throws NoSuchAlgorithmException
+     * @throws IOException
+     */
+    public ChecksumValidationResult validate(InputStream listStream) throws NoSuchAlgorithmException, IOException {
         Checksums checksums = getChecksums(listStream);
         return checksums.getValidationResult();
-	}
-
-    public Checksums getChecksums(InputStream listStream) throws NoSuchAlgorithmException, IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(listStream, StandardCharsets.UTF_8));
-
-        MessageDigest digest = MessageDigest.getInstance("MD5");
-        Checksums checksums = new Checksums();
-        String line = null;
-        boolean firstLine = true;
-        while(null != (line = reader.readLine())) {
-            Matcher matcher = checksumPattern.matcher(line);
-            if (matcher.matches()) {
-                checksums.setExpectedDigest(matcher.group(1));
-            } else {
-                if (! line.isEmpty()) {
-                    // a normal line:
-                    if (! firstLine) {
-                        digest.update(newline);
-                    }
-                    firstLine = false;
-                    digest.update(line.getBytes(StandardCharsets.UTF_8));
-                }
-            }
-        }
-
-
-        byte[] md5 = digest.digest();
-
-        // Encode MD5 to Base64 and remove trailing = characters
-        String base64 = Base64.getEncoder().encodeToString(md5);
-        checksums.setCalculatedDigest(base64.replace("=", ""));
-        return checksums;
     }
 
+    public Checksums getChecksums(InputStream listStream) throws NoSuchAlgorithmException, IOException {
+        RememberingReader rememberingReader = new RememberingReader(new InputStreamReader(listStream, StandardCharsets.UTF_8));
+        try (BufferedReader reader = new BufferedReader(rememberingReader)) {
+
+            MessageDigest digest = MessageDigest.getInstance("MD5");
+            Checksums checksums = new Checksums();
+            String line = null;
+            boolean firstLine = true;
+            while (null != (line = reader.readLine())) {
+                Matcher matcher = checksumPattern.matcher(line);
+                if (matcher.matches()) {
+                    checksums.setExpectedDigest(matcher.group(1));
+                } else {
+                    if (!line.isEmpty()) {
+                        if (!firstLine) {
+                            digest.update(newline);
+                        }
+                        firstLine = false;
+                        digest.update(line.getBytes(StandardCharsets.UTF_8));
+                    }
+                }
+            }
+
+            // Work around a limitation of the BufferedReader:
+            // Using readLine() does not tell us if the last line
+            // of the file was terminated with a newline character.
+            // But for signatures, this is important!
+            if (rememberingReader.getLastCharRead() == '\n') {
+                digest.update(newline);
+            }
+
+            byte[] md5 = digest.digest();
+
+            // Encode MD5 to Base64 and remove trailing = characters
+            String base64 = Base64.getEncoder().encodeToString(md5);
+            checksums.setCalculatedDigest(base64.replace("=", ""));
+            return checksums;
+        }
+    }
+
+    /**
+     * A wrapper Reader that remembers the last character that was read.
+     */
+    private class RememberingReader extends Reader {
+        private char lastCharRead = 0;
+        private Reader delegate;
+
+        public RememberingReader(Reader delegate) {
+            this.delegate = delegate;
+        }
+
+        @Override
+        public int read(char[] cbuf, int offset, int length) throws IOException {
+            int lenRead = delegate.read(cbuf, offset, length);
+            if (lenRead > 0) {
+                lastCharRead = cbuf[lenRead - 1];
+            }
+            return lenRead;
+        }
+
+        @Override
+        public void close() throws IOException {
+            delegate.close();
+        }
+
+        public char getLastCharRead() {
+            return lastCharRead;
+        }
+    }
 }
