@@ -19,6 +19,11 @@ package org.eblocker.lists.easylist;
 import org.eblocker.server.common.transaction.Decision;
 import org.eblocker.server.common.transaction.TransactionContext;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 public class EasyListRuleTest implements TransactionContext {
 
     private final String url;
@@ -27,13 +32,13 @@ public class EasyListRuleTest implements TransactionContext {
 
     private final String accept;
 
-    private final Decision decision;
+    private final Set<Decision> allowedDecisions;
 
     public EasyListRuleTest(String url, String referrer, String accept, Decision decision) {
         this.url = url;
         this.referrer = referrer;
         this.accept = accept;
-        this.decision = decision;
+        this.allowedDecisions = Collections.singleton(decision);
     }
 
     public EasyListRuleTest(String property) {
@@ -41,7 +46,23 @@ public class EasyListRuleTest implements TransactionContext {
         this.url = fields[0];
         this.referrer = fields.length > 1 ? (fields[1].equals("null") ? null : fields[1]) : null;
         this.accept   = fields.length > 2 ? (fields[2].equals("null") ? null : fields[2]) : null;
-        this.decision = fields.length > 3 ? Decision.valueOf(fields[3]) : Decision.NO_DECISION;
+        this.allowedDecisions = fields.length > 3 ? parseDecisions(fields[3]) : Collections.singleton(Decision.NO_DECISION);
+    }
+
+    /**
+     * Parse allowed decisions from a string. Decisions can be combined with "|", e.g.
+     * "NO_DECISION|PASS"
+     * @param definition
+     * @return
+     */
+    private Set<Decision> parseDecisions(String definition) {
+        return Arrays.stream(definition.split("\\|"))
+            .map(Decision::valueOf)
+            .collect(Collectors.toSet());
+    }
+
+    public boolean isAllowed(Decision decision) {
+        return allowedDecisions.contains(decision);
     }
 
     @Override
@@ -75,7 +96,7 @@ public class EasyListRuleTest implements TransactionContext {
 
     @Override
     public Decision getDecision() {
-        return decision;
+        throw new RuntimeException("getDecision() not implemented");
     }
 
     @Override
@@ -91,7 +112,7 @@ public class EasyListRuleTest implements TransactionContext {
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(url).append("|").append(referrer).append("|").append(accept).append("|").append(decision);
+        s.append(url).append("|").append(referrer).append("|").append(accept).append("|").append(allowedDecisions);
         return s.toString();
     }
 }
