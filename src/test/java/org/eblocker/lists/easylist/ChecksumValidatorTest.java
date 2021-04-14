@@ -66,7 +66,8 @@ public class ChecksumValidatorTest {
 			1, "newline at end of file",
 			2, "empty line at end of file",
 			3, "empty line in the middle of file",
-			4, "no newline at end of file");
+			4, "no newline at end of file",
+			5, "blank after checksum");
 
 		cases.forEach((i, description) -> {
 			String filename = String.format("checksum-%d.txt", i);
