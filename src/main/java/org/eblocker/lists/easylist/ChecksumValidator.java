@@ -35,7 +35,7 @@ import java.util.regex.Pattern;
  */
 public class ChecksumValidator {
 
-    private final Pattern checksumPattern = Pattern.compile("! Checksum: (\\S+)");
+    private final Pattern checksumPattern = Pattern.compile("!\\s*checksum:\\s*(\\S+)\\s*", Pattern.CASE_INSENSITIVE);
     private final byte[] newline = "\n".getBytes(StandardCharsets.UTF_8);
 
     /**
