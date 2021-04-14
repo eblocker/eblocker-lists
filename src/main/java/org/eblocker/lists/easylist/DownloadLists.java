@@ -60,8 +60,9 @@ public class DownloadLists {
 	private static void verifyListChecksum(String filename) throws IOException, NoSuchAlgorithmException {
 		ChecksumValidator validator = new ChecksumValidator();
 		FileInputStream input = new FileInputStream(filename);
-		if (validator.validate(input) != ChecksumValidationResult.OK) {
-			throw new IOException("Could not validate checksum of " + filename);
+		ChecksumValidationResult validationResult = validator.validate(input);
+		if (validationResult != ChecksumValidationResult.OK) {
+			throw new IOException("Could not validate checksum of " + filename + ". Expected result OK, but got: " + validationResult);
 		}
 	}
 	
