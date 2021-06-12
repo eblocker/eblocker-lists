@@ -19,6 +19,7 @@ package org.eblocker.lists.easylist;
 import static org.junit.Assert.assertEquals;
 
 import java.io.InputStream;
+import java.util.Map;
 
 import org.junit.After;
 import org.junit.Before;
@@ -57,5 +58,25 @@ public class ChecksumValidatorTest {
 	public void checksumMissing() throws Exception {
 		InputStream listStream = checksumMissingList.getInputStream();
 		assertEquals(ChecksumValidationResult.CHECKSUM_MISSING, validator.validate(listStream));
+	}
+
+	@Test
+	public void checksumNewlines() {
+		Map<Integer, String> cases = Map.of(
+			1, "newline at end of file",
+			2, "empty line at end of file",
+			3, "empty line in the middle of file",
+			4, "no newline at end of file",
+			5, "blank after checksum");
+
+		cases.forEach((i, description) -> {
+			String filename = String.format("checksum-%d.txt", i);
+			InputStream listStream = new FileResource(filename).getInputStream();
+			try {
+				assertEquals(description, ChecksumValidationResult.OK, validator.validate(listStream));
+			} catch (Exception e) {
+				throw new RuntimeException("Could not validate list " + filename, e);
+			}
+		});
 	}
 }

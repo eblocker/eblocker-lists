@@ -27,4 +27,5 @@ ASK	MEDIUM	eff.org	CONTAINS	panopticlick.eff.org	-	panopticlick.eff.org	-
 BLOCK	HIGH	do-not-tracker.org	STARTSWITH	http	-	-	-
 BLOCK	HIGH	trackersimulator.org	STARTSWITH	http	-	-	-
 BLOCK	HIGH	eviltracker.net	STARTSWITH	http	-	-	-
+NO_CONTENT	HIGHEST	setup.eblocker.org	ENDSWITH	/_check_/pattern-blocker	-	-	-
 NO_CONTENT	HIGHEST	setup.eblocker.com	ENDSWITH	/_check_/pattern-blocker	-	-	-

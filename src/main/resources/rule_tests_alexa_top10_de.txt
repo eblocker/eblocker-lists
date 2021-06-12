@@ -16,7 +16,6 @@ http://www.t-online.de/restwetter/webservice/v1_0/rest/place?t=d41d8cd98f00b204e
 http://www.t-online.de/restwetter/webservice/v1_0/rest/weatherwarning?t=td39ef23d36bbcf35c7f6607a3ab239be&lat=53.56547&lon=10.03808
 https://accounts.login.idm.telekom.com/idmip?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.return_to=https%3A%2F%2Ftipi.api.t-online.de%2Fsrp-auth%2FoneIdm%2Fverify%3FreturnToUrl%3Dhttps%3A%2F%2Ffssecure.t-online.de%2Fpartner%2Fhtdocs%2Floginbox_https_next%2F62530634-silent.html&openid.realm=https%3A%2F%2Ftipi.api.t-online.de&openid.assoc_handle=Se8f94048-28c0-4234-9f89-18000888fe4d&openid.mode=checkid_immediate&openid.ns.ext1=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&openid.ext1.mode=fetch_request&openid.ext1.type.attr1=urn%3Atelekom.com%3Aall&openid.ext1.required=attr1&openid.ns.ext2=http%3A%2F%2Fidm.telekom.com%2Fopenid%2Foauth2%2F1.0&openid.ext2.client_id=10LIVESAM30000004901PORTAL00000000000000&openid.ext2.scopes=W3sic2NvcGUiOiJzcGljYSJ9XQ%3D%3D&openid.ns.ext3=http%3A%2F%2Fidm.telekom.com%2Fopenid%2Fext%2F2.0&openid.ext3.logout_endpoint=https%3A%2F%2Ftipi.api.t-online.de%2Fsrp-auth%2FoneIdm%2Flogout
 https://api.weather.com/v1/geocode/53.000000/10.960000/aggregate.json?apiKey=e45ff1b7c7bda231216c7ab7c33509b8&products=conditionsshort,fcstdaily10short,fcsthourly24short,nowlinks
-https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.yoTdpQipo6s.O/m=gapi_iframes,googleapis_client,plusone/rt=j/sv=1/d=1/ed=1/am=AAE/rs=AHpOoo9_VhuRoUovwpPPf5LqLZd-dmCnxw/cb=gapi.loaded_0
 https://autosug.ebaystatic.com/autosug?kwd=&_jgr=1&sId=77&_ch=0&callback=nil
 https://autosug.ebaystatic.com/autosug?kwd=g&_jgr=1&sId=77&_ch=0&callback=nil
 https://bilder.t-online.de/b/60/82/11/38/id_60821138/300_80/tid_da/schon-im-vorschulalter-lassen-sich-symptome-fuer-adhs-erkennen-.jpg
@@ -163,15 +162,13 @@ https://www.facebook.com/captcha/tfbimage.php?captcha_challenge_code=1515679548-
 https://www.facebook.com/directory/marketplace/
 https://www.facebook.com/osd.xml
 https://www.gmx.net/
-https://www.google.com/js/bg/D5ndehjDpHsBntzgzOcX9rhxH6SG2GNwap9741D1MPg.js
-https://www.google.com/textinputassistant/tia.png
 https://www.google.de/
-https://www.google.de/complete/search?client=psy-ab&hl=de&gs_rn=64&gs_ri=psy-ab&cp=1&gs_id=2&q=e&xhr=t
+https://www.google.de/complete/search?client=psy-ab&hl=de&gs_rn=64&gs_ri=psy-ab&cp=1&gs_id=2&q=e&xhr=t null null NO_DECISION|PASS
 https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
 https://www.google.de/images/branding/product/ico/googleg_lodp.ico
 https://www.google.de/images/nav_logo242.png
 https://www.google.de/maps/vt/data=m3q-F7IuK_vX0V8HhlBvsM71lZN4Y32mgXvRu8tQzjURkBlDNtcpNXjaehuw7yD0HTrQATOf8ZwoNNlUcswu4EJ42cnRgNVf-jeDoONvwFqs6alwMGe3lCMQf5YeINrVb-l5G63w1tZWO7q_uN_ut3lzfJoH
-https://www.google.de/search?source=hp&ei=425XWtX3KsHMwQLL7KfQCg&q=eblocker&oq=eblocker&gs_l=psy-ab.3..0l10.11731.12608.0.12771.8.7.0.1.1.0.124.613.2j4.6.0....0...1c.1.64.psy-ab..1.7.620...0i131k1.0.veg99z_2KfE
+https://www.google.de/search?source=hp&ei=425XWtX3KsHMwQLL7KfQCg&q=eblocker&oq=eblocker&gs_l=psy-ab.3..0l10.11731.12608.0.12771.8.7.0.1.1.0.124.613.2j4.6.0....0...1c.1.64.psy-ab..1.7.620...0i131k1.0.veg99z_2KfE null null NO_DECISION|PASS
 https://www.google.de/xjs/_/js/k=xjs.s.de.CHLJVpdoBIA.O/m=Ey6RTe,QIpzIb/am=wCLEFIAAEP8TQkSCFRwWLAUwDAg/exm=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi,d3l,tnv,mrn,me,lor,eil,dgm,dpu,lorw,aa,abd,async,dvl,foot,fpe,ipv6,lu,m,mu,sf,sonic,tl,vs,ljqMqb,qhAuMc,pg0znb,Fao4hd/rt=j/d=1/ed=1/t=zcms/rs=ACT90oGBP09TsIxc6p4LZWyMLx57kyyNLA
 https://www.gstatic.com/inputtools/images/tia.png
 https://www.gstatic.com/og/_/js/k=og.og2.en_US.yENBhnZ7518.O/rt=j/m=def/exm=in,fot/d=1/ed=1/rs=AA2YrTvVT-8FA916JsQIyOXvASpsJIaKEw
@@ -180,7 +177,6 @@ https://www.ycombinator.com/apple-touch-icon.png
 https://www.youtube.com/
 https://www.youtube.com/comment_service_ajax?action_get_comments=1&pbj=1&ctoken=EiYSC2UtQXdpMHpwUHJZwAEAyAEA4AEBogINKP___________wFAABgG&continuation=EiYSC2UtQXdpMHpwUHJZwAEAyAEA4AEBogINKP___________wFAABgG&itct=CEIQuy8YAiITCJTh25KK0NgCFRuDVQodt7EKzij4HQ%3D%3D
 https://www.youtube.com/get_endscreen?v=e-Awi0zpPrY&ei=Dm9XWpSiHpuG1gK346rwDA&client=1
-https://www.youtube.com/watch?v=e-Awi0zpPrY&pbj=1
 https://www.youtube.com/yts/cssbin/player-vfl_z2Ycb/www-player.css
 https://www.youtube.com/yts/cssbin/www-onepick-vflsYL2Tr.css
 https://www.youtube.com/yts/htmlbin/desktop_polymer_sel_auto_home_deferred-vflB_y2Vy.html

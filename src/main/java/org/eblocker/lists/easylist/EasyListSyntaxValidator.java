@@ -82,7 +82,7 @@ public class EasyListSyntaxValidator {
                 // Run test set against this filter
                 for (EasyListRuleTest easyListRuleTest: list.getEasyListRuleTests()) {
                     Decision decision = filter.filter(easyListRuleTest).getDecision();
-                    if (!decision.equals(easyListRuleTest.getDecision())) {
+                    if (!easyListRuleTest.isAllowed(decision)) {
                         String msg = "Unexpected filter result " + decision + " by filter [" + line + "] for test " + easyListRuleTest;
                         LOG.error(msg);
                         throw new IOException(msg);

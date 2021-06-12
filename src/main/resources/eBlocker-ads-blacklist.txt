@@ -3,4 +3,5 @@
 .googletagmanager.com
 .googletagservices.com
 # eBlocker Connection Check
+.ads.domainblockercheck.eblocker.org
 .ads.domainblockercheck.eblocker.com
