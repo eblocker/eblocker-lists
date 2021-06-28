@@ -312,8 +312,8 @@
   {
     "name": "Bethesda Game Launcher Client",
     "description": {
-      "en": "Game Launcher from Bethesda.net",
-      "de": "Gaming Launcher von Bethesda.net"
+      "en": "Game Launcher from Bethesda.net (#eBlocker Community)",
+      "de": "Gaming Launcher von Bethesda.net (#eBlocker Community)"
     },
     "whitelistedDomains": [
         "api.bethesda.net",
@@ -342,6 +342,81 @@
     "enabledPerDefault": false,
     "hidden": false
   },
+
+  {
+    "name": "German schooling system by IServ GmbH",
+    "description": {
+      "en": "German online schooling solution by iserv.de (#eBlocker Community)",
+      "de": "Deutsche Digitalisierungsplattform für Schulen der IServ GmbH (iserv.de) (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "videoconference.iserv.eu"
+    ],
+    "id": 5022,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "Miro Collaboration Tool",
+    "description": {
+      "en": "team collaboration solution by miro.com",
+      "de": "Tool für Teamarbeit von miro.com"
+    },
+    "whitelistedDomains": [
+        "miro-apps.com",
+        "miro.com",
+        "mirostatic.com",
+        "realtimeboard.com"
+    ],
+    "id": 5023,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "Signal Private Messenger",
+    "description": {
+      "en": "Signal private messenger app",
+      "de": "privater Messenger von Signal"
+    },
+    "whitelistedDomains": [
+        "signal.org"
+    ],
+    "id": 5024,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "beatport Link",
+    "description": {
+      "en": "streaming service of the DJ music portal (#eBlocker Community)",
+      "de": "Streaming Dienst des DJ Musik-Portals (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.beatport.com",
+        "storage.googleapis.com"
+    ],
+    "id": 5025,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "Native Instruments Updater",
+    "description": {
+      "en": "DJ software, native clients (#eBlocker Community)",
+      "de": "DJ Software, installierte Klient-Software (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.native-instruments.com"
+    ],
+    "id": 5026,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
   {
     "name": "German Banks",
     "description": {
