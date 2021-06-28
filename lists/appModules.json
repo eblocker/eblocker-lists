@@ -375,20 +375,6 @@
   },
 
   {
-    "name": "Signal Private Messenger",
-    "description": {
-      "en": "Signal private messenger app",
-      "de": "privater Messenger von Signal"
-    },
-    "whitelistedDomains": [
-        "signal.org"
-    ],
-    "id": 5024,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-
-  {
     "name": "beatport Link",
     "description": {
       "en": "streaming service of the DJ music portal (#eBlocker Community)",
@@ -2826,7 +2812,8 @@
             "de": "Freie verschlüsselte Kommunikation"
         },
         "whitelistedDomains": [
-            "textsecure-service.whispersystems.org"
+            "textsecure-service.whispersystems.org",
+            "signal.org"
         ],
         "whitelistedIPs": [
         ],
