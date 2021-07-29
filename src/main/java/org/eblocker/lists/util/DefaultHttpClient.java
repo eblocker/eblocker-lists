@@ -39,6 +39,7 @@ public class DefaultHttpClient implements HttpClient {
         log.debug("downloading {}", url);
         try (CloseableHttpClient client = HttpClients.createDefault()) {
             HttpGet request = new HttpGet(url);
+            request.setHeader("User-agent", "eBlockerLists/1.0");
             request.addHeader("Accept", "*/*");
             request.addHeader("Accept-Encoding", "gzip");
             if (!Strings.isNullOrEmpty(username)) {

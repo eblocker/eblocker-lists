@@ -359,6 +359,39 @@
     }
   },
   {
+    "id": 14,
+    "key": "bpjm",
+    "name": {
+      "de": "BPjM",
+      "en": "BPjM"
+    },
+    "description": {
+      "de": "Bundesprüfstelle für jugendgefährdende Medien",
+      "en": "Bundesprüfstelle für jugendgefährdende Medien"
+    },
+    "category": "PARENTAL_CONTROL",
+    "filterType": "blacklist",
+    "provider": "domain",
+    "queryTransformations": [
+      {
+        "regex": "^\\.?",
+        "replacement": "http://"
+      },
+      {
+        "regex": "^\\.?",
+        "replacement": "https://"
+      }
+    ],
+    "providerParameters": {
+      "contentType": "md5",
+      "providers": [
+        {
+          "provider": "bpjm"
+        }
+      ]
+    }
+  },
+  {
     "id": 15,
     "key": "malware",
     "name": {
