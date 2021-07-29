@@ -19,6 +19,7 @@ package org.eblocker.lists.bpjm;
 import org.eblocker.lists.util.Digests;
 import org.eblocker.lists.util.HttpClient;
 import org.eblocker.lists.util.HttpClientFactory;
+import org.eblocker.lists.util.ProprietaryConfigurationLoader;
 import org.eblocker.server.icap.filter.bpjm.BpjmEntry;
 import org.eblocker.server.icap.filter.bpjm.BpjmModul;
 import org.eblocker.server.icap.filter.bpjm.BpjmModulSerializer;
@@ -51,10 +52,14 @@ public class BpjmPatternFilterCreator {
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
         properties.load(ClassLoader.getSystemResourceAsStream("bpjm.properties"));
-        BpjmModulZipReader zipReader = new BpjmModulZipReader();
-        BpjmModulSerializer serializer = new BpjmModulSerializer();
-        HttpClient httpClient = HttpClientFactory.create();
-        new BpjmPatternFilterCreator(properties, serializer, zipReader, httpClient).run();
+        if (ProprietaryConfigurationLoader.addProprietaryConfiguration(properties)) {
+            BpjmModulZipReader zipReader = new BpjmModulZipReader();
+            BpjmModulSerializer serializer = new BpjmModulSerializer();
+            HttpClient httpClient = HttpClientFactory.create();
+            new BpjmPatternFilterCreator(properties, serializer, zipReader, httpClient).run();
+        } else {
+            log.info("Not including proprietary BPjM filter list");
+        }
     }
 
     BpjmPatternFilterCreator(Properties properties,

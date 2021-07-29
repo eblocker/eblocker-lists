@@ -253,6 +253,25 @@
                                 </configuration>
                             </execution>
                             <execution>
+                                <id>download-bpjm</id>
+                                <phase>generate-test-resources</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>java</executable>
+                                    <arguments>
+                                        <argument>-classpath</argument>
+                                        <classpath/>
+                                        <argument>-DincludeProprietaryLists=${includeProprietaryLists}</argument>
+                                        <argument>-DproprietaryProviderConfiguration=${proprietaryProviderConfiguration}</argument>
+                                        <argument>org.eblocker.lists.bpjm.BpjmPatternFilterCreator</argument>
+                                    </arguments>
+                                    <classpathScope>compile</classpathScope>
+                                    <workingDirectory>${project.basedir}</workingDirectory>
+                                </configuration>
+                            </execution>
+                            <execution>
                                 <id>download-intermediate-certificates</id>
                                 <phase>generate-test-resources</phase>
                                 <goals>

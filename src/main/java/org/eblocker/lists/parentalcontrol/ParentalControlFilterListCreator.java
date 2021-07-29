@@ -78,13 +78,19 @@ public class ParentalControlFilterListCreator {
         ObjectMapper objectMapper = new ObjectMapper();
         HttpClient httpClient = HttpClientFactory.create();
         Properties malwareProperties = loadProperties(MALWARE_PROPERTIES);
+        Properties bpjmProperties = loadProperties(BPJM_PROPERTIES);
 
-        // MalwarePatrol is not included by default
-        BlacklistProvider malwarePatrolProvider;
+        // MalwarePatrol and BPjM are not included by default
+        BlacklistProvider malwarePatrolProvider, bpjmProvider;
         if (ProprietaryConfigurationLoader.addProprietaryConfiguration(malwareProperties)) {
             malwarePatrolProvider = new MalwarePatrolDomainProvider(new MalwarePatrolDownloader(httpClient, new MalwarePatrolSquidGuardParser(), malwareProperties));
         } else {
             malwarePatrolProvider = new EmptyListProvider();
+        }
+        if (ProprietaryConfigurationLoader.addProprietaryConfiguration(bpjmProperties)) {
+            bpjmProvider = new BpjmListProvider(bpjmProperties, new BpjmModulZipReader(), httpClient);
+        } else {
+            bpjmProvider = new EmptyListProvider();
         }
 
         Map<String, BlacklistProvider> blacklistProvidersByName = new HashMap<>();
@@ -95,7 +101,7 @@ public class ParentalControlFilterListCreator {
         blacklistProvidersByName.put("targz", new TarGzProvider(httpClient));
         blacklistProvidersByName.put("disconnect.me", new DisconnectMeProvider(httpClient));
         blacklistProvidersByName.put("localList", new LocalListProvider());
-        blacklistProvidersByName.put("bpjm", new BpjmListProvider(loadProperties(BPJM_PROPERTIES), new BpjmModulZipReader(), httpClient));
+        blacklistProvidersByName.put("bpjm", bpjmProvider);
         blacklistProvidersByName.put("malwarepatrol", malwarePatrolProvider);
         blacklistProvidersByName.put("phishtank", new PhishtankDomainProvider(new PhishtankDownloader(malwareProperties, objectMapper, httpClient)));
         blacklistProvidersByName.put("malwareFile", new MalwareFileDomainProvider(objectMapper));
