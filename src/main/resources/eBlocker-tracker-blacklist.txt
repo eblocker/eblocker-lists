@@ -1,3 +1,32 @@
 # eBlocker Connection Check
 .tracker.domainblockercheck.eblocker.org
 .tracker.domainblockercheck.eblocker.com
+# Trackers
+.a.adtng.com
+.redirect.prod.experiment.routing.cloudfront.aws.a2z.com
+.graph.facebook.com
+.click.alternate.de
+.flipboard.helpshift.com
+.adj.st
+.settings.crashlytics.com
+.xaapi.xamarin.com
+.improving.duckduckgo.com
+.sb-ssl.google.com
+.turn.teams.microsoft.com
+.ps.w.org
+.usebutton.com
+.ingest.sentry.io
+.control.kochava.com
+.braze.com
+.sotetahe.pro
+.metrics.icloud.com
+.xp.apple.com
+.collector-hpn.ghostery.net
+.tr.teams.microsoft.com
+.watson.telemetry.microsoft.com
+.data.microsoft.com
+.tda.link
+.firebase-settings.crashlytics.com
+.sessions.bugsnag.com
+.notify.bugsnag.com
+.ingest.sentry.com
