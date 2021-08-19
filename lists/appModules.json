@@ -2957,25 +2957,6 @@
         "enabledPerDefault": false
     },
     {
-        "name": "support.eblocker.com",
-        "description": {
-            "en": "Allows user to access eBlocker support page when HTTPS support is enabled, but certificate is not yet imported.",
-            "de": "Durch diesen Eintrag kann der Benutzer auf die eBlocker Hilfe-Seite zugreifen, wenn HTTPS-Unterstützung aktiviert ist, das Zertifikat aber noch nicht importiert wurde."
-        },
-        "whitelistedDomains": [
-            "support.eblocker.com",
-            "eblocker.zendesk.com",
-            "p14.zdassets.com",
-            "theme.zdassets.com",
-            "static.zdassets.com"
-        ],
-        "whitelistedIPs": [],
-        "id": 150,
-        "enabledPerDefault": true,
-        "builtin": true,
-        "hidden": true
-    },
-    {
         "name": "Lufthansa",
         "description": {
             "en": "App by Lufthansa Airline",
