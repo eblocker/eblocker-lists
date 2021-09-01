@@ -230,7 +230,13 @@
     },
     "whitelistedDomains": [
         "epicgames.com",
-        "unrealengine.com"
+        "unrealengine.com",
+        "api.epicgames.dev",
+        "connect.ol.epicgames.com",
+        "datarouter.ol.epicgames.com",
+        "merchantpool1.epicgames.com",
+        "store-launcher.epicgames.com",
+        "payment-website-pci.ol.epicgames.com"
     ],
     "id": 5014,
     "enabledPerDefault": false,
@@ -399,6 +405,20 @@
         "api.native-instruments.com"
     ],
     "id": 5026,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "Ledger",
+    "description": {
+      "en": "Ledger app to access the Ledger crypto hardware (#eBlocker Community)",
+      "de": "Ledger App für Zugriff auf Ledger Krypto Hardware  (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "cdn.live.ledger.com"
+    ],
+    "id": 5027,
     "enabledPerDefault": false,
     "hidden": false
   },
