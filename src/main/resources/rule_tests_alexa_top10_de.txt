@@ -1,4 +1,3 @@
-http://c2.taboola.com/nr/t-online/newsroom.js
 http://nr.taboola.com/newsroom/1.0/t-online/get-action?page.url=http%3A%2F%2Fwww.t-online.de%2F&view.id=162861182615638331&page.template=home&page.dashboard=home-desktop&ui=34caf0f6-8f91-4a64-b17b-d602cd075bda-tuct1215384
 http://p.t-online.de/iam_toi.js
 http://sportdaten.t-online.de/themes/tonline/views/css/styleresultboxhorizontal_complete.css
