@@ -19,6 +19,8 @@ package org.eblocker.lists.easylist;
 import org.eblocker.lists.tools.ResourceInputStream;
 import org.eblocker.lists.util.HttpClient;
 import org.eblocker.lists.util.HttpClientFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -33,6 +35,7 @@ import java.util.Date;
 import java.util.Properties;
 
 public class DownloadLists {
+	private static final Logger log = LoggerFactory.getLogger(DownloadLists.class);
 
 	public static void main(String[] args) throws Exception {
 		HttpClient httpClient = HttpClientFactory.create();
@@ -50,7 +53,9 @@ public class DownloadLists {
 			String url = list.getURL();
 			System.out.println("Downloading: " + url + " -> " + filename);
 			downloadList(httpClient, url, filename);
-			verifyListChecksum(filename);
+			if (list.hasChecksum()) {
+				verifyListChecksum(filename);
+			}
 			verifyListAge(filename);
 			MaxFilterSizeValidator.verifyFilterSize(list);
 			EasyListSyntaxValidator.verifyAndRepair(list);
@@ -65,13 +70,20 @@ public class DownloadLists {
 			throw new IOException("Could not validate checksum of " + filename + ". Expected result OK, but got: " + validationResult);
 		}
 	}
-	
+
 	private static void verifyListAge(String filename) throws IOException, ParseException {
 		MaxAgeValidator validator = new MaxAgeValidator();
 		FileInputStream input = new FileInputStream(filename);
-		if (validator.validate(input, new Date()) != MaxAgeValidationResult.OK) {
-			throw new RuntimeException("Could not validate age of " + filename);
-		}		
+		MaxAgeValidationResult result = validator.validate(input, new Date());
+		switch (result) {
+			case OK:
+				break;
+			case LAST_MODIFIED_MISSING:
+				log.warn("Last modified date missing: could not validate age of {}", filename);
+				break;
+			default:
+				throw new RuntimeException("Could not validate age of " + filename);
+		}
 	}
 
 	private static void downloadList(HttpClient client, String url, String filename) throws IOException {

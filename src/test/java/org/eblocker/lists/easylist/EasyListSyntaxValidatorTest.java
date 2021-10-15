@@ -42,7 +42,7 @@ public class EasyListSyntaxValidatorTest {
                 null,
                 Decision.NO_DECISION
         ));
-        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 100, easyListRuleTests);
+        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 100, true, easyListRuleTests);
         EasyListSyntaxValidator.verifyAndRepair(list);
     }
 
@@ -55,7 +55,7 @@ public class EasyListSyntaxValidatorTest {
                 null,
                 Decision.NO_DECISION
         ));
-        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 12000, easyListRuleTests);
+        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 12000, true, easyListRuleTests);
         EasyListSyntaxValidator.verifyAndRepair(list);
     }
 

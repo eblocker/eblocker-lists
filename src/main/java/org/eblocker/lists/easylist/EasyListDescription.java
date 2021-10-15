@@ -26,14 +26,16 @@ public class EasyListDescription {
 	private long minimumBytesJSON;
 	private int maxAgeDays;
 	private int maxFilterSize;
+	private boolean hasChecksum;
 	private Set<EasyListRuleTest> easyListRuleTests;
 
-	public EasyListDescription(String url, String filename, long minimumBytesJSON, int maxAgeDays, int maxFilterSize, Set<EasyListRuleTest> easyListRuleTests) {
+	public EasyListDescription(String url, String filename, long minimumBytesJSON, int maxAgeDays, int maxFilterSize, boolean hasChecksum, Set<EasyListRuleTest> easyListRuleTests) {
 		this.url = url;
 		this.filename = filename;
 		this.minimumBytesJSON = minimumBytesJSON;
 		this.maxAgeDays = maxAgeDays;
 		this.maxFilterSize = maxFilterSize;
+		this.hasChecksum = hasChecksum;
 		this.easyListRuleTests = easyListRuleTests == null ? Collections.emptySet() : easyListRuleTests;
 	}
 	
@@ -64,5 +66,9 @@ public class EasyListDescription {
 
 	public Set<EasyListRuleTest> getEasyListRuleTests() {
 		return easyListRuleTests;
+	}
+
+	public boolean hasChecksum() {
+		return hasChecksum;
 	}
 }
