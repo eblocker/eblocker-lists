@@ -424,6 +424,22 @@
   },
 
   {
+    "name": "Mega.nz",
+    "description": {
+      "en": "mega.nz is a common file transfer WEB service (#eBlocker Community)",
+      "de": "mega.nz ist ein beliebter WEB Dienst zum Austauschen von Dateien (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "mega.io",
+        "mega.nz",
+        "mega.co.nz"
+    ],
+    "id": 5028,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
     "name": "German Banks",
     "description": {
       "en": "German Banks",
