@@ -48,6 +48,8 @@ public class EasyListConfiguration {
 			String url = getListParameter(list, "url");
 			long minimumBytesJSON = Long.parseLong(getListParameter(list, "minimum_bytes_json"));
 			int maxAgeDays = Integer.parseInt(getListParameter(list, "max_age_days"));
+			String hasChecksumValue = getListParameter(list, "has_checksum");
+			boolean hasChecksum = hasChecksumValue == null ? true : Boolean.parseBoolean(hasChecksumValue);
 			Set<EasyListRuleTest> easyListRuleTests = new HashSet<>();
 			int i = 0;
 			while (true) {
@@ -57,7 +59,7 @@ public class EasyListConfiguration {
 				}
                 easyListRuleTests.addAll(new EasyListRuleTestResource(ruleTestResource).getRuleTests());
             }
-			lists.add(new EasyListDescription(url, filename, minimumBytesJSON, maxAgeDays, maxFilterSize, easyListRuleTests));
+			lists.add(new EasyListDescription(url, filename, minimumBytesJSON, maxAgeDays, maxFilterSize, hasChecksum, easyListRuleTests));
 			LOG.info("Loaded EasyListConfiguration {} with {} rule tests", list, easyListRuleTests.size());
 		}
 	}

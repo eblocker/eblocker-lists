@@ -133,6 +133,23 @@
                             </resources>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>copy-scriptlets</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/package/eblocker-lists/scriptlets</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>scriptlets</directory>
+                                    <filtering>false</filtering>
+                                    <include>**/*.js</include>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
@@ -266,6 +283,23 @@
                                         <argument>-DincludeProprietaryLists=${includeProprietaryLists}</argument>
                                         <argument>-DproprietaryProviderConfiguration=${proprietaryProviderConfiguration}</argument>
                                         <argument>org.eblocker.lists.bpjm.BpjmPatternFilterCreator</argument>
+                                    </arguments>
+                                    <classpathScope>compile</classpathScope>
+                                    <workingDirectory>${project.basedir}</workingDirectory>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>download-scriptlets</id>
+                                <phase>generate-test-resources</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>java</executable>
+                                    <arguments>
+                                        <argument>-classpath</argument>
+                                        <classpath/>
+                                        <argument>org.eblocker.lists.scriptlets.ScriptletsDownloader</argument>
                                     </arguments>
                                     <classpathScope>compile</classpathScope>
                                     <workingDirectory>${project.basedir}</workingDirectory>

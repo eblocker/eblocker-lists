@@ -32,13 +32,13 @@ public class MaxFilterSizeValidatorTest {
     public void testSizeExceeded() throws IOException {
         expectedEx.expect(IOException.class);
         expectedEx.expectMessage("Maximum filter sized exceeded (filter size 18 > max size 10)");
-        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 10, null);
+        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 10, true, null);
         MaxFilterSizeValidator.verifyFilterSize(list);
     }
 
     @Test
     public void testSizeOK() throws IOException {
-        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 100, null);
+        EasyListDescription list = new EasyListDescription("", EASYLIST_FILE, 0, 999, 100, true, null);
         MaxFilterSizeValidator.verifyFilterSize(list);
     }
 }
