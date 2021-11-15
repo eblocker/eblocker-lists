@@ -59,13 +59,26 @@ public class AppModulesTest {
     
     @Test
     public void testUniqueIDs() {
-        Set<Integer> ids = new HashSet<Integer>();
+        Set<Integer> ids = new HashSet<>();
         rootNode.forEach(node -> {
             JsonNode idNode = node.get("id");
             Assert.assertTrue(idNode.canConvertToInt());
             int id = idNode.intValue();
             Assert.assertFalse("ID " + id + " is not unique!", ids.contains(id));
             ids.add(id);
+        });
+    }
+
+    @Test
+    public void testUniqueNames() {
+        Set<String> names = new HashSet<>();
+        rootNode.forEach(node -> {
+            JsonNode nameNode = node.get("name");
+            String name = nameNode.asText();
+            if (! name.equals("leer")) {
+                Assert.assertFalse("Name '" + name + "' is not unique!", names.contains(name));
+            }
+            names.add(name);
         });
     }
 
