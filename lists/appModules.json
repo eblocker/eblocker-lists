@@ -438,7 +438,6 @@
     "enabledPerDefault": false,
     "hidden": false
   },
-
   {
     "name": "German Banks",
     "description": {
@@ -3264,18 +3263,28 @@
       "hidden": false
     },
     {
-      "name": "Discord",
+      "name": "leer",
       "description": {
-        "de": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen",
-        "en": "Discord is a proprietary freeware instant messaging and VoIP application and digital distribution platform"
+        "de": "",
+        "en": ""
       },
-      "whitelistedDomains": [
-        "discordapp.com",
-        "discord.gg",
-        "discord.media"
-      ],
+      "whitelistedDomains": [],
       "id": 169,
       "enabledPerDefault": false,
-      "hidden": false
+      "hidden": true
+    },
+    {
+        "name": "Corona-Warn-App",
+        "description": {
+            "en": "The Corona-Warn-App helps track and disrupt SARS-CoV-2 infection chains.",
+            "de": "Die Corona-Warn-App hilft, Infektionsketten des SARS-CoV-2 nachzuverfolgen und zu unterbrechen."
+        },
+        "whitelistedDomains": [
+            "svc90.main.px.t-online.de",
+            "verification.coronawarn.app"
+        ],
+        "id": 170,
+        "enabledPerDefault": true,
+        "hidden": false
     }
 ]
