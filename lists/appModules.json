@@ -829,15 +829,10 @@
       "google.co.in",
       "googleapis.com",
       "googlemaps.com",
-      "googlevideo.com",
       "googleusercontent.com",
       "gvt1.com",
       "gvt2.com",
-      "gvt3.com",
-      "youtube.de",
-      "youtube.com",
-      "ytimg.com",
-      "youtubegaming.com"
+      "gvt3.com"
     ],
     "whitelistedIPs": [],
     "id": 8,
@@ -3285,6 +3280,24 @@
         ],
         "id": 170,
         "enabledPerDefault": true,
+        "hidden": false
+    },
+    {
+        "name": "YouTube",
+        "description": {
+            "en": "Video sharing platform owned by Google",
+            "de": "Videoplattform von Google"
+        },
+        "whitelistedDomains": [
+            "googlevideo.com",
+            "googleusercontent.com",
+            "youtube.de",
+            "youtube.com",
+            "ytimg.com",
+            "youtubegaming.com"
+        ],
+        "id": 171,
+        "enabledPerDefault": false,
         "hidden": false
     }
 ]
