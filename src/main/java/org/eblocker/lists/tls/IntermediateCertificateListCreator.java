@@ -57,7 +57,7 @@ public class IntermediateCertificateListCreator {
             properties.load(ClassLoader.getSystemResourceAsStream("tls.properties"));
             String url = properties.getProperty("intermediateCertificates.url");
             String outputFile = properties.getProperty("intermediateCertificates.outputFile");
-            int countMinimum = Integer.valueOf(properties.getProperty("intermediateCertificates.count.minium"));
+            int countMinimum = Integer.valueOf(properties.getProperty("intermediateCertificates.count.minimum"));
             int countMaximum = Integer.valueOf(properties.getProperty("intermediateCertificates.count.maximum"));
             HttpClient httpClient = HttpClientFactory.create();
             new IntermediateCertificateListCreator(url, outputFile, countMinimum, countMaximum, httpClient).run();
