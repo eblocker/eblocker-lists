@@ -438,6 +438,28 @@
     "enabledPerDefault": false,
     "hidden": false
   },
+
+  {
+    "name": "blick.ch",
+    "description": {
+      "en": "blick.ch is a common switzerland newspaper (#eBlocker Community)",
+      "de": "blick.ch ist die bekannte Schweizer Zeitschrift (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "api.blick.ch",
+        "auth.ws.blick.ch",
+        "bcboltringier.akamaized.net",
+        "bcovlive-a.akamaihd.net",
+        "event-service.gotthard.apgsga.ch",
+        "events.ocdn.eu",
+        "ocdn.eu",
+        "www.blick.ch"
+    ],
+    "id": 5029,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
   {
     "name": "German Banks",
     "description": {
