@@ -56,6 +56,13 @@ public class EasyListSyntaxValidator {
             String line;
 
             while ((line = reader.readLine()) != null) {
+                // Hotfix for global $ping rule matching all URLs
+                if (line.equals("$ping")) {
+                    LOG.info("Removing global '$ping' rule");
+                    appliedFix = true;
+                    continue;
+                }
+
                 // Parse rule to identify rules we are interested in. E.g. we skip CSS hiding rules.
                 if (line.startsWith("!") || new EasyListLineParser().parseLine(line) == null) {
                     writer.write(line);
