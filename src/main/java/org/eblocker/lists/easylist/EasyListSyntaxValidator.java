@@ -57,8 +57,8 @@ public class EasyListSyntaxValidator {
 
             while ((line = reader.readLine()) != null) {
                 // Hotfix for global $ping rule matching all URLs
-                if (line.equals("$ping")) {
-                    LOG.info("Removing global '$ping' rule");
+                if (line.startsWith("$ping")) {
+                    LOG.info("Removing global '$ping' rule: [{}]", line);
                     appliedFix = true;
                     continue;
                 }
