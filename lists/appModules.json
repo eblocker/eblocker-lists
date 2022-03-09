@@ -216,7 +216,8 @@
         "discord.gg",
         "discord.net",
         "discordapp.com",
-        "media.discordapp.net"
+        "discordapp.net",
+        "discord.media"
     ],
     "id": 5013,
     "enabledPerDefault": false,
@@ -461,6 +462,81 @@
   },
 
   {
+    "name": "Matrix",
+    "description": {
+      "en": "Matrix is a chat program (#eBlocker Community)",
+      "de": "Matrix ist ein Chat-Programm (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "synod.im",
+        "web.synod.im"
+    ],
+    "id": 5030,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "Jitsi Freifunk München",
+    "description": {
+      "en": "very popular Jitsi server system (#eBlocker Community)",
+      "de": "Sehr beliebte Server-Farm für Jitsi (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "meet.ffmuc.net"
+    ],
+    "id": 5031,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "BigBlueButton",
+    "description": {
+      "en": "Open source conferencing system (#eBlocker Community)",
+      "de": "Open Source KOnferenzsystem (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "conf.ccc-ffm.de",
+        "meeting4.franken.de/b",
+        "serv009.bbb.zih.tu-dresden.de",
+        "bbb.cyber4edu.org/b"
+    ],
+    "id": 5032,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
+    "name": "BigBlueButton",
+    "description": {
+      "en": "Manjaro packet sources + AUR packet sources: (#eBlocker Community)",
+      "de": "Manjaro Paket Quellen + AUR Paket Quellen (#eBlocker Community)"
+    },
+    "whitelistedDomains": [
+        "aur.archlinux.org",
+        "download.eclipse.org",
+        "registry.npmjs.org",
+        "registry.yarnpkg.com",
+        "repo.manjaro.org",
+        "ftp.gwdg.de",
+        "ftp.halifax.rwth-aachen.de",
+        "ftp.desolve.ru",
+        "buchen.github.io",
+        "manjaro.moson.eu",
+        "manjaro.moson.org",
+        "mirror.23m.com",
+        "mirror.alpix.eu",
+        "mirror.moson.org",
+        "mirror.netcologne.de",
+        "repo.maven.apache.org"
+    ],
+    "id": 5033,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+
+  {
     "name": "German Banks",
     "description": {
       "en": "German Banks",
@@ -664,6 +740,7 @@
       "deutsche-bank.de": "Deutsche Bank",
       "comdirect.de": "Comdirect",
       "fiducia.de": "Fiducia & GAD IT AG",
+      "Atruvia.de": "ehemals Fiducia / GAD",
       "gad.de": "Fiducia & GAD IT AG",
       "sparda.de": "Sparda-Bank",
       "sparda-bw.de": "Sparda-Bank",
@@ -1027,6 +1104,8 @@
       "amazonvideo.com",
       "ssl-images-amazon.com",
       "media-amazon.com",
+      "addons.mozilla.org",
+      "addons.cdn.mozilla.net",
       "amazonpay.com"
     ],
     "whitelistedIPs": [
