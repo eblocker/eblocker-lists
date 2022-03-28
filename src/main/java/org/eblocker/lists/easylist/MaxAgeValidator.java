@@ -37,7 +37,8 @@ public class MaxAgeValidator {
 	private final Pattern expiresPattern = Pattern.compile("! Expires: (\\d+) (days|hours).*");
 	private final List<DateFormat> dateFormats = List.of(
 		new SimpleDateFormat("dd MMM yyyy HH:mm z", Locale.US),
-		new SimpleDateFormat("yyyy-MM-dd HH:mm z", Locale.US)
+		new SimpleDateFormat("yyyy-MM-dd HH:mm z", Locale.US),
+		new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss z", Locale.US)
 	);
 	 
 	/**
