@@ -19,11 +19,13 @@ package org.eblocker.lists.easylist;
 import static org.junit.Assert.assertEquals;
 
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import org.apache.commons.io.IOUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
@@ -66,6 +68,20 @@ public class MaxAgeValidatorTest {
 		Date now = getDate("17 Mar 2021 9:40 UTC");
 		InputStream input = easyListUpdated.getInputStream();
 		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
+	}
+
+	@Test
+	public void testDateWithDayOfWeek() throws Exception {
+		String list = "! Expires: 4 days\n" +
+			"! Last modified: Mon, 28 Mar 2022 12:00:08 +0000\n";
+
+		InputStream input = IOUtils.toInputStream(list, StandardCharsets.UTF_8);
+		Date now = getDate("31 Mar 2022 16:35 UTC");
+		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
+
+		input = IOUtils.toInputStream(list, StandardCharsets.UTF_8);
+		now = getDate("1 Apr 2022 16:35 UTC");
+		assertEquals(MaxAgeValidationResult.EXPIRED, validator.validate(input, now));
 	}
 
 	private Date getDate(String date) throws ParseException {
