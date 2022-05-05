@@ -20,7 +20,6 @@ import org.eblocker.server.common.transaction.Decision;
 import org.eblocker.server.common.transaction.TransactionContext;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -38,7 +37,7 @@ public class EasyListRuleTest implements TransactionContext {
         this.url = url;
         this.referrer = referrer;
         this.accept = accept;
-        this.allowedDecisions = Collections.singleton(decision);
+        this.allowedDecisions = Set.of(decision);
     }
 
     public EasyListRuleTest(String property) {
@@ -46,7 +45,7 @@ public class EasyListRuleTest implements TransactionContext {
         this.url = fields[0];
         this.referrer = fields.length > 1 ? (fields[1].equals("null") ? null : fields[1]) : null;
         this.accept   = fields.length > 2 ? (fields[2].equals("null") ? null : fields[2]) : null;
-        this.allowedDecisions = fields.length > 3 ? parseDecisions(fields[3]) : Collections.singleton(Decision.NO_DECISION);
+        this.allowedDecisions = fields.length > 3 ? parseDecisions(fields[3]) : Set.of(Decision.NO_DECISION, Decision.PASS);
     }
 
     /**
