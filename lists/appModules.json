@@ -3378,7 +3378,7 @@
         },
         "whitelistedDomains": [
             "svc90.main.px.t-online.de",
-            "verification.coronawarn.app"
+            "coronawarn.app"
         ],
         "id": 170,
         "enabledPerDefault": true,
