@@ -1,0 +1,64 @@
+#!/usr/bin/env python3
+#
+# Converts a text file containing app modules to JSON
+#
+# The text has the format:
+#
+# Name: app A
+#
+# Description:
+# de: ...
+# en: ...
+#
+# Domains:
+# ...
+# 
+# Name: app B
+# ...
+#
+
+import sys
+import re
+import json
+
+if len(sys.argv) != 2:
+    sys.exit(f'Usage: {sys.argv[0]} <text file>')
+
+infile = sys.argv[1]
+
+pattern = re.compile(r'Name: (.*)\n\nDescription:\nde: (.*)\nen: (.*)\n\nDomains:\n((.+\n)+)')
+pattern_ip = re.compile('^[0-9./]+$')
+
+# Split lines into domains and IPs:
+def split_domains(str):
+    domains = []
+    ips = []
+    for s in str.strip().split('\n'):
+        if pattern_ip.match(s):
+            ips.append(s)
+        else:
+            domains.append(s)
+    return domains, ips
+
+def create_app(name, de, en, domains):
+    if de == 'undefined': de = ''
+    if en == 'undefined': en = ''
+
+    domains, ips = split_domains(domains)
+
+    return {'name': name,
+            'description': {'de': de, 'en': en},
+            'whitelistedDomains': domains,
+            'whitelistedIPs': ips,
+            'id': 0,
+            'enabledPerDefault': False,
+            'hidden': False
+           }
+
+apps = []
+with open(infile) as f:
+    txt = f.read()
+    for match in pattern.finditer(txt):
+        apps.append(create_app(match.group(1), match.group(2), match.group(3), match.group(4)))
+
+print(json.dumps(apps, ensure_ascii=False, indent=4))
