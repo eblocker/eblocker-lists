@@ -1630,8 +1630,8 @@
   {
     "name": "Parallels",
     "description": {
-      "en": "Software providing hardware virtualization for Mac OS X",
-      "de": "Virtualisierungssoftware für Mac OS X"
+      "en": "Software providing hardware virtualization for macOS",
+      "de": "Virtualisierungssoftware für macOS"
     },
     "whitelistedDomains": [
       "adobesc.com",
