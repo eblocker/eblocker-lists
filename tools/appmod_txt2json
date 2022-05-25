@@ -21,10 +21,11 @@ import sys
 import re
 import json
 
-if len(sys.argv) != 2:
-    sys.exit(f'Usage: {sys.argv[0]} <text file>')
+if len(sys.argv) != 3:
+    sys.exit(f'Usage: {sys.argv[0]} <text file> <start ID>')
 
 infile = sys.argv[1]
+app_id = int(sys.argv[2])
 
 pattern = re.compile(r'Name: (.*)\n\nDescription:\nde: (.*)\nen: (.*)\n\nDomains:\n((.+\n)+)')
 pattern_ip = re.compile('^[0-9./]+$')
@@ -40,7 +41,7 @@ def split_domains(str):
             domains.append(s)
     return domains, ips
 
-def create_app(name, de, en, domains):
+def create_app(app_id, name, de, en, domains):
     if de == 'undefined': de = ''
     if en == 'undefined': en = ''
 
@@ -50,7 +51,7 @@ def create_app(name, de, en, domains):
             'description': {'de': de, 'en': en},
             'whitelistedDomains': domains,
             'whitelistedIPs': ips,
-            'id': 0,
+            'id': app_id,
             'enabledPerDefault': False,
             'hidden': False
            }
@@ -59,6 +60,7 @@ apps = []
 with open(infile) as f:
     txt = f.read()
     for match in pattern.finditer(txt):
-        apps.append(create_app(match.group(1), match.group(2), match.group(3), match.group(4)))
+        apps.append(create_app(app_id, match.group(1), match.group(2), match.group(3), match.group(4)))
+        app_id += 1
 
 print(json.dumps(apps, ensure_ascii=False, indent=4))
