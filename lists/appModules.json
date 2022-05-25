@@ -2428,7 +2428,7 @@
     "name": "RoboForm",
     "description": {
       "en": "A password manager for macOS, iOS, Windows and Android",
-      "de": "A Passwort Manager für macOS, iOS, Windows and Android"
+      "de": "Ein Passwort-Manager für macOS, iOS, Windows and Android"
     },
     "whitelistedDomains": [
       "roboform.com"
@@ -3161,7 +3161,7 @@
       "name": "Binary Repos",
       "description": {
         "en": "Binary repositories for software development",
-        "de": "BinÃ¤r-Repositories für die Software-Entwicklung"
+        "de": "Binär-Repositories für die Software-Entwicklung"
       },
       "whitelistedDomains": [
         "repo.maven.apache.org",
@@ -3217,7 +3217,7 @@
     {
       "name": "Wikimedia",
       "description": {
-        "de": "Die Wikimedia Foundation, Inc. ist eine gemeinnützige Gesellschaft nach US-amerikanischem Recht, die freies Wissen und freie Inhalte fÃ¶rdert.",
+        "de": "Die Wikimedia Foundation, Inc. ist eine gemeinnützige Gesellschaft nach US-amerikanischem Recht, die freies Wissen und freie Inhalte fördert.",
         "en": "The Wikimedia Foundation, Inc. is an American non-profit and charitable organization headquartered in San Francisco, California."
       },
       "whitelistedDomains": [
@@ -3244,7 +3244,7 @@
       "name": "Relive",
       "description": {
         "en": "Relive is an app for creating videos from GPS data of sportive activities",
-        "de": "Relive ist eine App um Videos basierend auf GPS-Daten von sportlichen AktivitÃ¤ten zu erstellen."
+        "de": "Relive ist eine App um Videos basierend auf GPS-Daten von sportlichen Aktivitäten zu erstellen."
       },
       "whitelistedDomains": [
         "mobile.api.relive.cc"
@@ -3269,7 +3269,7 @@
     {
       "name": "Sony Playstation",
       "description": {
-        "de": "Die PlayStation ist eine stationÃ¤re Spielkonsole des japanischen Unternehmens Sony",
+        "de": "Die PlayStation ist eine stationäre Spielkonsole des japanischen Unternehmens Sony",
         "en": "The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment."
       },
       "whitelistedDomains": [
@@ -3285,7 +3285,7 @@
       "name": "Little Snitch",
       "description": {
         "en": "Little Snitch is a host-based application firewall for macOS",
-        "de": "Little Snitch ist eine proprietÃ¤re Personal Firewall für macOS."
+        "de": "Little Snitch ist eine proprietäre Personal Firewall für macOS."
       },
       "whitelistedDomains": [
         "obdev.at"
