@@ -51,7 +51,7 @@ public class DownloadLists {
 		for (EasyListDescription list : configuration.getLists()) {
 			String filename = list.getFilename();
 			String url = list.getURL();
-			System.out.println("Downloading: " + url + " -> " + filename);
+			log.info("Downloading: {} -> {}", url, filename);
 			downloadList(httpClient, url, filename);
 			if (list.hasChecksum()) {
 				verifyListChecksum(filename);

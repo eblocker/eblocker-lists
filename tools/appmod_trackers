@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+#
+# Finds trackers in whitelisted domains of app modules.
+#
+# Requires https://github.com/duckduckgo/tracker-radar.git checked out next to eblocker-lists
+#
+# Configuration:
+#
+# DuckDuckGo categories to ignore, see also: https://github.com/duckduckgo/tracker-radar/blob/main/docs/CATEGORIES.md 
+ignored_categories = set(['CDN', 'Non-Tracking', 'Embedded Content', 'Online Payment'])
+
+import sys
+import re
+import json
+from pathlib import Path
+
+toolsdir = Path(sys.argv[0]).parent
+parentdir = toolsdir.joinpath('..', '..').resolve()
+domainsdir = parentdir.joinpath('tracker-radar', 'domains')
+
+if not domainsdir.exists():
+    sys.exit(f'DuckDuckGo Tracker Radar not found. Please clone it:\n\n    cd {parentdir}\n    git clone https://github.com/duckduckgo/tracker-radar.git\n')
+
+if len(sys.argv) != 2:
+    sys.exit(f'Usage: {sys.argv[0]} <app modules JSON file>')
+
+app_modules = sys.argv[1]
+
+# Returns a domain and all its parent domains, e.g.
+# 'foo.bar.baz' => ['foo.bar.baz', 'bar.baz']
+def domain_and_parents(domain):
+    parts = domain.split('.')
+    if len(parts) <= 2:
+        return [domain]
+    return ['.'.join(parts[idx:]) for idx in range(-len(parts), -1)]
+
+# Collect a set of categories from a list of DDG domain files:
+def collect_categories(ddg_domainfiles):
+    categories = set()
+    for domainfile in ddg_domainfiles:
+        with open(domainfile) as f:
+            data = json.load(f)
+            categories.update(data['categories'])
+    for category in ignored_categories:
+        categories.discard(category)
+    return categories
+
+# Find all domains of an app (including parent domains) that are listed by DDG:
+def find_listed_domains(app, ddg_domains):
+    result = set()
+    for wl_domain in app['whitelistedDomains']:
+        for domain in domain_and_parents(wl_domain):
+            if domain in ddg_domains:
+                result.add(domain)
+    return result
+
+# Check an app for domains that have tracking-related categories in DDG:
+def check_app(app, ddg_domains):
+    domains_found = find_listed_domains(app, ddg_domains)
+    if len(domains_found) > 0:
+        categories_found = dict()
+        for domain in domains_found:
+            categories = collect_categories(ddg_domains[domain])
+            if len(categories) > 0:
+                categories_found[domain] = categories
+        if len(categories_found) > 0:
+            app_name = app['name']
+            app_id   = app['id']
+            print(f'\n{app_name} [{app_id}]:')
+            for domain, categories in categories_found.items():
+                print(f'    {domain:24}', ', '.join(categories))
+
+# Create a map of all DDG domains:
+# domain => DDG JSON file
+def find_ddg_domains(basedir):
+    result = dict()
+    for jsonfile in basedir.glob('*/*.json'):
+        domain = jsonfile.stem
+        if domain not in result:
+            result[domain] = []
+        result[domain].append(jsonfile)
+    return result
+
+ddg_domains = find_ddg_domains(domainsdir)
+
+with open(app_modules) as f:
+    apps = json.load(f)
+    for app in apps:
+        check_app(app, ddg_domains)
