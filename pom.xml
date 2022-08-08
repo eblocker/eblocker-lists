@@ -328,6 +328,49 @@
             </build>
         </profile>
         <profile>
+            <!--
+                 Run the following to update the lists lazily:
+                 mvn -P lazy-update-lists clean test
+            -->
+            <id>lazy-update-lists</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.5.0</version>
+                        <executions>
+                            <execution>
+                                <id>lazy-update-lists</id>
+                                <phase>generate-test-resources</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>java</executable>
+                                    <arguments>
+                                        <argument>-classpath</argument>
+                                        <classpath/>
+                                        <argument>-DincludeProprietaryLists=${includeProprietaryLists}</argument>
+                                        <argument>-DproprietaryProviderConfiguration=${proprietaryProviderConfiguration}</argument>
+                                        <argument>org.eblocker.lists.tools.LazyMainRunner</argument>
+                                        <argument>org.eblocker.lists.easylist.DownloadLists</argument>
+                                        <argument>org.eblocker.lists.parentalcontrol.ParentalControlFilterListCreator</argument>
+                                        <argument>org.eblocker.lists.malware.MalwareListCreator</argument>
+                                        <argument>org.eblocker.lists.bpjm.BpjmPatternFilterCreator</argument>
+                                        <argument>org.eblocker.lists.scriptlets.ScriptletsDownloader</argument>
+                                        <argument>org.eblocker.lists.tls.IntermediateCertificateListCreator</argument>
+                                    </arguments>
+                                    <classpathScope>compile</classpathScope>
+                                    <workingDirectory>${project.basedir}</workingDirectory>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
             <id>check-lists</id>
             <build>
                 <plugins>
