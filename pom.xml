@@ -354,9 +354,9 @@
                                         <argument>-DincludeProprietaryLists=${includeProprietaryLists}</argument>
                                         <argument>-DproprietaryProviderConfiguration=${proprietaryProviderConfiguration}</argument>
                                         <argument>org.eblocker.lists.tools.LazyMainRunner</argument>
+                                        <argument>org.eblocker.lists.malware.MalwareListCreator</argument>
                                         <argument>org.eblocker.lists.easylist.DownloadLists</argument>
                                         <argument>org.eblocker.lists.parentalcontrol.ParentalControlFilterListCreator</argument>
-                                        <argument>org.eblocker.lists.malware.MalwareListCreator</argument>
                                         <argument>org.eblocker.lists.bpjm.BpjmPatternFilterCreator</argument>
                                         <argument>org.eblocker.lists.scriptlets.ScriptletsDownloader</argument>
                                         <argument>org.eblocker.lists.tls.IntermediateCertificateListCreator</argument>
