@@ -1,6 +1,7 @@
 # eBlocker Connection Check
 .tracker.domainblockercheck.eblocker.org
 .tracker.domainblockercheck.eblocker.com
+.ipv6.domainblockercheck.eblocker.org
 # Trackers
 .2cnt.net
 .a.adtng.com
