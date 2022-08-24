@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ISO8601} [%-5p] %c [%t] - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="warn">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+        <Logger name="org.eblocker.lists.appwhitelist.AppWhitelistCheck" level="info" />
+    </Loggers>
+</Configuration>
