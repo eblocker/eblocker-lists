@@ -2,6 +2,8 @@
 #
 # Converts a text file containing app modules to JSON
 #
+# The text file must be UTF-8 encoded.
+#
 # The text has the format:
 #
 # Name: app A
@@ -16,7 +18,6 @@
 # Name: app B
 # ...
 #
-
 import sys
 import re
 import json
@@ -35,6 +36,7 @@ def split_domains(str):
     domains = []
     ips = []
     for s in str.strip().split('\n'):
+        s = s.strip()
         if pattern_ip.match(s):
             ips.append(s)
         else:
@@ -47,6 +49,10 @@ def create_app(app_id, name, de, en, domains):
 
     domains, ips = split_domains(domains)
 
+    name = name.strip()
+    de = de.strip()
+    en = en.strip()
+
     return {'name': name,
             'description': {'de': de, 'en': en},
             'whitelistedDomains': domains,
@@ -57,7 +63,7 @@ def create_app(app_id, name, de, en, domains):
            }
 
 apps = []
-with open(infile) as f:
+with open(infile, encoding='utf-8') as f:
     txt = f.read()
     for match in pattern.finditer(txt):
         apps.append(create_app(app_id, match.group(1), match.group(2), match.group(3), match.group(4)))
