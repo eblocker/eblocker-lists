@@ -535,6 +535,105 @@
     "enabledPerDefault": false,
     "hidden": false
   },
+  {
+      "name": "Ring",
+      "description": {
+          "de": "undefined  (#eBlocker community)",
+          "en": "undefined  (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "neighbors-api.ring.com ",
+          "api.ring.com ",
+          "eventstream.ring.com ",
+          "billing.ring.com ",
+          "mobile-config.ring.com ",
+          "oauth.ring.com ",
+          "es.ring.com ",
+          "nh-mobile-config.ring.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5034,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "nuki",
+      "description": {
+          "de": "undefined  (#eBlocker community)",
+          "en": "undefined  (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "sse9.nuki.io ",
+          "sse6.nuki.io ",
+          "sse8.nuki.io ",
+          "sse7.nuki.io ",
+          "sse2.nuki.io ",
+          "sse4.nuki.io ",
+          "sse5.nuki.io ",
+          "sse3.nuki.io ",
+          "*.nuki.io"
+      ],
+      "whitelistedIPs": [],
+      "id": 5035,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Waipu TV",
+      "description": {
+          "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "*.waipu.tv"
+      ],
+      "whitelistedIPs": [],
+      "id": 5036,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Podimo Hörbücher und Podcasts",
+      "description": {
+          "de": "Podimo Hörbücher und Podcasts (#eBlocker community)",
+          "en": "Podimo Hörbücher und Podcasts (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "podimo.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5037,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "OpenstreetMap App",
+      "description": {
+          "de": "Open Streetmap.org App (#eBlocker community)",
+          "en": "Open Streetmap.org App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "openstreetmap.org"
+      ],
+      "whitelistedIPs": [],
+      "id": 5038,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "pCloud",
+      "description": {
+          "de": "pCloud Service (#eBlocker community)",
+          "en": "pCloud service (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "pcloud.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5039,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
 
   {
     "name": "German Banks",
@@ -634,6 +733,7 @@
       "deutsche-bank.de",
       "fints.comdirect.de",
       "fiducia.de",
+      "vr-bankingapp.de",
       "gad.de",
       "sparda.de",
       "sparda-bw.de",
