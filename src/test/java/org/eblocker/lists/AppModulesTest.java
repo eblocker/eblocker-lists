@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -31,6 +32,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.JsonNodeType;
 
 public class AppModulesTest {
+    private static final Pattern DOMAIN = Pattern.compile("([a-z0-9\\-]+\\.)+[a-z0-9\\-]+");
+
     JsonNode rootNode;
     
     @Before
@@ -79,6 +82,17 @@ public class AppModulesTest {
                 Assert.assertFalse("Name '" + name + "' is not unique!", names.contains(name));
             }
             names.add(name);
+        });
+    }
+
+    @Test
+    public void testWhitelistedDomains() {
+        rootNode.forEach(node -> {
+            JsonNode domains = node.get("whitelistedDomains");
+            domains.forEach(domainNode -> {
+                String domain = domainNode.asText();
+                Assert.assertTrue("Invalid domain: '" + domain + "'", DOMAIN.matcher(domain).matches());
+            });
         });
     }
 

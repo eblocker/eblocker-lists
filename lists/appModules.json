@@ -498,9 +498,9 @@
     },
     "whitelistedDomains": [
         "conf.ccc-ffm.de",
-        "meeting4.franken.de/b",
+        "meeting4.franken.de",
         "serv009.bbb.zih.tu-dresden.de",
-        "bbb.cyber4edu.org/b"
+        "bbb.cyber4edu.org"
     ],
     "id": 5032,
     "enabledPerDefault": false,
@@ -538,17 +538,17 @@
   {
       "name": "Ring",
       "description": {
-          "de": "undefined  (#eBlocker community)",
-          "en": "undefined  (#eBlocker community)"
+          "de": "Ring Smart-Home (#eBlocker community)",
+          "en": "Ring smart home (#eBlocker community)"
       },
       "whitelistedDomains": [
-          "neighbors-api.ring.com ",
-          "api.ring.com ",
-          "eventstream.ring.com ",
-          "billing.ring.com ",
-          "mobile-config.ring.com ",
-          "oauth.ring.com ",
-          "es.ring.com ",
+          "neighbors-api.ring.com",
+          "api.ring.com",
+          "eventstream.ring.com",
+          "billing.ring.com",
+          "mobile-config.ring.com",
+          "oauth.ring.com",
+          "es.ring.com",
           "nh-mobile-config.ring.com"
       ],
       "whitelistedIPs": [],
@@ -557,21 +557,13 @@
       "hidden": false
   },
   {
-      "name": "nuki",
+      "name": "Nuki",
       "description": {
-          "de": "undefined  (#eBlocker community)",
-          "en": "undefined  (#eBlocker community)"
+          "de": "Nuki Smart-Home (#eBlocker community)",
+          "en": "Nuki smart home (#eBlocker community)"
       },
       "whitelistedDomains": [
-          "sse9.nuki.io ",
-          "sse6.nuki.io ",
-          "sse8.nuki.io ",
-          "sse7.nuki.io ",
-          "sse2.nuki.io ",
-          "sse4.nuki.io ",
-          "sse5.nuki.io ",
-          "sse3.nuki.io ",
-          "*.nuki.io"
+          "nuki.io"
       ],
       "whitelistedIPs": [],
       "id": 5035,
@@ -581,11 +573,11 @@
   {
       "name": "Waipu TV",
       "description": {
-          "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
-          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+          "de": "Waipu TV Streaming (#eBlocker community)",
+          "en": "Waipu TV streaming (#eBlocker community)"
       },
       "whitelistedDomains": [
-          "*.waipu.tv"
+          "waipu.tv"
       ],
       "whitelistedIPs": [],
       "id": 5036,
@@ -596,7 +588,7 @@
       "name": "Podimo Hörbücher und Podcasts",
       "description": {
           "de": "Podimo Hörbücher und Podcasts (#eBlocker community)",
-          "en": "Podimo Hörbücher und Podcasts (#eBlocker community)"
+          "en": "Podimo audio books and podcasts (#eBlocker community)"
       },
       "whitelistedDomains": [
           "podimo.com"
@@ -2068,7 +2060,7 @@
     "whitelistedDomains": [
       "slack.com",
       "slack-msgs.com",
-      "slack-files.com ",
+      "slack-files.com",
       "slack-imgs.com",
       "slack-edge.com",
       "slack-core.com",
@@ -3266,12 +3258,12 @@
       "whitelistedDomains": [
         "repo.maven.apache.org",
         "oss.sonatype.org",
-        "jcenter.bintray.com.",
+        "jcenter.bintray.com",
         "repository.jboss.org",
         "repo.clojars.org",
         "packages.atlassian.com",
         "maven.oracle.com",
-        "maven.google.com ",
+        "maven.google.com",
         "maven-central.storage-download.googleapis.com",
         "maven-central-eu.storage-download.googleapis.com",
         "maven-central-asia.storage-download.googleapis.com",
