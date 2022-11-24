@@ -626,6 +626,152 @@
       "enabledPerDefault": false,
       "hidden": false
   },
+  {
+      "name": "Jitsi Meet",
+      "description": {
+          "de": "Homeschooling (Videokonferenz) (#eBlocker community)",
+          "en": "Homeschooling (Videokonferenz) (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "meet.jit.si",
+          "jitsi.net"
+      ],
+      "whitelistedIPs": [],
+      "id": 5040,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Gardena",
+      "description": {
+          "de": "undefined  (#eBlocker community)",
+          "en": "undefined  (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "bff-api.sg.dss.husqvarnagroup.net ",
+          "rt-api.sg.dss.husqvarnagroup.net ",
+          "app-web-assets.sg.dss.husqvarnagroup.net"
+      ],
+      "whitelistedIPs": [],
+      "id": 5041,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Steuertipps Online Update",
+      "description": {
+          "de": "Updater von Steuertipps von Akademische Arbeitsgemeinschaft (#eBlocker community)",
+          "en": "Updater von Steuertipps von Akademische Arbeitsgemeinschaft (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "support.steuertipps.de",
+          "www.akademische.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5042,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Deutsche Post Shop",
+      "description": {
+          "de": "Deutsche Post Shop (#eBlocker community)",
+          "en": "Deutsche Post Shop (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "shop.deutschepost.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5043,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Easee Wallbox",
+      "description": {
+          "de": "EASEE Wallbox App  (#eBlocker community)",
+          "en": "EASEE Wallbox App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.easee.cloud"
+      ],
+      "whitelistedIPs": [],
+      "id": 5044,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Ernstings Family App",
+      "description": {
+          "de": "Ernstings Family App  (#eBlocker community)",
+          "en": "Ernstings Family App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "www.ernstings-family.de",
+          "images.ernstings-family.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5045,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Galaxus OnlineShop",
+      "description": {
+          "de": "Galaxus OnlineShop App  (#eBlocker community)",
+          "en": "Galaxus OnlineShop App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "galaxus.de",
+          "id.galaxus.eu"
+      ],
+      "whitelistedIPs": [],
+      "id": 5046,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Shell ReCharge App",
+      "description": {
+          "de": "Shell ReCharge e-Tanken App  (#eBlocker community)",
+          "en": "Shell ReCharge App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.thenewmotion.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5047,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "SOMFY Tahoma",
+      "description": {
+          "de": "SOMFY Tahoma (Smart Home Steuerung) (#eBlocker community)",
+          "en": "SOMFY Tahoma (Smart Home Steuerung) (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "accounts.somfy.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5048,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Scalable Capital Broker",
+      "description": {
+          "de": "Scalable Capital Broker - Aktien- und ETF-Sparpläne (#eBlocker community)",
+          "en": "Scalable Capital Broker - Stock and ETF Savings Plans (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "scalable.capital"
+      ],
+      "whitelistedIPs": [],
+      "id": 5049,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
 
   {
     "name": "German Banks",
