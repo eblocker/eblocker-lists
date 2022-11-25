@@ -644,12 +644,12 @@
   {
       "name": "Gardena",
       "description": {
-          "de": "undefined  (#eBlocker community)",
-          "en": "undefined  (#eBlocker community)"
+          "de": "Gardena (#eBlocker community)",
+          "en": "Gardena (#eBlocker community)"
       },
       "whitelistedDomains": [
-          "bff-api.sg.dss.husqvarnagroup.net ",
-          "rt-api.sg.dss.husqvarnagroup.net ",
+          "bff-api.sg.dss.husqvarnagroup.net",
+          "rt-api.sg.dss.husqvarnagroup.net",
           "app-web-assets.sg.dss.husqvarnagroup.net"
       ],
       "whitelistedIPs": [],
@@ -689,7 +689,7 @@
   {
       "name": "Easee Wallbox",
       "description": {
-          "de": "EASEE Wallbox App  (#eBlocker community)",
+          "de": "EASEE Wallbox App (#eBlocker community)",
           "en": "EASEE Wallbox App (#eBlocker community)"
       },
       "whitelistedDomains": [
@@ -703,7 +703,7 @@
   {
       "name": "Ernstings Family App",
       "description": {
-          "de": "Ernstings Family App  (#eBlocker community)",
+          "de": "Ernstings Family App (#eBlocker community)",
           "en": "Ernstings Family App (#eBlocker community)"
       },
       "whitelistedDomains": [
@@ -718,7 +718,7 @@
   {
       "name": "Galaxus OnlineShop",
       "description": {
-          "de": "Galaxus OnlineShop App  (#eBlocker community)",
+          "de": "Galaxus OnlineShop App (#eBlocker community)",
           "en": "Galaxus OnlineShop App (#eBlocker community)"
       },
       "whitelistedDomains": [
@@ -733,7 +733,7 @@
   {
       "name": "Shell ReCharge App",
       "description": {
-          "de": "Shell ReCharge e-Tanken App  (#eBlocker community)",
+          "de": "Shell ReCharge e-Tanken App (#eBlocker community)",
           "en": "Shell ReCharge App (#eBlocker community)"
       },
       "whitelistedDomains": [
