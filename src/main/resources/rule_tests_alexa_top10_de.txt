@@ -123,7 +123,6 @@ https://liveticker.stroeerdp.de/rest/livematches
 https://login.wikimedia.org/wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=dewiki&proto=https
 https://m.media-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-gw_sprite_desktop-25075f36f083535bad9a2e0edabbb339435e8e65._V2_.png
 https://meta.wikimedia.org/w/index.php?title=MediaWiki:OSM.js&action=raw&ctype=text/javascript&smaxage=21600&maxage=86400
-https://nct.ui-portal.de/gmx/gmx/s?name=homepage.startseite.event.ovk&portal=gmx&country=de&var=default&sample=treatment&pvid=QAfcgVYJX4XhpR0yGh9N&type=hidden&adb=1&_c=0&ts=1515679621639
 https://news.ycombinator.com/
 https://news.ycombinator.com/apple-touch-icon-precomposed.png
 https://ocsrest.ebay.de/ocsrsapp/o2/inflow/inflowcomponent?input=%7B%22pageId%22%3A2387624%2C%22surveyTitle%22%3A%22Ihre%20Meinung%22%2C%22posTop%22%3A504%7D&callback=Inflow.cb
