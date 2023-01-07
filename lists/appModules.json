@@ -772,6 +772,820 @@
       "enabledPerDefault": false,
       "hidden": false
   },
+  {
+      "name": "Warnwetter",
+      "description": {
+          "de": "DWD Wetter (#eBlocker community)",
+          "en": "DWD Wetter (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "app-prod-ws.warnwetter.de",
+          "maps.dwd.de",
+          "opendata.dwd.de",
+          "www.dwd.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5050,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Money wiz",
+      "description": {
+          "de": "Finanz-App für die persönliche Finanzverwaltung (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "wiz.money",
+          "syncbits.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5051,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "AECS Swisscard GmbH",
+      "description": {
+          "de": "Schweizer Kreditkartenanbieter (#eBlocker community)",
+          "en": "Schweizer Kreditkartenanbieter (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "swisscard.ch",
+          "netcetera-payment.ch"
+      ],
+      "whitelistedIPs": [],
+      "id": 5052,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Neon Switzerland",
+      "description": {
+          "de": "Schweizer Fintech-Bank (#eBlocker community)",
+          "en": "Schweizer Fintech-Bank (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "neon-free.ch",
+          "hbl.ch",
+          "finsign.ch"
+      ],
+      "whitelistedIPs": [],
+      "id": 5053,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Fonterra Smart Control",
+      "description": {
+          "de": "Smarte Steuerung Heizung (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "fonterra-smart-control.viega.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5054,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "MyLiebherr",
+      "description": {
+          "de": "My Liebherr App (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "Liebherr.com",
+          "MyLiebherr.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5055,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Aral Fuel & Charge App",
+      "description": {
+          "de": "Aral Fuel & Charge App (#eBlocker community)",
+          "en": "Aral Fuel & Charge e-Tankstellen App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "appservices.trafineo.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5056,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Blau.DE",
+      "description": {
+          "de": "Blau.DE App (#eBlocker community)",
+          "en": "Blau.DE App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "o2online.de ",
+          "static2-blau.o9.de ",
+          "blau.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5057,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Chefkoch App",
+      "description": {
+          "de": "Chefkoch App  (#eBlocker community)",
+          "en": "Chefkoch App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "chefkoch.de ",
+          "api.chefkoch.de ",
+          "img.chefkoch-cdn.de ",
+          "video.chefkoch-cdn.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5058,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "DM Drogerie App",
+      "description": {
+          "de": "DM Drogerie App  (#eBlocker community)",
+          "en": "DM Drogerie App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "services.dm.de ",
+          "con.mm.dm.de ",
+          "cdn02.dm-static.com ",
+          "products.dm.de ",
+          "login.dm.de ",
+          "cdn02.dm-static.com ",
+          "store-data-service.services.dmtech.com ",
+          "assets.dm.de ",
+          "assets.dm.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5059,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "C-Infekt-Info",
+      "description": {
+          "de": "Corona-Infekt-Info App (#eBlocker community)",
+          "en": "Corona-Infekt-Info App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "endpoint.infektinfo.com ",
+          "infektinfoapi.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5060,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "eHomeLife App",
+      "description": {
+          "de": "eHomeLife (Meross) Smart Home App  (#eBlocker community)",
+          "en": "eHomeLife (Meross) Smart Home App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "iot.meross.com ",
+          "mqtt-alter.meross.com ",
+          "mqtt.meross.com ",
+          "mqtt-eu-alter.meross.com ",
+          "mqtt-eu.meross.com ",
+          "eu-iot.meross.com ",
+          "mqtt-eu-2.meross.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5061,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Groupon App",
+      "description": {
+          "de": "Groupon Gutscheine und Deals App  (#eBlocker community)",
+          "en": "Groupon Vouchers and deals App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "groupon.com ",
+          "groupon.de ",
+          "grouponcdn.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5062,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "iBood",
+      "description": {
+          "de": "iBood App (#eBlocker community)",
+          "en": "iBood App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.ibood.io ",
+          "next.production.go.ibood.cloud ",
+          "feeds.ibood.com ",
+          "api.ibood.com ",
+          "tq2.ibood.com ",
+          "beta.ibood.com ",
+          "www.ibood.com ",
+          "my.ibood.com ",
+          "images0.ibood.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5063,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Macrium Reflect",
+      "description": {
+          "de": "Macrium Reflect  (#eBlocker community)",
+          "en": "Macrium Reflect (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "updatesnl.macrium.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5064,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Mobilet ParkApp",
+      "description": {
+          "de": "Mobilet mobiles Parken (#eBlocker community)",
+          "en": "Mobilet mobiles Parken (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "mobilet.de ",
+          "mobilet.pl"
+      ],
+      "whitelistedIPs": [],
+      "id": 5065,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "WD MyCloud App",
+      "description": {
+          "de": "MyCloud App von Western Digital  (#eBlocker community)",
+          "en": "MyCloud App von Western Digital (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "mycloud.com ",
+          "wdckeystone.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5066,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Foscam",
+      "description": {
+          "de": "Foscam Webcam (#eBlocker community)",
+          "en": "Foscam Webcam (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.myfoscam.cn",
+          "api.myfoscam.com",
+          "security-api.myfoscam.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5067,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Betty Bossi App",
+      "description": {
+          "de": "Beliebte, schweizer Koch-Rezept-Sammlung.  (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "www.bettybossi.ch ",
+          "app.bberp.ch"
+      ],
+      "whitelistedIPs": [],
+      "id": 5068,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Spond APP",
+      "description": {
+          "de": "Spond; Mannschaft organisieren (#eBlocker community)",
+          "en": "Spond; Mannschaft organisieren (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "chat.spond.com ",
+          "spond.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5069,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Miele@home",
+      "description": {
+          "de": "Home Automation von Miele. (#eBlocker community)",
+          "en": "Miele home automation. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "rest.domestic.miele-iot.com",
+          "rest.qs.domestic.miele-iot.com",
+          "www.miele.com",
+          "rest-eu.domestic.miele-iot.com",
+          "cdn.api.miele.com",
+          "Miele-001D63FFFE566C56.local.",
+          "miele.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5070,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Zalando.nl",
+      "description": {
+          "de": "Zalando Homepage für Holland (#eBlocker community)",
+          "en": "Dutch Zalando website (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "www.zalando.nl"
+      ],
+      "whitelistedIPs": [],
+      "id": 5071,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Bol.com",
+      "description": {
+          "de": "Bol.com app (#eBlocker community)",
+          "en": "Bol.com app (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "app.bol.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5072,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "My BMW",
+      "description": {
+          "de": "BMW Auto App (#eBlocker community)",
+          "en": "BMW car app (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.countly.bmwgroup.com",
+          "cocoapi.bmwgroup.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5073,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Disney App",
+      "description": {
+          "de": "Disney App (iOS) (#eBlocker community)",
+          "en": "Disney App (iOS) (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "cdn.registerdisney.go.com",
+          "disney.my.sentry.io",
+          "disney.playback.edge.bamgrid.com",
+          "prod-ripcut-delivery.disney-plus.net",
+          "appconfigs.disney-plus.net",
+          "disney.content.edge.bamgrid.com",
+          "disney.api.edge.bamgrid.com",
+          "disney.connections.edge.bamgrid.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5074,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Next Bike",
+      "description": {
+          "de": "Fahrradverleih (#eBlocker community)",
+          "en": "Fahrradverleih (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.nextbike.net",
+          "my.nextbike.net",
+          "websites.nextbike.net",
+          "static.nextbike.net",
+          "webview.nextbike.net",
+          "maps.nextbike.net"
+      ],
+      "whitelistedIPs": [],
+      "id": 5075,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Padlet",
+      "description": {
+          "de": "Padlet Schulapp NRW (#eBlocker community)",
+          "en": "Padlet Schulapp NRW (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "Padletcdn.com ",
+          "Padlet.pics ",
+          "Padlet.net"
+      ],
+      "whitelistedIPs": [],
+      "id": 5076,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Fairtiq",
+      "description": {
+          "de": "Fairtiq App für online ÖNV Ticket System  (#eBlocker community)",
+          "en": "Fairtiq App ÖNV Ticket System (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.fairtiq.com ",
+          "pay.datatrans.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5077,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Atom",
+      "description": {
+          "de": "Open-Source-Texteditor (#eBlocker community)",
+          "en": "Open-Source-Texteditor (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "atom.io"
+      ],
+      "whitelistedIPs": [],
+      "id": 5078,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Balena",
+      "description": {
+          "de": "Open-Source-Software für bootfähige ISO-Dateien zu erstellen. (#eBlocker community)",
+          "en": "Open-Source-Software für bootfähige ISO-Dateien zu erstellen. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "balena.io"
+      ],
+      "whitelistedIPs": [],
+      "id": 5079,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Padlet",
+      "description": {
+          "de": "Homeschooling (Aufgabenübersicht) (#eBlocker community)",
+          "en": "Fernunterricht (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "Padlet.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5080,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "LinkedIn App",
+      "description": {
+          "de": "LinkedIn App  (#eBlocker community)",
+          "en": "LinkedIn App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "media.licdn.com ",
+          "linkedin.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5081,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "TikTok",
+      "description": {
+          "de": "TikTok App  (#eBlocker community)",
+          "en": "TikTok App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "tiktokcdn.com ",
+          "tiktokv.com ",
+          "tiktok.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5082,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "One Cumulus (Visa)",
+      "description": {
+          "de": "Visa Kreditkarte von viseca.ch (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "ubt.one.viseca.ch",
+          "auth.one.viseca.ch",
+          "tb-private.one.viseca.ch",
+          "tb-public.one.viseca.ch"
+      ],
+      "whitelistedIPs": [],
+      "id": 5083,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "EpicLauncher_Downloads",
+      "description": {
+          "de": "Epic Games gaming launcher - Downloads (#eBlocker community)",
+          "en": "Epic Games gaming launcher - Downloads (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "download.epicgames.com",
+          "datarouter.ol.epicgames.com",
+          "epicgames-download1.akamaized.net",
+          "fastly-download.epicgames.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5084,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Brave",
+      "description": {
+          "de": "Brave ist ein open-source Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. (#eBlocker community)",
+          "en": "Brave ist ein open-source Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "brave.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5085,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Asana",
+      "description": {
+          "de": "Web- und mobile Arbeitsmanagement-Plattform, die Teams bei der Organisation und Verwaltung ihrer Arbeit unterstützt. (#eBlocker community)",
+          "en": "Web- und mobile Arbeitsmanagement-Plattform, die Teams bei der Organisation und Verwaltung ihrer Arbeit unterstützt. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "asana.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5086,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Revolut",
+      "description": {
+          "de": "Fintech-App für digitale Bankdienstleistungen (#eBlocker community)",
+          "en": "Fintech-App für digitale Bankdienstleistungen (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "revolut.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5087,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Crypto.com",
+      "description": {
+          "de": "Internationale Kryptobörse (#eBlocker community)",
+          "en": "Internationale Kryptobörse (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "crypto.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5088,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Mercedes me",
+      "description": {
+          "de": "Mercedes Me App (#eBlocker community)",
+          "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "mercedes-benz.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5089,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "AOK",
+      "description": {
+          "de": "AOK (#eBlocker community)",
+          "en": "AOK (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "www.aok.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5090,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "LePro LamoUX",
+      "description": {
+          "de": "LePro LamoUX smart (#eBlocker community)",
+          "en": "LePro LamoUX smart (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "tuyaeu.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5091,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Microsoft PowerApps",
+      "description": {
+          "de": "Microsoft PowerApps  (#eBlocker community)",
+          "en": "Microsoft PowerApps (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "api.powerapps.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5092,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Nina Warn-App",
+      "description": {
+          "de": "Nina Warn-App  (#eBlocker community)",
+          "en": "Nina Warn-App (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "bund.de ",
+          "itzbund.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5093,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Generali",
+      "description": {
+          "de": "Internationaler Versicherungskonzern (#eBlocker community)",
+          "en": "International insurance group (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "nevisproxy.generali.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5095,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Generali",
+      "description": {
+          "de": "Internationaler Versicherungskonzern (#eBlocker community)",
+          "en": "International insurance group (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "nevisproxy.generali.de"
+      ],
+      "whitelistedIPs": [],
+      "id": 5096,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Zalando",
+      "description": {
+          "de": "Schuhe, Mode und Accessoires online kaufen (#eBlocker community)",
+          "en": "Shoes and Fashion Online (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "Zalando.com",
+          "Zalando.ch"
+      ],
+      "whitelistedIPs": [],
+      "id": 5097,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Hamburger Verkehrsverbund App",
+      "description": {
+          "de": "Hamburger Verkehrsverbund App (#eBlocker community)",
+          "en": "Hamburg transport association (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "hvv-app.hafas.de",
+          "shop.hvv.de",
+          "gti.geofox.de",
+          "api.mapbox.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5098,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Staatsloterij",
+      "description": {
+          "de": "Holländische Lotterie (#eBlocker community)",
+          "en": "Nederlandse loterij app (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "nlo-api.nederlandseloterij.nl",
+          "bff.prd.gateway.nederlandseloterij.nl",
+          "nlo-api.nederlandseloterij.nl"
+      ],
+      "whitelistedIPs": [],
+      "id": 5099,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Nest",
+      "description": {
+          "de": "Dein Smart Home mit Google Nest (#eBlocker community)",
+          "en": "Google Nest, build your connected home (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "nexusapi-eu1.dropcam.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5100,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Unifi",
+      "description": {
+          "de": "Ubiquiti UniFi - Innovatives, skalierbares LAN/WLAN (#eBlocker community)",
+          "en": "Ubiquiti UniFi - Innovative, Scalable LAN/WLAN (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "status.ui.com",
+          "sso.ui.com",
+          "config.ubnt.com",
+          "cloudaccess.svc.ubnt.com",
+          "loudaccess.svc.ubnt.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5101,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
+  {
+      "name": "Xiaomi",
+      "description": {
+          "de": "Xiaomi API (#eBlocker community)",
+          "en": "Xiaomi API (#eBlocker community)"
+      },
+      "whitelistedDomains": [
+          "de.api.io.mi.com"
+      ],
+      "whitelistedIPs": [],
+      "id": 5102,
+      "enabledPerDefault": false,
+      "hidden": false
+  },
 
   {
     "name": "German Banks",
