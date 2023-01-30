@@ -4425,5 +4425,25 @@
         "id": 171,
         "enabledPerDefault": false,
         "hidden": false
+    },
+    {
+        "name": "Outbank",
+        "description": {
+            "de": "Banking-App",
+            "en": "Banking app"
+        },
+        "whitelistedDomains": [
+            "client.outbankapp.com",
+            "groundcontrol4.outbankapp.com",
+            "help.outbankapp.com",
+            "macosxbeta.outbankapp.com",
+            "walt-sync.s3.eu-central-1.amazonaws.com",
+            "walt.groundcontrol.outbankapp.com",
+            "webconnect.outbankapp.com",
+            "dynamodb.eu-central-1.amazonaws.com"
+        ],
+        "id": 172,
+        "enabledPerDefault": true,
+        "hidden": false
     }
 ]
