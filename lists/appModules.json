@@ -3883,7 +3883,8 @@
     },
     "whitelistedDomains": [
       "mycloud.com ",
-      "wdckeystone.com"
+      "wdckeystone.com",
+      "mycloud.com"
     ],
     "whitelistedIPs": [],
     "id": 5066,
@@ -4213,7 +4214,8 @@
       "en": "Fintech-App für digitale Bankdienstleistungen (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "revolut.com"
+      "revolut.com",
+      "revolutlabs.com"
     ],
     "whitelistedIPs": [],
     "id": 5087,
@@ -4299,7 +4301,8 @@
     },
     "whitelistedDomains": [
       "bund.de ",
-      "itzbund.de"
+      "itzbund.de",
+      "bund.de"
     ],
     "whitelistedIPs": [],
     "id": 5093,
@@ -4665,7 +4668,9 @@
       "en": "Deutsche Glasfaser (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "deutsche-glasfaser.de"
+      "deutsche-glasfaser.de",
+      "speedtestcustom.com",
+      "speedtest.net"
     ],
     "whitelistedIPs": [],
     "id": 5118,
@@ -5097,6 +5102,585 @@
     ],
     "whitelistedIPs": [],
     "id": 5144,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Nanoleaf",
+    "description": {
+      "de": " (#eBlocker community)",
+      "en": " (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "collector.nanoleaf.me",
+      "firmware.nanoleaf.me",
+      "my.nanoleaf.me"
+    ],
+    "whitelistedIPs": [],
+    "id": 5145,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Nebenan.de App",
+    "description": {
+      "de": "Nebenan.de Nachbarschaftshilfe App (#eBlocker community)",
+      "en": "Nebenan.de App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.nebenan.de",
+      "images.nebenan.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5146,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Neon",
+    "description": {
+      "de": "Schweizer Fintech (#eBlocker community)",
+      "en": "Schweizer Fintech (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "hbl.ch",
+      "api.finsign.ch",
+      "status.neon-free.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5147,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Netcetera",
+    "description": {
+      "de": "Schweizer Zahlungsökosystem für verschieden Banken und Kreditkartenanbieter (#eBlocker community)",
+      "en": "Zahlungsökosystem für verschieden Banken (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "netcetera-payment.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5148,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Nord VPN",
+    "description": {
+      "de": "VPN-Anbieter (#eBlocker community)",
+      "en": "VPN-Anbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "napps-1.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5149,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "OnePlus App Jocks",
+    "description": {
+      "de": "OnePlus Handy support URLs (#eBlocker community)",
+      "en": "OnePlus mobile phone support URLs (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "apup.1plus.io",
+      "olcfg.1plus.io",
+      "open.oneplus.net",
+      "gateway.oneplus.net",
+      "osx.oneplus.net",
+      "weather.1plus.io",
+      "otag.h2os.com",
+      "onebackend.de",
+      "otaafsg-cost.h2os.com",
+      "mdm.oneplus.net",
+      "oaf-api.1plus.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5150,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Ookla Speedtest",
+    "description": {
+      "de": "Speedtest App auf dem AppleTV (#eBlocker community)",
+      "en": "Speedtest App auf dem AppleTV (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.speedtest.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5151,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Oura",
+    "description": {
+      "de": "Ouraring (#eBlocker community)",
+      "en": "Ouraring (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.ouraring.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5152,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "OutBank",
+    "description": {
+      "de": "Banking app (#eBlocker community)",
+      "en": "Banking app (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "client.outbankapp.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5153,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Pen Up Samsung Galaxy S22 Ultra 5G",
+    "description": {
+      "de": " (#eBlocker community)",
+      "en": " (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "image.penup.com",
+      "notice.penup.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5154,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Philips HUE",
+    "description": {
+      "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "discovery.meethue.com",
+      "auth.meethue.com",
+      "api.account.meethue.com",
+      "labs.meethue.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5155,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Philips NutriU App",
+    "description": {
+      "de": "PHILIPS NutriU App (#eBlocker community)",
+      "en": "PHILIPS NutriU App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "accounts.philips.com",
+      "backend.ka.philips.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5156,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Ricardo App Jocks",
+    "description": {
+      "de": "Ricardo Schweiz (#eBlocker community)",
+      "en": "Ricardo Switzerland (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.ricardo.ch",
+      "img.ricardostatic.ch",
+      "www.ricardo.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5157,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Roblox",
+    "description": {
+      "de": "Roblox Spiel (#eBlocker community)",
+      "en": "Roblox Spiel (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "roblox.com",
+      "rbxcdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5158,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SaltEdge",
+    "description": {
+      "de": "API-Finanzplattform mit PSD2 und Open-Banking-Lösungen (#eBlocker community)",
+      "en": "API-Finanzplattform mit PSD2 und Open-Banking-Lösungen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "saltedge.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5159,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SnapKit",
+    "description": {
+      "de": "Entwicklerplatform von SnapChat (#eBlocker community)",
+      "en": "Entwicklerplatform von SnapChat (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "snapkit.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5160,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Sonect",
+    "description": {
+      "de": "Per Smartphone Bargeld abheben. (#eBlocker community)",
+      "en": "Per Smartphone Bargeld abheben. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "sonect.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5161,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Sonos",
+    "description": {
+      "de": "Soundsystem (#eBlocker community)",
+      "en": "Soundsystem (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "voiceconfig.ws.sonos.com",
+      "oauth.ws.sonos.com",
+      "service-catalog.ws.sonos.com",
+      "spotify-v5.ws.sonos.com",
+      "voiceconfig.ws.sonos.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5162,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Starbucks",
+    "description": {
+      "de": "Kaffehauskette (#eBlocker community)",
+      "en": "Kaffehauskette (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "openapi.starbucks.eu"
+    ],
+    "whitelistedIPs": [],
+    "id": 5163,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Stripe",
+    "description": {
+      "de": "Internationaler Zahlungsanbieter (#eBlocker community)",
+      "en": "Internationaler Zahlungsanbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "stripecdn.com",
+      "stripe.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5164,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SWR1",
+    "description": {
+      "de": "SWR1 Radio (#eBlocker community)",
+      "en": "SWR1 Radio (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "liveradio.swr.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5165,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SyncBits",
+    "description": {
+      "de": "Sync for MoneyWiz APP (#eBlocker community)",
+      "en": "Sync for MoneyWiz APP (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "syncbits.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5166,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Taxfix",
+    "description": {
+      "de": "Elektronische Steuererklärung (#eBlocker community)",
+      "en": "Elektronische Steuererklärung (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "app.taxfix.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5167,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "TikoTok",
+    "description": {
+      "de": "Social Media APP (#eBlocker community)",
+      "en": "Social Media APP (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "tiktokv.com",
+      "tiktokcdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5168,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Tiktok",
+    "description": {
+      "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "tiktokv.com",
+      "tiktokcdn.com",
+      "tiktokcdn-us.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5169,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Trade Republic",
+    "description": {
+      "de": " (#eBlocker community)",
+      "en": " (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.traderepublic.com",
+      "assets.traderepublic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5170,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Trezor Suite",
+    "description": {
+      "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "btc3.trezor.io",
+      "btc5.trezor.io",
+      "btc2.trezor.io",
+      "btc3.trezor.io",
+      "btc5.trezor.io",
+      "eth1.trezor.io",
+      "eth2.trezor.io",
+      "exchange.api.bity.com",
+      "news.trezor.io",
+      "zec1.trezor.io",
+      "zec2.trezor.io",
+      "zec3.trezor.io",
+      "zec4.trezor.io",
+      "zec5.trezor.io",
+      "s-west.ripple.com",
+      "s1.ripple.com",
+      "github-releases.githubusercontent.com",
+      "s-east.ripple.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5171,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Twinkly",
+    "description": {
+      "de": " (#eBlocker community)",
+      "en": " (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.twinkly.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5172,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Twint",
+    "description": {
+      "de": "Digitales Bargeld der Schweiz. (#eBlocker community)",
+      "en": "Digitales Bargeld der Schweiz. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "twint.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5173,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Uphold",
+    "description": {
+      "de": "cloudbasierte Finanzdienstleistungsplattform (#eBlocker community)",
+      "en": "cloudbasierte Finanzdienstleistungsplattform (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.uphold.com",
+      "wallet.uphold.com",
+      "trends.uphold.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5174,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ViaMichelin",
+    "description": {
+      "de": " (#eBlocker community)",
+      "en": "iPad-app (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "mobile.viamichelin.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5175,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ViaMichelin App",
+    "description": {
+      "de": "ViaMichelin App (#eBlocker community)",
+      "en": "ViaMichelin App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "mobile.viamichelin.com",
+      "Compleminte,",
+      "Rob Franssen"
+    ],
+    "whitelistedIPs": [],
+    "id": 5176,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Vimeo",
+    "description": {
+      "de": "Weltweites Videoportal (#eBlocker community)",
+      "en": "Weltweites Videoportal (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "vimeo.com",
+      "vimeocdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5177,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Web.de",
+    "description": {
+      "de": "German Email Provider (#eBlocker community)",
+      "en": "German Email Provider (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "dl.web.de",
+      "traco.web.de",
+      "hsp.web.de",
+      "cocos-lookup.web.de",
+      "www.web.de",
+      "oauth2.web.de",
+      "smadi.web.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5178,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Wetterdienst",
+    "description": {
+      "de": "Zugriff auf auf Deutschen Wetterdienst (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "wetterdienst.de",
+      "dwd.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5179,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Wise",
+    "description": {
+      "de": "Online-Geldtransfer-Service für Fremdwährungen (#eBlocker community)",
+      "en": "Online-Geldtransfer-Service für Fremdwährungen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "wise.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5180,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Zigbee2MQTT",
+    "description": {
+      "de": "Zigbee to MQTT Service (#eBlocker community)",
+      "en": "Zigbee to MQTT Service (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.zigbee2mqtt.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5181,
     "enabledPerDefault": false,
     "hidden": false
   }
