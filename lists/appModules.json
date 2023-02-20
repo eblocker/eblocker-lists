@@ -1581,7 +1581,7 @@
     "name": "F-Secure",
     "description": {
       "en": "F-Secure Corporation is a cyber security and privacy company",
-      "de": "Die F-Secure Corporation ist ein Anbieter von IT-Sicherheitslösungen und Antivirenprogrammen "
+      "de": "Die F-Secure Corporation ist ein Anbieter von IT-Sicherheitslösungen und Antivirenprogrammen"
     },
     "whitelistedDomains": [
       "f-secure.com"
@@ -1732,7 +1732,7 @@
     "enabledPerDefault": false
   },
   {
-    "name": "Hamburg Energie ",
+    "name": "Hamburg Energie",
     "description": {
       "en": "A privately organized energy supply company",
       "de": "Ein privatwirtschaftlich organisiertes Energieversorgungsunternehmen"
@@ -3631,7 +3631,7 @@
     "name": "Money wiz",
     "description": {
       "de": "Finanz-App für die persönliche Finanzverwaltung (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      "en": "App for personal finances (#eBlocker community)"
     },
     "whitelistedDomains": [
       "wiz.money",
@@ -3677,7 +3677,7 @@
     "name": "Fonterra Smart Control",
     "description": {
       "de": "Smarte Steuerung Heizung (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      "en": "Smart heating control (#eBlocker community)"
     },
     "whitelistedDomains": [
       "fonterra-smart-control.viega.de"
@@ -3691,11 +3691,11 @@
     "name": "MyLiebherr",
     "description": {
       "de": "My Liebherr App (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      "en": "My Liebherr App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "Liebherr.com",
-      "MyLiebherr.com"
+      "liebherr.com",
+      "myLiebherr.com"
     ],
     "whitelistedIPs": [],
     "id": 5055,
@@ -3726,8 +3726,6 @@
       "o2online.de",
       "static2-blau.o9.de",
       "blau.de",
-      "o2online.de",
-      "static2-blau.o9.de"
     ],
     "whitelistedIPs": [],
     "id": 5057,
@@ -3737,13 +3735,13 @@
   {
     "name": "Chefkoch App",
     "description": {
-      "de": "Chefkoch App  (#eBlocker community)",
+      "de": "Chefkoch App (#eBlocker community)",
       "en": "Chefkoch App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "chefkoch.de ",
-      "api.chefkoch.de ",
-      "img.chefkoch-cdn.de ",
+      "chefkoch.de",
+      "api.chefkoch.de",
+      "img.chefkoch-cdn.de",
       "video.chefkoch-cdn.de"
     ],
     "whitelistedIPs": [],
@@ -3754,18 +3752,18 @@
   {
     "name": "DM Drogerie App",
     "description": {
-      "de": "DM Drogerie App  (#eBlocker community)",
+      "de": "DM Drogerie App (#eBlocker community)",
       "en": "DM Drogerie App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "services.dm.de ",
-      "con.mm.dm.de ",
-      "cdn02.dm-static.com ",
-      "products.dm.de ",
-      "login.dm.de ",
-      "cdn02.dm-static.com ",
-      "store-data-service.services.dmtech.com ",
-      "assets.dm.de ",
+      "services.dm.de",
+      "con.mm.dm.de",
+      "cdn02.dm-static.com",
+      "products.dm.de",
+      "login.dm.de",
+      "cdn02.dm-static.com",
+      "store-data-service.services.dmtech.com",
+      "assets.dm.de",
       "assets.dm.de"
     ],
     "whitelistedIPs": [],
@@ -3780,7 +3778,7 @@
       "en": "Corona-Infekt-Info App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "endpoint.infektinfo.com ",
+      "endpoint.infektinfo.com",
       "infektinfoapi.com"
     ],
     "whitelistedIPs": [],
@@ -3791,16 +3789,16 @@
   {
     "name": "eHomeLife App",
     "description": {
-      "de": "eHomeLife (Meross) Smart Home App  (#eBlocker community)",
+      "de": "eHomeLife (Meross) Smart Home App (#eBlocker community)",
       "en": "eHomeLife (Meross) Smart Home App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "iot.meross.com ",
-      "mqtt-alter.meross.com ",
-      "mqtt.meross.com ",
-      "mqtt-eu-alter.meross.com ",
-      "mqtt-eu.meross.com ",
-      "eu-iot.meross.com ",
+      "iot.meross.com",
+      "mqtt-alter.meross.com",
+      "mqtt.meross.com",
+      "mqtt-eu-alter.meross.com",
+      "mqtt-eu.meross.com",
+      "eu-iot.meross.com",
       "mqtt-eu-2.meross.com"
     ],
     "whitelistedIPs": [],
@@ -3849,7 +3847,7 @@
   {
     "name": "Macrium Reflect",
     "description": {
-      "de": "Macrium Reflect  (#eBlocker community)",
+      "de": "Macrium Reflect (#eBlocker community)",
       "en": "Macrium Reflect (#eBlocker community)"
     },
     "whitelistedDomains": [
@@ -3882,9 +3880,8 @@
       "en": "MyCloud App von Western Digital (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "mycloud.com ",
+      "mycloud.com",
       "wdckeystone.com",
-      "mycloud.com"
     ],
     "whitelistedIPs": [],
     "id": 5066,
@@ -3911,10 +3908,10 @@
     "name": "Betty Bossi App",
     "description": {
       "de": "Beliebte, schweizer Koch-Rezept-Sammlung.  (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      "en": "Swiss cooking recipes (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "www.bettybossi.ch ",
+      "www.bettybossi.ch",
       "app.bberp.ch"
     ],
     "whitelistedIPs": [],
@@ -3929,7 +3926,7 @@
       "en": "Spond; Mannschaft organisieren (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "chat.spond.com ",
+      "chat.spond.com",
       "spond.com"
     ],
     "whitelistedIPs": [],
@@ -3949,7 +3946,6 @@
       "www.miele.com",
       "rest-eu.domestic.miele-iot.com",
       "cdn.api.miele.com",
-      "Miele-001D63FFFE566C56.local.",
       "miele.com"
     ],
     "whitelistedIPs": [],
@@ -4041,29 +4037,13 @@
     "hidden": false
   },
   {
-    "name": "Padlet",
-    "description": {
-      "de": "Padlet Schulapp NRW (#eBlocker community)",
-      "en": "Padlet Schulapp NRW (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "Padletcdn.com ",
-      "Padlet.pics ",
-      "Padlet.net"
-    ],
-    "whitelistedIPs": [],
-    "id": 5076,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Fairtiq",
     "description": {
-      "de": "Fairtiq App für online ÖNV Ticket System  (#eBlocker community)",
+      "de": "Fairtiq App für online ÖNV Ticket System (#eBlocker community)",
       "en": "Fairtiq App ÖNV Ticket System (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "api.fairtiq.com ",
+      "api.fairtiq.com",
       "pay.datatrans.com"
     ],
     "whitelistedIPs": [],
@@ -4102,11 +4082,14 @@
   {
     "name": "Padlet",
     "description": {
-      "de": "Homeschooling (Aufgabenübersicht) (#eBlocker community)",
-      "en": "Fernunterricht (#eBlocker community)"
+      "de": "Fernunterricht (#eBlocker community)",
+      "en": "Homeschooling (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "Padlet.com"
+      "padlet.com",
+      "padletcdn.com",
+      "padlet.pics",
+      "padlet.net"
     ],
     "whitelistedIPs": [],
     "id": 5080,
@@ -4116,11 +4099,11 @@
   {
     "name": "LinkedIn App",
     "description": {
-      "de": "LinkedIn App  (#eBlocker community)",
+      "de": "LinkedIn App (#eBlocker community)",
       "en": "LinkedIn App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "media.licdn.com ",
+      "media.licdn.com",
       "linkedin.com"
     ],
     "whitelistedIPs": [],
@@ -4131,12 +4114,12 @@
   {
     "name": "TikTok",
     "description": {
-      "de": "TikTok App  (#eBlocker community)",
+      "de": "TikTok App (#eBlocker community)",
       "en": "TikTok App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "tiktokcdn.com ",
-      "tiktokv.com ",
+      "tiktokcdn.com",
+      "tiktokv.com",
       "tiktok.com"
     ],
     "whitelistedIPs": [],
@@ -4148,7 +4131,7 @@
     "name": "One Cumulus (Visa)",
     "description": {
       "de": "Visa Kreditkarte von viseca.ch (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+      "en": "Visa credit card by viseca.ch (#eBlocker community)"
     },
     "whitelistedDomains": [
       "ubt.one.viseca.ch",
@@ -4324,28 +4307,14 @@
     "hidden": false
   },
   {
-    "name": "Generali",
-    "description": {
-      "de": "Internationaler Versicherungskonzern (#eBlocker community)",
-      "en": "International insurance group (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "nevisproxy.generali.de"
-    ],
-    "whitelistedIPs": [],
-    "id": 5096,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Zalando",
     "description": {
       "de": "Schuhe, Mode und Accessoires online kaufen (#eBlocker community)",
       "en": "Shoes and Fashion Online (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "Zalando.com",
-      "Zalando.ch"
+      "zalando.com",
+      "zalando.ch"
     ],
     "whitelistedIPs": [],
     "id": 5097,
