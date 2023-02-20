@@ -3725,7 +3725,7 @@
     "whitelistedDomains": [
       "o2online.de",
       "static2-blau.o9.de",
-      "blau.de",
+      "blau.de"
     ],
     "whitelistedIPs": [],
     "id": 5057,
@@ -3881,7 +3881,7 @@
     },
     "whitelistedDomains": [
       "mycloud.com",
-      "wdckeystone.com",
+      "wdckeystone.com"
     ],
     "whitelistedIPs": [],
     "id": 5066,
@@ -5566,7 +5566,7 @@
       "en": "ViaMichelin App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "mobile.viamichelin.com",
+      "mobile.viamichelin.com"
     ],
     "whitelistedIPs": [],
     "id": 5176,
