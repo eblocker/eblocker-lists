@@ -4559,7 +4559,7 @@
     "hidden": false
   },
   {
-    "name": "DAK Gesundheit App Jocks",
+    "name": "DAK Gesundheit App",
     "description": {
       "de": "DAK Krankenkasse (#eBlocker community)",
       "en": "DAK Krankenkasse (#eBlocker community)"
@@ -5567,8 +5567,6 @@
     },
     "whitelistedDomains": [
       "mobile.viamichelin.com",
-      "Compleminte,",
-      "Rob Franssen"
     ],
     "whitelistedIPs": [],
     "id": 5176,
