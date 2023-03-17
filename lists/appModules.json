@@ -2860,6 +2860,26 @@
     "hidden": false
   },
   {
+    "name": "Outbank",
+    "description": {
+      "de": "Banking-App",
+      "en": "Banking app"
+    },
+    "whitelistedDomains": [
+      "client.outbankapp.com",
+      "groundcontrol4.outbankapp.com",
+      "help.outbankapp.com",
+      "macosxbeta.outbankapp.com",
+      "walt-sync.s3.eu-central-1.amazonaws.com",
+      "walt.groundcontrol.outbankapp.com",
+      "webconnect.outbankapp.com",
+      "dynamodb.eu-central-1.amazonaws.com"
+    ],
+    "id": 172,
+    "enabledPerDefault": true,
+    "hidden": false
+  },
+  {
     "name": "BlueCode",
     "description": {
       "en": "BlueCode Online Payment (#eBlocker Community)",
@@ -3695,7 +3715,7 @@
     },
     "whitelistedDomains": [
       "liebherr.com",
-      "myLiebherr.com"
+      "myliebherr.com"
     ],
     "whitelistedIPs": [],
     "id": 5055,
@@ -3763,7 +3783,6 @@
       "login.dm.de",
       "cdn02.dm-static.com",
       "store-data-service.services.dmtech.com",
-      "assets.dm.de",
       "assets.dm.de"
     ],
     "whitelistedIPs": [],
@@ -3799,7 +3818,9 @@
       "mqtt-eu-alter.meross.com",
       "mqtt-eu.meross.com",
       "eu-iot.meross.com",
-      "mqtt-eu-2.meross.com"
+      "mqtt-eu-2.meross.com",
+      "iotx-eu.meross.com",
+      "mqtt-eu-3.meross.com"
     ],
     "whitelistedIPs": [],
     "id": 5061,
@@ -3876,7 +3897,7 @@
   {
     "name": "WD MyCloud App",
     "description": {
-      "de": "MyCloud App von Western Digital  (#eBlocker community)",
+      "de": "MyCloud App von Western Digital (#eBlocker community)",
       "en": "MyCloud App von Western Digital (#eBlocker community)"
     },
     "whitelistedDomains": [
@@ -4120,7 +4141,8 @@
     "whitelistedDomains": [
       "tiktokcdn.com",
       "tiktokv.com",
-      "tiktok.com"
+      "tiktok.com",
+      "tiktokcdn-us.com"
     ],
     "whitelistedIPs": [],
     "id": 5082,
@@ -4283,9 +4305,8 @@
       "en": "Nina Warn-App (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "bund.de ",
-      "itzbund.de",
-      "bund.de"
+      "bund.de",
+      "itzbund.de"
     ],
     "whitelistedIPs": [],
     "id": 5093,
@@ -4407,9 +4428,7 @@
       "en": "1822direkt - A company of Frankfurter Sparkasse (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "www.1822direkt-banking.de",
       "1822direkt-banking.de",
-      "www.1822direkt.de",
       "1822direkt.de"
     ],
     "whitelistedIPs": [],
@@ -4443,8 +4462,7 @@
     },
     "whitelistedDomains": [
       "airvpn.org",
-      "vpn.airdns.org",
-      "www.airvpn.org"
+      "vpn.airdns.org"
     ],
     "whitelistedIPs": [],
     "id": 5105,
@@ -4512,23 +4530,6 @@
     "hidden": false
   },
   {
-    "name": "Chefkoch",
-    "description": {
-      "de": "Chefkoch Kochrezepte (#eBlocker community)",
-      "en": "Chefkoch (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "chefkoch.de",
-      "api.chefkoch.de",
-      "img.chefkoch-cdn.de",
-      "video.chefkoch-cdn.de"
-    ],
-    "whitelistedIPs": [],
-    "id": 5110,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Cloudflare Challenges",
     "description": {
       "de": "CAPTCHA Lösung von Cloudflare (#eBlocker community)",
@@ -4550,7 +4551,6 @@
     },
     "whitelistedDomains": [
       "id.cornelsen.de",
-      "bridge.klett.de",
       "klett.de"
     ],
     "whitelistedIPs": [],
@@ -4673,27 +4673,6 @@
     ],
     "whitelistedIPs": [],
     "id": 5120,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "DM Drogerie App Jocks",
-    "description": {
-      "de": "DM Drogerie App (#eBlocker community)",
-      "en": "DM Drogerie App (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "services.dm.de",
-      "con.mm.dm.de",
-      "cdn02.dm-static.com",
-      "products.dm.de",
-      "login.dm.de",
-      "cdn02.dm-static.com",
-      "store-data-service.services.dmtech.com",
-      "assets.dm.de"
-    ],
-    "whitelistedIPs": [],
-    "id": 5121,
     "enabledPerDefault": false,
     "hidden": false
   },
@@ -4829,22 +4808,6 @@
     "hidden": false
   },
   {
-    "name": "ING bankieren NL",
-    "description": {
-      "de": " (#eBlocker community)",
-      "en": "No description available (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "api.mobile.ing.nl",
-      "services.ing.nl",
-      "jsmon.ingbank.nl"
-    ],
-    "whitelistedIPs": [],
-    "id": 5130,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "ING NL APP",
     "description": {
       "de": " (#eBlocker community)",
@@ -4898,8 +4861,8 @@
       "en": "Lenovo Software (Updates, drivers etc.) (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "Lenovo.com",
-      "Lenovomm.com"
+      "lenovo.com",
+      "lenovomm.com"
     ],
     "whitelistedIPs": [],
     "id": 5134,
@@ -4907,7 +4870,7 @@
     "hidden": false
   },
   {
-    "name": "LidlPlus App Jocks",
+    "name": "LidlPlus App",
     "description": {
       "de": "LidlPlus App (#eBlocker community)",
       "en": "LidlPlus App (#eBlocker community)"
@@ -4918,21 +4881,6 @@
     ],
     "whitelistedIPs": [],
     "id": 5135,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "LinkedIn App Jocks",
-    "description": {
-      "de": "LinkedIn (#eBlocker community)",
-      "en": "LinkedIn (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "media.licdn.com",
-      "linkedin.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5136,
     "enabledPerDefault": false,
     "hidden": false
   },
@@ -4953,24 +4901,10 @@
     "hidden": false
   },
   {
-    "name": "Macrium Reflect Jocks",
-    "description": {
-      "de": "Macrium Reflect Backup Software (#eBlocker community)",
-      "en": "Macrium Reflect Backup Software (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "updatesnl.macrium.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5138,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Marley Spoon",
     "description": {
-      "de": " (#eBlocker community)",
-      "en": " (#eBlocker community)"
+      "de": "Marley Spoon (#eBlocker community)",
+      "en": "Marley Spoon (#eBlocker community)"
     },
     "whitelistedDomains": [
       "marleyspoon.eu.qualtrics.com",
@@ -4983,29 +4917,7 @@
     "hidden": false
   },
   {
-    "name": "eHomeLife App Jocks",
-    "description": {
-      "de": "Meross (eHomeLife) Smart Home App (#eBlocker community)",
-      "en": "Meross (eHomeLife) Smart Home App (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "iot.meross.com",
-      "mqtt-alter.meross.com",
-      "mqtt.meross.com",
-      "mqtt-eu-alter.meross.com",
-      "mqtt-eu.meross.com",
-      "eu-iot.meross.com",
-      "mqtt-eu-2.meross.com",
-      "iotx-eu.meross.com",
-      "mqtt-eu-3.meross.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5140,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "Microsoft Edge Insider Jocks",
+    "name": "Microsoft Edge Insider",
     "description": {
       "de": "Microsoft Edge Insider (#eBlocker community)",
       "en": "Microsoft Edge Insider (#eBlocker community)"
@@ -5015,27 +4927,6 @@
     ],
     "whitelistedIPs": [],
     "id": 5141,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "Mydrive EU",
-    "description": {
-      "de": " (#eBlocker community)",
-      "en": "Tomtom Mydrive app (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "mapstyles.mydrive.tomtom.com",
-      "a.api.tomtom.com",
-      "api.navcloud.tomtom.com",
-      "api.mydrive.tomtom.com",
-      "api.tomtom.com",
-      "oauth.tomtom.com",
-      "api.mapbox.com",
-      "ajax.googleapis.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5142,
     "enabledPerDefault": false,
     "hidden": false
   },
@@ -5150,7 +5041,7 @@
     "hidden": false
   },
   {
-    "name": "OnePlus App Jocks",
+    "name": "OnePlus App",
     "description": {
       "de": "OnePlus Handy support URLs (#eBlocker community)",
       "en": "OnePlus mobile phone support URLs (#eBlocker community)"
@@ -5202,20 +5093,6 @@
     "hidden": false
   },
   {
-    "name": "OutBank",
-    "description": {
-      "de": "Banking app (#eBlocker community)",
-      "en": "Banking app (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "client.outbankapp.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5153,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Pen Up Samsung Galaxy S22 Ultra 5G",
     "description": {
       "de": " (#eBlocker community)",
@@ -5263,7 +5140,7 @@
     "hidden": false
   },
   {
-    "name": "Ricardo App Jocks",
+    "name": "Ricardo App",
     "description": {
       "de": "Ricardo Schweiz (#eBlocker community)",
       "en": "Ricardo Switzerland (#eBlocker community)"
@@ -5425,37 +5302,6 @@
     "hidden": false
   },
   {
-    "name": "TikoTok",
-    "description": {
-      "de": "Social Media APP (#eBlocker community)",
-      "en": "Social Media APP (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "tiktokv.com",
-      "tiktokcdn.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5168,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "Tiktok",
-    "description": {
-      "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
-      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "tiktokv.com",
-      "tiktokcdn.com",
-      "tiktokcdn-us.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5169,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Trade Republic",
     "description": {
       "de": " (#eBlocker community)",
@@ -5542,20 +5388,6 @@
     ],
     "whitelistedIPs": [],
     "id": 5174,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
-    "name": "ViaMichelin",
-    "description": {
-      "de": " (#eBlocker community)",
-      "en": "iPad-app (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "mobile.viamichelin.com"
-    ],
-    "whitelistedIPs": [],
-    "id": 5175,
     "enabledPerDefault": false,
     "hidden": false
   },
