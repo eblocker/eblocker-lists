@@ -2353,7 +2353,10 @@
       "de": "Ein webbasierter Online-Dienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting)"
     },
     "whitelistedDomains": [
-      "github.com"
+      "github.com",
+      "objects.githubusercontent.com",
+      "copilot-proxy.githubusercontent.com",
+      "github-cloud.githubusercontent.com"
     ],
     "whitelistedIPs": [],
     "id": 136,
@@ -2987,7 +2990,9 @@
       "de": "Sichere Ende-zu-Ende EMail Kommunikation (#eBlocker Community)"
     },
     "whitelistedDomains": [
-      "api.protonmail.ch"
+      "api.protonmail.ch",
+      "api.protonvpn.ch",
+      "protonmail.com"
     ],
     "id": 5007,
     "enabledPerDefault": false,
@@ -5480,6 +5485,201 @@
     ],
     "whitelistedIPs": [],
     "id": 5181,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Duolingo",
+    "description": {
+      "de": "Duolingo (#eBlocker community)",
+      "en": "Duolingo (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "duolingo.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5181,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Pocket Casts",
+    "description": {
+      "de": "Podcast Anbieter (#eBlocker community)",
+      "en": "Podcast Anbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "podcast.nexx.cloud",
+      "refresh.pocketcasts.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5182,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "NPM",
+    "description": {
+      "de": "Paketmanager für die JavaScript-Laufzeitumgebung Node.js (#eBlocker community)",
+      "en": "Paketmanager für die JavaScript-Laufzeitumgebung Node.js (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "registry.npmmirror.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5183,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Klarna",
+    "description": {
+      "de": "Klarna Service (#eBlocker community)",
+      "en": "Klarna Service (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "app-api.klarna.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5184,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Keepa",
+    "description": {
+      "de": "Vergleichsportal (#eBlocker community)",
+      "en": "Vergleichsportal (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "dyn.keepa.com",
+      "push.keepa.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5185,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Huawei",
+    "description": {
+      "de": "Keine Beschreibung vorhanden. (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "cloud.huawei.com",
+      "cloud.huawei.com.cn",
+      "api.cloud.huawei.com",
+      "hicloud.com",
+      "cbg-app.huawei.com",
+      "connectivitycheck.cbg-app.huawei.com",
+      "huawei.com",
+      "hicloud.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5186,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Home Assistant",
+    "description": {
+      "de": "Smart Home Control (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "nabu.casa",
+      "ui.nabu.casa",
+      "nabu.casa"
+    ],
+    "whitelistedIPs": [],
+    "id": 5187,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Health Sync",
+    "description": {
+      "de": "Service zum synchronisieren von Fitness-Daten zwischen verschiedenen Apps (#eBlocker community)",
+      "en": "Service zum synchronisieren von Fitness-Daten zwischen verschiedenen Apps (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "server.healthsync.app"
+    ],
+    "whitelistedIPs": [],
+    "id": 5188,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Globetrotter",
+    "description": {
+      "de": "Outdoor Shop (#eBlocker community)",
+      "en": "Outdoor Shop (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.globetrotter.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5189,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "DJI",
+    "description": {
+      "de": "Technologieunternehmen für u.a. Drohnen und Stabilisatoren (#eBlocker community)",
+      "en": "Technologieunternehmen für u.a. Drohnen und Stabilisatoren (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "service-adhoc.dji.com",
+      "account-api.dji.com",
+      "s.dji.com",
+      "api.djiservice.org",
+      "mydjiflight.dji.com",
+      "store.dji.com",
+      "m.dji.com",
+      "product.dji.com",
+      "account.dji.com",
+      "djicdn.com",
+      "terra-2-g.djicdn.com",
+      "djigo-hk.djiservice.org",
+      "dji-official-fe.djicdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5190,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Amazon (Alexa)",
+    "description": {
+      "de": "Amazon (Alexa) (#eBlocker community)",
+      "en": "Amazon (Alexa) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.amazonalexa.com",
+      "api.eu.amazonalexa.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5191,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "About You",
+    "description": {
+      "de": "Online Handel für Mode (#eBlocker community)",
+      "en": "Online Handel für Mode (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "cdn.aboutstatic.com",
+      "m.aboutyou.de",
+      "tadarida.aboutyou.com",
+      "grips.aboutyou.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5192,
     "enabledPerDefault": false,
     "hidden": false
   }
