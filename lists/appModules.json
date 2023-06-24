@@ -310,7 +310,13 @@
       "de": "Updates für den Avira Anti Virus Scanner"
     },
     "whitelistedDomains": [
-      "avira-update.com"
+      "avira-update.com",
+      "acns.my.avira.com",
+      "license.passwords.avira.com",
+      "offers.avira.com",
+      "ncs-ds.avira.com",
+      "sentry.avira.net",
+      "spoc.avira.com"
     ],
     "id": 5,
     "enabledPerDefault": true
@@ -2356,7 +2362,11 @@
       "github.com",
       "objects.githubusercontent.com",
       "copilot-proxy.githubusercontent.com",
-      "github-cloud.githubusercontent.com"
+      "github-cloud.githubusercontent.com",
+      "raw.githubusercontent.com",
+      "user-images.githubusercontent.com",
+      "avatars.githubusercontent.com",
+      "camo.githubusercontent.com"
     ],
     "whitelistedIPs": [],
     "id": 136,
@@ -5680,6 +5690,179 @@
     ],
     "whitelistedIPs": [],
     "id": 5193,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Kleinanzeigen",
+    "description": {
+      "de": "Marktplatz (#eBlocker community)",
+      "en": "Marktplatz (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "gateway.kleinanzeigen.de",
+      "api.kleinanzeigen.de",
+      "img.kleinanzeigen.de",
+      "gateway.ebay-kleinanzeigen.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5194,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Bank Austria UNICREDIT",
+    "description": {
+      "de": "Internet Banking Bank Austria (#eBlocker community)",
+      "en": "Internet Banking Bank Austria (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bankaustria.at"
+    ],
+    "whitelistedIPs": [],
+    "id": 5195,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "WebUntis",
+    "description": {
+      "de": "Webuntis für Schulinformationen (#eBlocker community)",
+      "en": "Webuntis für Schulinformationen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "webuntis.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5196,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Digitales Amt Österreich",
+    "description": {
+      "de": "Digitales Amt Österreich (#eBlocker community)",
+      "en": "Digitales Amt Österreich (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "oesterreich.gv.at"
+    ],
+    "whitelistedIPs": [],
+    "id": 5197,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Internet Banking Bank Austria",
+    "description": {
+      "de": "Internet Banking Bank Austria (#eBlocker community)",
+      "en": "Internet Banking Bank Austria (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bankaustria.at"
+    ],
+    "whitelistedIPs": [],
+    "id": 5198,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Aftership",
+    "description": {
+      "de": "Anbieter zum Verfolgen mehrerer Packet Zustellungsunternehmen (#eBlocker community)",
+      "en": "Anbieter zum Verfolgen mehrerer Packet Zustellungsunternehmen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "mobile.aftership.com",
+      "assets.aftership.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5199,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Amazon Kreditkarte",
+    "description": {
+      "de": "Amazon Kreditkarte (#eBlocker community)",
+      "en": "Amazon Kreditkarte (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "amazon.lbb.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5200,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Netatmo Wetterstation",
+    "description": {
+      "de": "Smarte Wetterstation (#eBlocker community)",
+      "en": "Smart weather station (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "netatmo.com",
+      "netatmo.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5201,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "MyFRITZ!",
+    "description": {
+      "de": "MyFRITZ!-Webzugang (AVM Router) (#eBlocker community)",
+      "en": "MyFRITZ! web access (AVM router) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "myfritz.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5202,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "FRONIUS Webportal",
+    "description": {
+      "de": "Webportal PV-Anlage (FRONIUS) (#eBlocker community)",
+      "en": "Web portal PV system (FRONIUS) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "solarweb.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5203,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ETG24",
+    "description": {
+      "de": "Immobilienverwaltung / Eigentümerportal (#eBlocker community)",
+      "en": "Real estate management (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "etg24.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5204,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ANTON",
+    "description": {
+      "de": "Lernplattform - Interaktives Schulbuch und Arbeitsheft (#eBlocker community)",
+      "en": "Learning platform (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "Anton.app"
+    ],
+    "whitelistedIPs": [],
+    "id": 5205,
     "enabledPerDefault": false,
     "hidden": false
   }
