@@ -5753,20 +5753,6 @@
     "hidden": false
   },
   {
-    "name": "Internet Banking Bank Austria",
-    "description": {
-      "de": "Internet Banking Bank Austria (#eBlocker community)",
-      "en": "Internet Banking Bank Austria (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "bankaustria.at"
-    ],
-    "whitelistedIPs": [],
-    "id": 5198,
-    "enabledPerDefault": false,
-    "hidden": false
-  },
-  {
     "name": "Aftership",
     "description": {
       "de": "Anbieter zum Verfolgen mehrerer Packet Zustellungsunternehmen (#eBlocker community)",
