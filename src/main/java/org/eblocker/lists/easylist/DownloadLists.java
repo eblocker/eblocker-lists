@@ -56,7 +56,7 @@ public class DownloadLists {
 			if (list.hasChecksum()) {
 				verifyListChecksum(filename);
 			}
-			verifyListAge(filename);
+			verifyListAge(filename, list.getMaxAgeDays());
 			MaxFilterSizeValidator.verifyFilterSize(list);
 			EasyListSyntaxValidator.verifyAndRepair(list);
 		}
@@ -71,10 +71,10 @@ public class DownloadLists {
 		}
 	}
 
-	private static void verifyListAge(String filename) throws IOException, ParseException {
+	private static void verifyListAge(String filename, int maxAgeDaysOverride) throws IOException, ParseException {
 		MaxAgeValidator validator = new MaxAgeValidator();
 		FileInputStream input = new FileInputStream(filename);
-		MaxAgeValidationResult result = validator.validate(input, new Date());
+		MaxAgeValidationResult result = validator.validate(input, new Date(), maxAgeDaysOverride);
 		switch (result) {
 			case OK:
 				break;

@@ -40,6 +40,12 @@ public class MaxAgeValidatorTest {
 	@Rule
 	public FileResource easyListUpdated = new FileResource("easylist-updated.txt");
 
+	@Rule
+	public FileResource easyListExpiresMissing = new FileResource("easylist-expires-missing.txt");
+
+	@Rule
+	public FileResource easyListLastModifiedMissing = new FileResource("easylist-last-modified-missing.txt");
+
 	@Before
 	public void setUp() throws Exception {
 		validator = new MaxAgeValidator();
@@ -53,21 +59,28 @@ public class MaxAgeValidatorTest {
 	public void testExpired() throws Exception {
 		Date now = new Date();
 		InputStream input = easyPrivacyList.getInputStream();
-		assertEquals(MaxAgeValidationResult.EXPIRED, validator.validate(input, now)); // unless you time-travel to before 25 Jul 2016
+		assertEquals(MaxAgeValidationResult.EXPIRED, validator.validate(input, now, 0)); // unless you time-travel to before 25 Jul 2016
+	}
+
+	@Test
+	public void testExpiredOverridden() throws Exception {
+		Date now = getDate("21 Aug 2016 11:40 UTC");
+		InputStream input = easyPrivacyList.getInputStream();
+		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now, 32));
 	}
 
 	@Test
 	public void testValid() throws Exception {
 		Date now = getDate("23 Jul 2016 9:40 UTC");
 		InputStream input = easyPrivacyList.getInputStream();
-		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
+		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now, 0));
 	}
 
 	@Test
 	public void testUpdated() throws Exception {
 		Date now = getDate("17 Mar 2021 9:40 UTC");
 		InputStream input = easyListUpdated.getInputStream();
-		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
+		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now, 0));
 	}
 
 	@Test
@@ -77,11 +90,25 @@ public class MaxAgeValidatorTest {
 
 		InputStream input = IOUtils.toInputStream(list, StandardCharsets.UTF_8);
 		Date now = getDate("31 Mar 2022 16:35 UTC");
-		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now));
+		assertEquals(MaxAgeValidationResult.OK, validator.validate(input, now, 0));
 
 		input = IOUtils.toInputStream(list, StandardCharsets.UTF_8);
 		now = getDate("1 Apr 2022 16:35 UTC");
-		assertEquals(MaxAgeValidationResult.EXPIRED, validator.validate(input, now));
+		assertEquals(MaxAgeValidationResult.EXPIRED, validator.validate(input, now, 0));
+	}
+
+	@Test
+	public void testExpiresMissing() throws Exception {
+		Date now = new Date();
+		InputStream input = easyListExpiresMissing.getInputStream();
+		assertEquals(MaxAgeValidationResult.EXPIRES_MISSING, validator.validate(input, now, 0));
+	}
+
+	@Test
+	public void testLastModifiedMissing() throws Exception {
+		Date now = new Date();
+		InputStream input = easyListLastModifiedMissing.getInputStream();
+		assertEquals(MaxAgeValidationResult.LAST_MODIFIED_MISSING, validator.validate(input, now, 0));
 	}
 
 	private Date getDate(String date) throws ParseException {

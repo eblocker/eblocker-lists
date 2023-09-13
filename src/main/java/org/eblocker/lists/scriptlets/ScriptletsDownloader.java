@@ -19,6 +19,8 @@ package org.eblocker.lists.scriptlets;
 import org.eblocker.lists.tools.ResourceInputStream;
 import org.eblocker.lists.util.HttpClient;
 import org.eblocker.lists.util.HttpClientFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,14 +28,17 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Downloads scriptlets in uBlock Origin's format.
  */
 public class ScriptletsDownloader {
+    private static final Logger log = LoggerFactory.getLogger(ScriptletsDownloader.class);
     private static final String PROPERTIES_FILE = "scriptlets.properties";
     private static final String SCRIPTLETS_URL = "scriptlets.url";
     private static final String SCRIPTLETS_DIRECTORY = "scriptlets.directory";
+    private static final String SCRIPTLETS_MIN_NUMBER = "scriptlets.minimum_number";
 
     private final HttpClient httpClient;
     private final Path scriptletsDirectory;
@@ -43,14 +48,25 @@ public class ScriptletsDownloader {
         this.scriptletsDirectory = scriptletsDirectory;
     }
 
-    public void downloadScriptlets(String url) throws IOException {
+    /**
+     * Downloads the scriptlets file, parses the scriptlets and writes them to individual files
+     * @param url
+     * @return number of unique scriptlets (excluding aliases)
+     * @throws IOException
+     */
+    public int downloadScriptlets(String url) throws IOException {
+        AtomicInteger nScriptlets = new AtomicInteger();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(httpClient.download(url, null, null)))) {
-            new ScriptletsParser().parse(reader.lines())
-                .forEach(this::writeScriptlet);
+            new ScriptletsParser().parse(reader.lines()).forEach(scriptlet -> {
+                writeScriptlet(scriptlet);
+                nScriptlets.getAndIncrement();
+            });
         }
+        return nScriptlets.get();
     }
 
     private void writeScriptlet(Scriptlet scriptlet) {
+        log.info("Writing scriptlet(s): {}", scriptlet.getNames());
         for (String name: scriptlet.getNames()) {
             Path path = scriptletsDirectory.resolve(name);
             try {
@@ -66,7 +82,12 @@ public class ScriptletsDownloader {
         properties.load(ResourceInputStream.get(PROPERTIES_FILE));
         String url = properties.getProperty(SCRIPTLETS_URL);
         String dir = properties.getProperty(SCRIPTLETS_DIRECTORY);
+        int minNumber = Integer.parseInt(properties.getProperty(SCRIPTLETS_MIN_NUMBER));
         ScriptletsDownloader downloader = new ScriptletsDownloader(HttpClientFactory.create(), Path.of(dir));
-        downloader.downloadScriptlets(url);
+        int number = downloader.downloadScriptlets(url);
+        if (number < minNumber) {
+            log.error("Found only {} scriptlets. Expected at least {}.", number, minNumber);
+            throw new RuntimeException("Not enough scriptlets found");
+        }
     }
 }

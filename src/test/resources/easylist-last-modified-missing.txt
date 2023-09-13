@@ -1,0 +1,10 @@
+[Adblock Plus x.y]
+! Expires: 9 days (update frequency)
+This
+list
+does
+not
+have
+a
+"Last Modified"
+header
