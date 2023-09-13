@@ -47,7 +47,8 @@ public class EasyListConfiguration {
 			String filename = directory + "/" + getListParameter(list, "filename");
 			String url = getListParameter(list, "url");
 			long minimumBytesJSON = Long.parseLong(getListParameter(list, "minimum_bytes_json"));
-			int maxAgeDays = Integer.parseInt(getListParameter(list, "max_age_days"));
+			String maxAgeDaysStr = getListParameter(list, "max_age_days");
+			int maxAgeDays = maxAgeDaysStr != null ? Integer.parseInt(maxAgeDaysStr) : 0;
 			String hasChecksumValue = getListParameter(list, "has_checksum");
 			boolean hasChecksum = hasChecksumValue == null ? true : Boolean.parseBoolean(hasChecksumValue);
 			Set<EasyListRuleTest> easyListRuleTests = new HashSet<>();

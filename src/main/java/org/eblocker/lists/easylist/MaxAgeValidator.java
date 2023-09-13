@@ -45,33 +45,39 @@ public class MaxAgeValidator {
 	 * Checks whether the given EasyList is still valid at the given date
 	 * @param listStream the stream to read the EasyList from. As soon as the comments "Last modified"
 	 * and "Expires" are found, reading from the stream is stopped
-	 * @param now
+	 * @param now the current date
+	 * @param maxAgeDaysOverride optional parameter to override the expiration date (must be > 0)
 	 * @return
 	 * @throws IOException
 	 * @throws ParseException
 	 */
-	public MaxAgeValidationResult validate(InputStream listStream, Date now) throws IOException, ParseException {
+	public MaxAgeValidationResult validate(InputStream listStream, Date now, int maxAgeDaysOverride) throws IOException, ParseException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(listStream, StandardCharsets.UTF_8));
 
 		Duration maxAge = null;
 		Date lastModified = null;
-		
+
+		if (maxAgeDaysOverride > 0) {
+			maxAge = Duration.ofDays(maxAgeDaysOverride);
+		}
+
 		String line = null;
 		while (null != (line = reader.readLine())) {
 			Matcher matcher = lastModifiedPattern.matcher(line);
 			if (matcher.matches()) {
 				lastModified = parseDate(matcher.group(2));
 			}
-			
-			matcher = expiresPattern.matcher(line);
-			if (matcher.matches()) {
-				long number = Long.parseLong(matcher.group(1));
-				if ("days".equals(matcher.group(2))) {
-					maxAge = Duration.ofDays(number);
-				} else if ("hours".equals(matcher.group(2))) {
-					maxAge = Duration.ofHours(number);
-				} else {
-					throw new RuntimeException("Why did the expiresPattern not match " + matcher.group(2) + "?");
+			if (maxAge == null) {
+				matcher = expiresPattern.matcher(line);
+				if (matcher.matches()) {
+					long number = Long.parseLong(matcher.group(1));
+					if ("days".equals(matcher.group(2))) {
+						maxAge = Duration.ofDays(number);
+					} else if ("hours".equals(matcher.group(2))) {
+						maxAge = Duration.ofHours(number);
+					} else {
+						throw new RuntimeException("Why did the expiresPattern not match " + matcher.group(2) + "?");
+					}
 				}
 			}
 			if (maxAge != null && lastModified != null) {
@@ -84,7 +90,7 @@ public class MaxAgeValidator {
 		} else if (maxAge == null) {
 			return MaxAgeValidationResult.EXPIRES_MISSING;
 		} else {
-			throw new RuntimeException("This should never happen. Either lastModied or maxAge should be null.");
+			throw new RuntimeException("This should never happen. Either lastModified or maxAge should be null.");
 		}
 	}
 
