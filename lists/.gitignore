@@ -1,5 +1,6 @@
 intermediate.pem
 malware-ip-ports.json
+malware-ip6-ports.json
 malware-urls.json
 parentalcontrol.ebpjm
 parentalcontrol-filter.json
