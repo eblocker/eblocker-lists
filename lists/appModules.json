@@ -5851,5 +5851,20 @@
     "id": 5205,
     "enabledPerDefault": false,
     "hidden": false
+  },
+  {
+    "name": "WetterOnline",
+    "description": {
+      "de": "WetterOnline und RegenRadar",
+      "en": "WetterOnline and RegenRadar"
+    },
+    "whitelistedDomains": [
+      "wetteronline.de",
+      "wo-cloud.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5206,
+    "enabledPerDefault": false,
+    "hidden": false
   }
 ]
