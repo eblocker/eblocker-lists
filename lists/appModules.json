@@ -78,6 +78,7 @@
       "s-pushtan-by06.de",
       "s-pushtan-by07.de",
       "s-pushtan-by08.de",
+      "s-pushtan-hh07.de",
       "s-pushtan-hs01.de",
       "s-pushtan-hs02.de",
       "s-pushtan-hs03.de",
@@ -122,7 +123,9 @@
       "volkswagenbank.de",
       "ikb.de",
       "moneyou.de",
-      "pluscard.de"
+      "pluscard.de",
+      "gls-online-filiale.de",
+      "gls.de"
     ],
     "labels": {
       "bundesbank.de": "Deutsche Bundesbank",
@@ -185,6 +188,7 @@
       "s-pushtan-by06.de": "PushTAN",
       "s-pushtan-by07.de": "PushTAN",
       "s-pushtan-by08.de": "PushTAN",
+      "s-pushtan-hh07.de": "PushTAN",
       "s-pushtan-hs01.de": "PushTAN",
       "s-pushtan-hs02.de": "PushTAN",
       "s-pushtan-hs03.de": "PushTAN",
@@ -229,7 +233,9 @@
       "volkswagenbank.de": "Volkswagen Financial Service",
       "ikb.de": "Deutsche Indusriebank",
       "moneyou.de": "Marke der niederländischen ABN AMRO Bank",
-      "pluscard.de": "Sparkassen Organisation"
+      "pluscard.de": "Sparkassen Organisation",
+      "gls-online-filiale.de": "GLS Bank",
+      "gls.de": "GLS Bank"
     },
     "id": 9999,
     "enabledPerDefault": true,
