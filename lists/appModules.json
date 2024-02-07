@@ -458,7 +458,16 @@
     },
     "whitelistedDomains": [
       "whatsapp.net",
-      "whatsapp.com"
+      "whatsapp.com",
+      "www.wa.me",
+      "www.whatsappbrand.com",
+      "www.whatsapp.cc",
+      "www.whatsapp.info",
+      "www.whatsapp.org",
+      "www.whatsapp.tv",
+      "whatsapp-plus.info",
+      "whatsapp-plus.me",
+      "whatsapp-plus.net"
     ],
     "id": 11,
     "enabledPerDefault": false
@@ -2311,7 +2320,14 @@
       "de": "AliExpress.com ist ein Online-Einzelhandelsservice"
     },
     "whitelistedDomains": [
-      "api.aliexpress.com"
+      "api.aliexpress.com",
+      "amdc.aliexpress.com",
+      "acs.aliexpress.com",
+      "abtest.alibaba.com",
+      "video.aliexpress-media.com",
+      "video-cdn.aliexpress-media.com",
+      "m.aliexpress.com",
+      "alicdn.com"
     ],
     "whitelistedIPs": [],
     "id": 132,
@@ -2751,7 +2767,9 @@
     "whitelistedDomains": [
       "playstation.net",
       "playstation.com",
-      "sonyentertainmentnetwork.com"
+      "sonyentertainmentnetwork.com",
+      "ca.account.sony.com",
+      "my.account.sony.com"
     ],
     "id": 162,
     "enabledPerDefault": false,
@@ -5870,6 +5888,307 @@
     ],
     "whitelistedIPs": [],
     "id": 5206,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Strato",
+    "description": {
+      "de": "Server Anbieter (#eBlocker community)",
+      "en": "Server Anbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "strato.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5207,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Raspberry Pi Imager",
+    "description": {
+      "de": "Imager for Raspberry (#eBlocker community)",
+      "en": "Imager for Raspberry (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "downloads.raspberrypi.com",
+      "rpi-imager-stats.raspberrypi.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5208,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Otto",
+    "description": {
+      "de": "Versandhandel (#eBlocker community)",
+      "en": "Versandhandel (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.otto.de",
+      "i.otto.de",
+      "pxc.otto.de",
+      "tp.otto.de",
+      "te.otto.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5209,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "LeasePlan Sparen",
+    "description": {
+      "de": "App der LeasePlan-Bank (#eBlocker community)",
+      "en": "LeasePlan Bank App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "leaseplanbank.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5210,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Targo Bank",
+    "description": {
+      "de": "Targobank App (#eBlocker community)",
+      "en": "Targobank App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "targobank.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5211,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Open Weather",
+    "description": {
+      "de": "Zugriff auf die Open Weather API (#eBlocker community)",
+      "en": "Zugriff auf die Open Weather API (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.openweathermap.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 5212,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Tailscale",
+    "description": {
+      "de": "VPN Mesh Netzwerk (#eBlocker community)",
+      "en": "VPN Mesh Netzwerk (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "tailscale.io",
+      "tailscale.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5213,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "E3DC",
+    "description": {
+      "de": "SystemSoftware PV-Anlage (#eBlocker community)",
+      "en": "SystemSoftware PV-Anlage (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "a.e3dc.com",
+      "e3dc.e3dc.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5214,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Fiverr",
+    "description": {
+      "de": "Fiverr (#eBlocker community)",
+      "en": "Fiverr (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.fiverr.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5215,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Smartbroker+",
+    "description": {
+      "de": "Smartbroker+ App (Nachfolger von Smartbroker) (#eBlocker community)",
+      "en": "Smartbroker+ App (Nachfolger von Smartbroker) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "smartbroker-api-prod.ariva-services.de",
+      "smartbrokerplus.de",
+      "data.ariva-services.de",
+      "prodo-api.ariva-services.de",
+      "mds.ariva-services.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5216,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Echo Show 10 (Tagesschau in 100 Sekunden)",
+    "description": {
+      "de": "Diese Regel ermöglicht das Abspielen der Tagesschau in 100 Sekunden auf dem Echo Show 10 (#eBlocker community)",
+      "en": "Diese Regel ermöglicht das Abspielen der Tagesschau in 100 Sekunden auf dem Echo Show 10 (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "media.tagesschau.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5217,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "VR Secure",
+    "description": {
+      "de": "Volksbank Freigabeabfrage Starmoney Business (#eBlocker community)",
+      "en": "Volksbank Freigabeabfrage Starmoney Business (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "fints2.atruvia.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5218,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ToxFox",
+    "description": {
+      "de": "BUND-Produktcheck (#eBlocker community)",
+      "en": "BUND-Produktcheck (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "toxcheck.info"
+    ],
+    "whitelistedIPs": [],
+    "id": 5219,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "MyVaillant",
+    "description": {
+      "de": "für Heizung (#eBlocker community)",
+      "en": "für Heizung (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "myvaillant.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5220,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "ChatGPT",
+    "description": {
+      "de": "Chat Ai (#eBlocker community)",
+      "en": "Chat Ai (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "chat.openai.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5221,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Chess.com",
+    "description": {
+      "de": "Schachanbieter (#eBlocker community)",
+      "en": "Schachanbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.chess.com",
+      "www.chess.com",
+      "images.chesscomfiles.com",
+      "bucket.chess.com",
+      "services.chess.com",
+      "analysis.chess.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5222,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "NewPipe",
+    "description": {
+      "de": "Freier Medienspieler und YouTube-Client (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "youtube.com",
+      "googlevideo.com",
+      "newpipe.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5223,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Vorwerk Thermomix",
+    "description": {
+      "de": "Cookidoo (#eBlocker community)",
+      "en": "Cookidoo (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "de.tmmobile.vorwerk-digital.com",
+      "login.vorwerk.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5224,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "Wiser Home",
+    "description": {
+      "de": "Eine App, um Ihr Zuhause zu steuern. (#eBlocker community)",
+      "en": "Eine App, um Ihr Zuhause zu steuern. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api-nl.wiserair.com",
+      "se-api.wiserhome.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5225,
+    "enabledPerDefault": false,
+    "hidden": false
+  },
+  {
+    "name": "SwitchBot",
+    "description": {
+      "de": "SwitchBot ist Ihr einfacher Wechsel zu einem Smart Home. (#eBlocker community)",
+      "en": "Keine Beschreibung vorhanden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "eu.switch-bot.com",
+      "switchbot.zendesk.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5226,
     "enabledPerDefault": false,
     "hidden": false
   }
