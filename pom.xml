@@ -18,11 +18,23 @@
       <version.slf4j>1.7.32</version.slf4j>
       <version.log4j2>2.17.1</version.log4j2>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>eblocker</id>
+            <url>https://maven.pkg.github.com/eblocker/eblocker</url>
+        </repository>
+        <repository>
+            <id>eblocker-top</id>
+            <url>https://maven.pkg.github.com/eblocker/eblocker-top</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.eblocker</groupId>
             <artifactId>eblocker-icapserver</artifactId>
-            <version>3.0.0</version>
+            <version>3.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
