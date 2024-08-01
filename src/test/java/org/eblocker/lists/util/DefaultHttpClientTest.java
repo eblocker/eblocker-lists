@@ -53,7 +53,7 @@ public class DefaultHttpClientTest {
         }
         byte[] existingResourceGzipped = baos.toByteArray();
 
-        mockServer = ClientAndServer.startClientAndServer(ThreadLocalRandom.current().nextInt(8000, 9000));
+        mockServer = ClientAndServer.startClientAndServer(ThreadLocalRandom.current().nextInt(8100, 9000));
         mockServer.when(HttpRequest.request()
             .withMethod("GET")
             .withPath("/auth/squid-urlshort.acl")
