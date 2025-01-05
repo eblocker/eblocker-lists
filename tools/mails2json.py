@@ -13,10 +13,11 @@ import sys
 import re
 import json
 
-if len(sys.argv) != 2:
-    exit(f'Usage: {sys.argv[0]} <mails file>')
+if len(sys.argv) != 3:
+    exit(f'Usage: {sys.argv[0]} <json file> <mails file>')
 
-infile = sys.argv[1]
+jsonfile = sys.argv[1]
+infile = sys.argv[2]
 
 existing_app_pattern = re.compile(r'Suggestion for existing app:.*\(ID (\d+)\)')
 description_pattern = re.compile(r'Description:\s*\nde:([^\n]*).*?\nen:([^\n]*)', re.DOTALL)
@@ -94,14 +95,41 @@ def parse_mails(infile):
             apps.append(parse_app(mail))
     return apps
 
-def check_names(apps):
-    names = set()
-    for app in apps:
-        name = app['name']
-        if name in names:
-            print(f'WARNING: app name "{name}" is not unique. Please merge manually!', file=sys.stderr)
-        names.add(name)
+def merge_apps(current_apps,new_apps):
+    nextId = 0
+    for entry in current_apps:
+        currId = int(entry['id'])
+        if currId > nextId and currId < 9999:
+            nextId = currId
+    nextId += 1
 
-apps = parse_mails(infile)
-print(json.dumps(apps, ensure_ascii=False, indent=2))
-check_names(apps)
+    for app in new_apps:
+        newApp = True
+        for entry in current_apps:
+            if entry['name']==app['name']:
+                newApp = False
+                for domain in app['whitelistedDomains']:
+                    found = False
+                    for listed in entry['whitelistedDomains']:
+                        if listed in domain:
+                            found = True
+                    if not found:
+                        entry['whitelistedDomains'].append(domain)
+                        print("trusted app",entry['name'],": added domain",domain)
+
+        if newApp:
+            app['id'] = nextId
+            current_apps.append(app)
+            print("trusted app",app['name'],"added.")
+            nextId += 1
+
+# read file
+with open(jsonfile, 'r') as myfile:
+    data=myfile.read()
+currentapps = json.loads(data)
+newapps = parse_mails(infile)
+
+merge_apps(currentapps,newapps)
+
+with open(jsonfile, 'w') as myfile:
+    myfile.write(json.dumps(currentapps, ensure_ascii=False, indent=2))
