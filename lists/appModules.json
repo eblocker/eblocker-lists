@@ -945,7 +945,8 @@
     "whitelistedDomains": [
       "katwarn.de",
       "kwrn.de",
-      "katwarn.at"
+      "katwarn.at",
+      "kwrn.eu"
     ],
     "whitelistedIPs": [],
     "id": 40,
@@ -1020,7 +1021,13 @@
     "whitelistedDomains": [
       "api.steampowered.com",
       "steamcommunity-a.akamaihd.net",
-      "steamcloudams.blob.core.windows.net"
+      "steamcloudams.blob.core.windows.net",
+      "test.steampowered.com",
+      "steampowered.com",
+      "cdn.akamai.steamstatic.com",
+      "store.akamai.steamstatic.com",
+      "cdn.steamstatic.com",
+      "steamserver.net"
     ],
     "whitelistedIPs": [],
     "id": 45,
@@ -2292,7 +2299,10 @@
     },
     "whitelistedDomains": [
       "tk.de",
-      "kobil.tk.de"
+      "kobil.tk.de",
+      "agembi.com",
+      "sigd.egk-tsp.de",
+      "tk.ibmepa.de"
     ],
     "whitelistedIPs": [],
     "id": 130,
@@ -3679,7 +3689,8 @@
       "app-prod-ws.warnwetter.de",
       "maps.dwd.de",
       "opendata.dwd.de",
-      "www.dwd.de"
+      "www.dwd.de",
+      "app-prod-static.warnwetter.de"
     ],
     "whitelistedIPs": [],
     "id": 5050,
@@ -3941,7 +3952,8 @@
     },
     "whitelistedDomains": [
       "mycloud.com",
-      "wdckeystone.com"
+      "wdckeystone.com",
+      "auth0.accounts.westerndigital.com"
     ],
     "whitelistedIPs": [],
     "id": 5066,
@@ -4049,7 +4061,9 @@
     },
     "whitelistedDomains": [
       "api.countly.bmwgroup.com",
-      "cocoapi.bmwgroup.com"
+      "cocoapi.bmwgroup.com",
+      "www.bmw.de",
+      "customer.bmwgroup.com"
     ],
     "whitelistedIPs": [],
     "id": 5073,
@@ -4181,7 +4195,8 @@
       "tiktokcdn.com",
       "tiktokv.com",
       "tiktok.com",
-      "tiktokcdn-us.com"
+      "tiktokcdn-us.com",
+      "tiktokcdn-eu.com"
     ],
     "whitelistedIPs": [],
     "id": 5082,
@@ -4886,7 +4901,9 @@
       "kostal-api.solytic.com",
       "news-api.kostal-solar-electric.com",
       "www.kostal-solar-portal.de",
-      "api.solytic.com"
+      "api.solytic.com",
+      "kostal-solar-portal.com",
+      "dataservice.accuweather.com"
     ],
     "whitelistedIPs": [],
     "id": 5133,
@@ -4916,7 +4933,19 @@
     },
     "whitelistedDomains": [
       "appgateway.lidlplus.com",
-      "accounts.lidl.com"
+      "accounts.lidl.com",
+      "segments.lidlplus.com",
+      "profile.lidlplus.com",
+      "branddeals.lidlplus.com",
+      "related-products.lidlplus.com",
+      "localization.lidlplus.com",
+      "surveys.lidlplus.com",
+      "eticket.lidlplus.com",
+      "payments.lidlplus.com",
+      "home.lidlplus.com",
+      "coupons.lidlplus.com",
+      "tipcards.lidlplus.com",
+      "banners.lidlplus.com"
     ],
     "whitelistedIPs": [],
     "id": 5135,
@@ -5262,7 +5291,22 @@
       "oauth.ws.sonos.com",
       "service-catalog.ws.sonos.com",
       "spotify-v5.ws.sonos.com",
-      "voiceconfig.ws.sonos.com"
+      "voiceconfig.ws.sonos.com",
+      "api.ws.sonos.com",
+      "msmetrics.ws.sonos.com",
+      "sslvalidator.sonos.com",
+      "account.ws.sonos.com",
+      "dcapps.ws.sonos.com",
+      "mnfts.ws.sonos.com",
+      "sonos-pmap.ws.sonos.com",
+      "sonos-img.ws.sonos.com",
+      "sonar.ws.sonos.com",
+      "login.sonos.com",
+      "transfer.ws.sonos.com",
+      "sonos.com",
+      "sali.sonos.radio",
+      "sonos.audible.com",
+      "sonosradio.imgix.net"
     ],
     "whitelistedIPs": [],
     "id": 5162,
@@ -5305,7 +5349,8 @@
       "en": "SWR1 Radio (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "liveradio.swr.de"
+      "liveradio.swr.de",
+      "rndfnk.com"
     ],
     "whitelistedIPs": [],
     "id": 5165,
@@ -5710,7 +5755,9 @@
       "cdn.aboutstatic.com",
       "m.aboutyou.de",
       "tadarida.aboutyou.com",
-      "grips.aboutyou.com"
+      "grips.aboutyou.com",
+      "api-cloud.aboutyou.de",
+      "cdn.aboutyou.de"
     ],
     "whitelistedIPs": [],
     "id": 5193,
@@ -6191,5 +6238,859 @@
     "id": 5226,
     "enabledPerDefault": false,
     "hidden": false
+  },
+  {
+    "name": "JW Player",
+    "description": {
+      "de": "Online Video Player (#eBlocker community)",
+      "en": "Online Video Player (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "jwplayer.com",
+      "jwpsrv.com",
+      "jwpcdn.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5227
+  },
+  {
+    "name": "Swiss TXT",
+    "description": {
+      "de": "Teletext des Schweizer Fernsehens (#eBlocker community)",
+      "en": "Teletext of Swiss Television (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "m.txt.ch",
+      "txt.ch",
+      "teletext.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5228
+  },
+  {
+    "name": "SoftMaker",
+    "description": {
+      "de": "Office Software aus Deutschland (#eBlocker community)",
+      "en": "Office Software from Germany (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "softmaker.com",
+      "softmaker.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5229
+  },
+  {
+    "name": "Infomaniak",
+    "description": {
+      "de": "Schweizer Internet-Anbieter (#eBlocker community)",
+      "en": "Swiss Internet Service Provider (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "infomaniak.com",
+      "ik.me"
+    ],
+    "whitelistedIPs": [],
+    "id": 5230
+  },
+  {
+    "name": "Facebook Video Downloader",
+    "description": {
+      "de": "Facebook Video Downloader (#eBlocker community)",
+      "en": "Facebook Video Downloader (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "fdown.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5231
+  },
+  {
+    "name": "Washington Post",
+    "description": {
+      "de": "WashPost-app (#eBlocker community)",
+      "en": "Reading the Washington Post on its iOS-app (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "washingtonpost.com",
+      "wpdigital.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5232
+  },
+  {
+    "name": "Schulportal Hessen",
+    "description": {
+      "de": "Schulportal für hessische Schulen (#eBlocker community)",
+      "en": "Schulportal für hessische Schulen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "schulportal.hessen.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5233
+  },
+  {
+    "name": "Reuters",
+    "description": {
+      "de": "Reuters news app (#eBlocker community)",
+      "en": "Reuters iOS news app (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "reuters.com",
+      "reuters.tv"
+    ],
+    "whitelistedIPs": [],
+    "id": 5234
+  },
+  {
+    "name": "Malwarebytes Homepage Konto",
+    "description": {
+      "de": "Diese Regel ist für den Login bei Malwarebytes erforderlich (#eBlocker community)",
+      "en": "Diese Regel ist für den Login bei Malwarebytes erforderlich (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "holocron.mwbsys.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5235
+  },
+  {
+    "name": "BARMER Gesundheitsapp",
+    "description": {
+      "de": "App der BARMER Krankenkasse (#eBlocker community)",
+      "en": "App der BARMER Krankenkasse (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "barmer.de",
+      "www.barmer.de",
+      "ba-app.barmer-bonusprogramm.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5236
+  },
+  {
+    "name": "Amazon Kreditkarte Santander",
+    "description": {
+      "de": "Eine Regel welche ermöglicht die neue  App (Amazon Kreditkarte von Santander) auf Android zu nutzen (#eBlocker community)",
+      "en": "Eine Regel welche ermöglicht die neue  App (Amazon Kreditkarte von Santander) auf Android zu nutzen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "customer.amazon.zinia.de",
+      "assets.prod.zinia.com",
+      "assets.zinia.com",
+      "teal.zinia.com",
+      "api.prod.cb.amazon.zinia.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5237
+  },
+  {
+    "name": "Home ID",
+    "description": {
+      "de": "Philips Friteuse (#eBlocker community)",
+      "en": "Philipps Frit (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "cdc.accounts.home.id",
+      "api.apptentive.com",
+      "www.philips.de",
+      "www.philips.com",
+      "www.backend.vbs.versuni.com",
+      "prod.eu-da.iot.versuni.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5238
+  },
+  {
+    "name": "Union Investment",
+    "description": {
+      "de": "Union Investment (#eBlocker community)",
+      "en": "Union Investment (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.union-investment.de",
+      "service.meindepot.union-investment.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5239
+  },
+  {
+    "name": "mehr-tanken",
+    "description": {
+      "de": "Spritpreis App (#eBlocker community)",
+      "en": "Spritpreis App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "mehr-tanken.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5240
+  },
+  {
+    "name": "IHG",
+    "description": {
+      "de": "Holiday Inn Bonusprogramm (#eBlocker community)",
+      "en": "Holiday Inn Bonusprogramm (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "accounts.ihg.com",
+      "apis.ihg.com",
+      "digital.ihg.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5241
+  },
+  {
+    "name": "Börse Frankfurt",
+    "description": {
+      "de": "Börsen App der Börse Frankfurt (#eBlocker community)",
+      "en": "Börsen App der Börse Frankfurt (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "sso.boerse-frankfurt.de",
+      "mobile-api.boerse-frankfurt.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5242
+  },
+  {
+    "name": "Bosch Flow",
+    "description": {
+      "de": "Fahrrad App (#eBlocker community)",
+      "en": "Fahrrad App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.bosch-ebike.com",
+      "events.mapbox.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5243
+  },
+  {
+    "name": "DB",
+    "description": {
+      "de": "DB (#eBlocker community)",
+      "en": "DB (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.bahn.de",
+      "www.fahrkartenshop2-bahn.de",
+      "accounts.bahn.de",
+      "app.vendo.noncd.db.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5244
+  },
+  {
+    "name": "League of Legends",
+    "description": {
+      "de": "Required for receiving Match Making Pop Ups in League of Legends (#eBlocker community)",
+      "en": "Required for receiving Match Making Pop Ups in League of Legends (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "eu.edge.rms.si.riotgames.com",
+      "ekg.riotgames.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5245
+  },
+  {
+    "name": "ALF- Banco",
+    "description": {
+      "de": "alf-banco 9 (#eBlocker community)",
+      "en": "alf-banco 9 (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.alf-banco.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5246
+  },
+  {
+    "name": "ADAC App",
+    "description": {
+      "de": "Dies ist eine Regel zur Nutzung der ADAC Pannen App für Android (#eBlocker community)",
+      "en": "Dies ist eine Regel zur Nutzung der ADAC Pannen App für Android (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "login.adac.de",
+      "adaconlineapim.adac.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5247
+  },
+  {
+    "name": "Refoss SmartSwitch",
+    "description": {
+      "de": "Refoss App zur Steuerung smarter Steckdosen (ehem. Meross) (#eBlocker community)",
+      "en": "Refoss App for smart devices (formerly Meross) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "iotx-eu.refoss.net",
+      "mqtt-eu-3.refoss.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5248
+  },
+  {
+    "name": "Reddit",
+    "description": {
+      "de": "Reddit App (#eBlocker community)",
+      "en": "Reddit App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "reddit.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5249
+  },
+  {
+    "name": "Luca App",
+    "description": {
+      "de": "Luca App (#eBlocker community)",
+      "en": "Luca App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "luca-app.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5250
+  },
+  {
+    "name": "LineAgeOS",
+    "description": {
+      "de": "LineageOS ist eine alternative Android version für Lenovo Geräte (#eBlocker community)",
+      "en": "LineageOS is an Android alternative for Lenovo devices (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "download.lineageos.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 5251
+  },
+  {
+    "name": "Leo.Org",
+    "description": {
+      "de": "Leo.org Übersetzung (#eBlocker community)",
+      "en": "Leo.org Übersetzung (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "leo.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 5252
+  },
+  {
+    "name": "Keeper App",
+    "description": {
+      "de": "Keeper Passwort Manager (#eBlocker community)",
+      "en": "Keeper Passwort Manager (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "keepersecurity.eu",
+      "keepersecurity.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5253
+  },
+  {
+    "name": "Just Watch",
+    "description": {
+      "de": "Just Watch App (#eBlocker community)",
+      "en": "Just Watch App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "sentry.justwatch.com",
+      "apis.justwatch.com",
+      "images.justwatch.com",
+      "www.justwatch.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5254
+  },
+  {
+    "name": "Goovee SmartHome",
+    "description": {
+      "de": "Goovee Smarte LEDs (#eBlocker community)",
+      "en": "Goovee Smarte LEDs (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "govee.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5255
+  },
+  {
+    "name": "DB Navigator",
+    "description": {
+      "de": "Deutsche Bahn Navigator (#eBlocker community)",
+      "en": "Deutsche Bahn Navigator (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "cms.services-bahn.de",
+      "reiseauskunft.bahn.de",
+      "www.bahn.de",
+      "www.img-bahn.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5256
+  },
+  {
+    "name": "Cricut Design Space",
+    "description": {
+      "de": "Cricut Design Space für Cricut Plotter (#eBlocker community)",
+      "en": "Circut Design Space for Cricut plotters (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "pyrope-apis.cricut.com",
+      "design.cricut.com",
+      "apis.cricut.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5257
+  },
+  {
+    "name": "Bett1",
+    "description": {
+      "de": "Bett1.de (#eBlocker community)",
+      "en": "Bett1.de (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bett1.de",
+      "cdn.tms.bett1.de",
+      "img-www.bett1.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5258
+  },
+  {
+    "name": "3D Drucker Apps",
+    "description": {
+      "de": "Thingiverse Apps und Sites für den 3D Drucker (#eBlocker community)",
+      "en": "Thingiverse Apps and Sites for 3D printers (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.thingiverse.com",
+      "api.thingiverse.com",
+      "3dgeeks.2b.work",
+      "cdn.thingiverse.com",
+      "www.3dgeeks.app",
+      "cloud-universe.anycubic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5259
+  },
+  {
+    "name": "17TRACK",
+    "description": {
+      "de": "17 Track Globale Paket Tracking App (#eBlocker community)",
+      "en": "17 Track Global Package Tracking App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "17track.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5260
+  },
+  {
+    "name": "BitMoji",
+    "description": {
+      "de": "BitMoji App (#eBlocker community)",
+      "en": "BitMoji App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "images.bitmoji.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5261
+  },
+  {
+    "name": "Darf ich das App",
+    "description": {
+      "de": "Darf ich das? (#eBlocker community)",
+      "en": "Darf ich das? (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.darfichdas.info"
+    ],
+    "whitelistedIPs": [],
+    "id": 5262
+  },
+  {
+    "name": "BambuLab",
+    "description": {
+      "de": "Bambu Lab 3d print (#eBlocker community)",
+      "en": "Bambu Lab 3d print (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.bambulab.com",
+      "makerworld.bblmw.com",
+      "public-cdn.bblmw.com",
+      "makerworld.com",
+      "bblmw.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5263
+  },
+  {
+    "name": "VRChat",
+    "description": {
+      "de": "Steam Social Game (VR) (#eBlocker community)",
+      "en": "Steam Social Game (VR) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.vrchat.cloud",
+      "pipeline.vrchat.cloud",
+      "api2.amplitude.com",
+      "files.vrchat.cloud"
+    ],
+    "whitelistedIPs": [],
+    "id": 5264
+  },
+  {
+    "name": "Senec",
+    "description": {
+      "de": "Senec Solar (#eBlocker community)",
+      "en": "Senec Solar (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "senec.com",
+      "mein-senec.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5265
+  },
+  {
+    "name": "Freestyle Libre",
+    "description": {
+      "de": "Blutzuckermessung (#eBlocker community)",
+      "en": "Blutzuckermessung (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "fsll3.freestyleserver.co",
+      "api-c-de.libreview.io",
+      "fsll3.freestyleserver.com",
+      "api-de.libreview.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5266
+  },
+  {
+    "name": "stromgedacht",
+    "description": {
+      "de": "transnetbw (#eBlocker community)",
+      "en": "transnetbw (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "statistik.transnetbw.de",
+      "app-api.stromgedacht.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5267
+  },
+  {
+    "name": "Tesla Mobile IOS",
+    "description": {
+      "de": "Tesla Mobile IOS app - remote control and wakeup (#eBlocker community)",
+      "en": "Tesla Mobile IOS app - remote control and wakeup (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "owner-api.teslamotors.com",
+      "signaling.vn.teslamotors.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5268
+  },
+  {
+    "name": "LastWar",
+    "description": {
+      "de": "Last War Game - Chat (#eBlocker community)",
+      "en": "Last War Game - Chat (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "lastwar-chat-us-gcp-ali.lastwargame.com",
+      "lastwar-chat-wss-us-ali.lastwargame.com",
+      "lastwar-serverlist-us-cf-ali.lastwarapp.com",
+      "lastwar-cdn.akamaized.net",
+      "lastwar-serverlist-us-aws-ali.lastwargame.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5269
+  },
+  {
+    "name": "tado",
+    "description": {
+      "de": "Smarte Thermostate (#eBlocker community)",
+      "en": "Smarte Thermostate (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "my.tado.com",
+      "app.tado.com",
+      "minder.tado.com",
+      "hops.tado.com",
+      "nibbler.tado.com",
+      "genie.tado.com",
+      "auth.tado.com",
+      "susi.tado.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5270
+  },
+  {
+    "name": "Grammarly",
+    "description": {
+      "de": "Free Writing Assistant in English (#eBlocker community)",
+      "en": "Free Writing Assistant in English (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "grammarly.com",
+      "f-log-extension.grammarly.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5271
+  },
+  {
+    "name": "Binance",
+    "description": {
+      "de": "Kryptobörse (#eBlocker community)",
+      "en": "Kryptobörse (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "binance.com",
+      "sensors.binance.cloud",
+      "accounts.binance.com",
+      "frontend-m.binance.cloud",
+      "stream.binance.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5272
+  },
+  {
+    "name": "Babbel",
+    "description": {
+      "de": "Übersetzungstool (#eBlocker community)",
+      "en": "Übersetzungstool (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "about.babbel.com",
+      "api.babbel.io",
+      "images.babbel.com",
+      "babbel.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5273
+  },
+  {
+    "name": "Brazil Bank",
+    "description": {
+      "de": "Banco do Brasil, Banco Inter, Itaú e Nubank. (#eBlocker community)",
+      "en": "Banco do Brasil, Banco Inter, Itaú e Nubank (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bb.com.br",
+      "www2.bancobrasil.com.br",
+      "bancointer.com.br",
+      "itau.com.br",
+      "nubank.com.br"
+    ],
+    "whitelistedIPs": [],
+    "id": 5274
+  },
+  {
+    "name": "FENECON",
+    "description": {
+      "de": "Photovoltaic System (#eBlocker community)",
+      "en": "Photovoltaic System (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "portal.fenecon.de",
+      "status.fenecon.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5275
+  },
+  {
+    "name": "QT online installer",
+    "description": {
+      "de": "QT online Installer benötigt das um die Programmier Umgebung zu laden. (#eBlocker community)",
+      "en": " (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "iapi.qt.io",
+      "login.qt.io",
+      "licenses.qt.io",
+      "login.qt.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5276
+  },
+  {
+    "name": "Steam 2",
+    "description": {
+      "de": "Steam (#eBlocker community)",
+      "en": "Steam (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "ext2-fra2.steamserver.net",
+      "ext2-fra1.steamserver.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5277
+  },
+  {
+    "name": "Idealo",
+    "description": {
+      "de": "Ver (#eBlocker community)",
+      "en": "Ver (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "pubws.idealo.de",
+      "app.idealo.de",
+      "www.idealo.de",
+      "cdn.idealo.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5278
+  },
+  {
+    "name": "Booking",
+    "description": {
+      "de": "Booking (#eBlocker community)",
+      "en": "Booking (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "botkit-public.prod.booking.com",
+      "account.booking.com",
+      "secure-mobile-apps.booking.com",
+      "mobile-apps.booking.com",
+      "bstatic.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5279
+  },
+  {
+    "name": "Remarkable",
+    "description": {
+      "de": "Remarkable (#eBlocker community)",
+      "en": "Remarkable (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "internal.cloud.remarkable.com",
+      "notifications-prod.cloud.remarkable.engineering",
+      "webapp-prod.cloud.remarkable.engineering"
+    ],
+    "whitelistedIPs": [],
+    "id": 5280
+  },
+  {
+    "name": "Python",
+    "description": {
+      "de": "Programmiersprache (#eBlocker community)",
+      "en": "Programmiersprache (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "pypi.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 5281
+  },
+  {
+    "name": "Print Master",
+    "description": {
+      "de": "Print Device Provider (#eBlocker community)",
+      "en": "Print Device Provider (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "oss.qu-in.top"
+    ],
+    "whitelistedIPs": [],
+    "id": 5282
+  },
+  {
+    "name": "Comdirect",
+    "description": {
+      "de": "Comdirect Apps (#eBlocker community)",
+      "en": "Comdirect Apps (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.comdirect.de",
+      "mobileapp.comdirect.de",
+      "mta.comdirect.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5283
+  },
+  {
+    "name": "Klassikradio Select",
+    "description": {
+      "de": "Klassik Radio Stream (#eBlocker community)",
+      "en": "Klassik Radio Stream (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.onesignal.com",
+      "klassik-radio-premium.fra1.cdn.digitaloceanspaces.com",
+      "play.klassikradio.de",
+      "stream.klassikradio.de",
+      "klassikr.streamabc.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5284
+  },
+  {
+    "name": "American Express",
+    "description": {
+      "de": "Kreditkarten Institut (#eBlocker community)",
+      "en": "Kreditkarten Institut (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "apigateway.americanexpress.com",
+      "iwmapapi.americanexpress.com",
+      "mobileone.americanexpress.com",
+      "omns.americanexpress.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5285
+  },
+  {
+    "name": "3Stock",
+    "description": {
+      "de": "Börsen App (#eBlocker community)",
+      "en": "Börsen App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.stock3.com",
+      "charting.stock3.com",
+      "quotes-ws.boerse-go.de",
+      "status.stock3.com",
+      "ws.boerse-go.de",
+      "ws.stock3.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5286
+  },
+  {
+    "name": "Benzinpreis-Blitz",
+    "description": {
+      "de": "Die günstigsten Spritpreise in Deutschland, Österreich und 5 (#eBlocker community)",
+      "en": "Die günstigsten Spritpreise in Deutschland, Österreich und 5 (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.benzinpreis-blitz.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5287
+  },
+  {
+    "name": "Shazam",
+    "description": {
+      "de": "Shazam Musikerkennung (#eBlocker community)",
+      "en": "Shazam music recognition (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "shazam.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5288
   }
 ]
