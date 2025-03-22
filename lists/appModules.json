@@ -1027,7 +1027,13 @@
       "cdn.akamai.steamstatic.com",
       "store.akamai.steamstatic.com",
       "cdn.steamstatic.com",
-      "steamserver.net"
+      "steamserver.net",
+      "steamcommunity.com",
+      "stream-production.avcdn.net",
+      "shared.fastly.steamstatic.com",
+      "store.fastly.steamstatic.com",
+      "cdn.fastly.steamstatic.com",
+      "shared.steamstatic.com"
     ],
     "whitelistedIPs": [],
     "id": 45,
@@ -5632,7 +5638,9 @@
     },
     "whitelistedDomains": [
       "dyn.keepa.com",
-      "push.keepa.com"
+      "push.keepa.com",
+      "cdn.keepa.com",
+      "push2.keepa.com"
     ],
     "whitelistedIPs": [],
     "id": 5186,
@@ -7092,5 +7100,130 @@
     ],
     "whitelistedIPs": [],
     "id": 5288
+  },
+  {
+    "name": "WeightWatchers",
+    "description": {
+      "de": "WeightWatchers App zur Ernährungsumstellung. (#eBlocker community)",
+      "en": "WeightWatchers App zur Ernährungsumstellung. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.ww.com",
+      "chassis.weightwatchers.com",
+      "cmx.weightwatchers.de",
+      "connect-api.weightwatchers.com",
+      "www.weightwatchers.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5289
+  },
+  {
+    "name": "Vissmann Heizungssteuerung",
+    "description": {
+      "de": "Vissmann Heizungssteuerungssoftware (#eBlocker community)",
+      "en": "Vissmann Heizungssteuerungssoftware (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "iam.viessmann.com",
+      "api.viessmann.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5290
+  },
+  {
+    "name": "Sonnen Charger",
+    "description": {
+      "de": "App zur Steuerung der Wallbox der Firma Sonnen. (#eBlocker community)",
+      "en": "App zur Steuerung der Wallbox der Firma Sonnen. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "gateway.ocpp.sonnen.de",
+      "sentry.sonnenbatterie.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5291
+  },
+  {
+    "name": "Sonnen",
+    "description": {
+      "de": "App zur Steuerung der Sonnen Batterie. (#eBlocker community)",
+      "en": "App zur Steuerung der Sonnen Batterie. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "my.sonnen.de",
+      "api.sonnen.de",
+      "my-api.sonnen.de",
+      "unleash-proxy-my-sonnen-app-prod.internal.sonnen.de",
+      "sentry.sonnenbatterie.de",
+      "account.sonnen.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5292
+  },
+  {
+    "name": "MyBMW App",
+    "description": {
+      "de": "MyBMW App zur Steuerung verschiedener Funktionen des Fahrzeugs (#eBlocker community)",
+      "en": "MyBMW App zur Steuerung verschiedener Funktionen des Fahrzeugs (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "customer.bmwgroup.com",
+      "mybmwapp.caas.bmw",
+      "www.bmw.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5293
+  },
+  {
+    "name": "Irobot Sauger",
+    "description": {
+      "de": "iRobot Staubsauger App (#eBlocker community)",
+      "en": "iRobot Staubsauger App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "7239468752805441.hostedstatus.com",
+      "socialize.us1.gigya.com",
+      "accounts.us1.gigya.com",
+      "data.pendo.io",
+      "in.appcenter.ms",
+      "api.p9.sentiance.com",
+      "api.mixpanel.com",
+      "content-prod.iot.irobotapi.com",
+      "region1.app-measurement.com",
+      "app-measurement.com",
+      "disc-prod.iot.irobotapi.com",
+      "unauth3.prod.iot.irobotapi.com",
+      "auth2.prod.iot.irobotapi.com",
+      "auth3.prod.iot.irobotapi.com",
+      "unauth1.prod.iot.irobotapi.com",
+      "auth1.prod.iot.irobotapi.com",
+      "ecomm.prod.user-services.irobotapi.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5294
+  },
+  {
+    "name": "Abfall in guten Händen",
+    "description": {
+      "de": "Im Landkreis Dachau eine häufig benutzte App, um zu wissen, wann die Tonnen geleert werden. (#eBlocker community)",
+      "en": "Im Landkreis Dachau eine häufig benutzte App, um zu wissen, wann die Tonnen geleert werden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "awido.cubefour.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5295
+  },
+  {
+    "name": "Samsung Shop",
+    "description": {
+      "de": "Diese App ermöglicht den Zugang zu dem Shop von Samsung (#eBlocker community)",
+      "en": "Diese App ermöglicht den Zugang zu dem Shop von Samsung (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "shop.samsung.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5296
   }
 ]
