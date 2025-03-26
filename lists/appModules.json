@@ -4069,7 +4069,8 @@
       "api.countly.bmwgroup.com",
       "cocoapi.bmwgroup.com",
       "www.bmw.de",
-      "customer.bmwgroup.com"
+      "customer.bmwgroup.com",
+      "mybmwapp.caas.bmw"
     ],
     "whitelistedIPs": [],
     "id": 5073,
@@ -7118,10 +7119,10 @@
     "id": 5289
   },
   {
-    "name": "Vissmann Heizungssteuerung",
+    "name": "Viessmann Heizungssteuerung",
     "description": {
-      "de": "Vissmann Heizungssteuerungssoftware (#eBlocker community)",
-      "en": "Vissmann Heizungssteuerungssoftware (#eBlocker community)"
+      "de": "Viessmann Heizungssteuerungssoftware (#eBlocker community)",
+      "en": "Viessmann Heizungssteuerungssoftware (#eBlocker community)"
     },
     "whitelistedDomains": [
       "iam.viessmann.com",
@@ -7159,20 +7160,6 @@
     ],
     "whitelistedIPs": [],
     "id": 5292
-  },
-  {
-    "name": "MyBMW App",
-    "description": {
-      "de": "MyBMW App zur Steuerung verschiedener Funktionen des Fahrzeugs (#eBlocker community)",
-      "en": "MyBMW App zur Steuerung verschiedener Funktionen des Fahrzeugs (#eBlocker community)"
-    },
-    "whitelistedDomains": [
-      "customer.bmwgroup.com",
-      "mybmwapp.caas.bmw",
-      "www.bmw.de"
-    ],
-    "whitelistedIPs": [],
-    "id": 5293
   },
   {
     "name": "Irobot Sauger",
