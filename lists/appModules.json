@@ -3062,15 +3062,17 @@
     "hidden": false
   },
   {
-    "name": "ShareNow",
+    "name": "Free2move",
     "description": {
-      "en": "Carsharing app (formerly DriveNow, car2go) (#eBlocker Community)",
-      "de": "Car Sharing (war früher DriveNow, car2go) (#eBlocker Community)"
+      "en": "Carsharing app (formerly ShareNow, DriveNow, car2go) (#eBlocker Community)",
+      "de": "Car Sharing (war früher ShareNow, DriveNow, car2go) (#eBlocker Community)"
     },
     "whitelistedDomains": [
       "app-gateway.pricing.carsharedev.io",
+      "app.free2move.com",
       "app.prod.share-now.com",
       "driver.eu.share-now.com",
+      "driver2.eu.share-now.com",
       "pmm.car2go.com",
       "www.car2go.com",
       "www.share-now.com"
