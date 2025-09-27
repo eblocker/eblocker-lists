@@ -3333,7 +3333,9 @@
       "de": "Ledger App für Zugriff auf Ledger Krypto Hardware  (#eBlocker Community)"
     },
     "whitelistedDomains": [
-      "cdn.live.ledger.com"
+      "cdn.live.ledger.com",
+      "countervalues.live.ledger.com",
+      "scriptrunner.api.live.ledger.com"
     ],
     "id": 5027,
     "enabledPerDefault": false,
@@ -6159,7 +6161,10 @@
       "en": "Chat Ai (#eBlocker community)"
     },
     "whitelistedDomains": [
-      "chat.openai.com"
+      "chat.openai.com",
+      "chatgpt.com",
+      "auth0.openai.com",
+      "auth.openai.com"
     ],
     "whitelistedIPs": [],
     "id": 5221,
@@ -6239,7 +6244,10 @@
     },
     "whitelistedDomains": [
       "eu.switch-bot.com",
-      "switchbot.zendesk.com"
+      "switchbot.zendesk.com",
+      "wonderlabs.eu.api.switchbot.net",
+      "account.api.switchbot.net",
+      "publish.api.switchbot.net"
     ],
     "whitelistedIPs": [],
     "id": 5226,
@@ -7204,5 +7212,182 @@
     ],
     "whitelistedIPs": [],
     "id": 5296
+  },
+  {
+    "name": "RegenVorschau",
+    "description": {
+      "de": "Genaue Vorhersage für Regen und Schnee in Deutschland (#eBlocker community)",
+      "en": "Genaue Vorhersage für Regen und Schnee in Deutschland (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "regenonline.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5297
+  },
+  {
+    "name": "abfallApp BAV",
+    "description": {
+      "de": "Abfuhrkalender & Service Bergischer Abfallwirtschaftsverband (#eBlocker community)",
+      "en": "Abfuhrkalender & Service Bergischer Abfallwirtschaftsverband (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bav-abfallapp.regioit.de",
+      "bav.verschenkmarkt.info",
+      "www.bavweb.de",
+      "geocoderproxy.appspark-services.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5298
+  },
+  {
+    "name": "SMA Energy",
+    "description": {
+      "de": "Sunny Home Manager 2.0 (#eBlocker community)",
+      "en": "Sunny Home Manager (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "forecast.smaapis.de",
+      "live.smaapis.de",
+      "privatetariffs.smaapis.de",
+      "resources.smaapis.de",
+      "smarthome.smaapis.de",
+      "status.smaapis.de",
+      "users.smaapis.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5299
+  },
+  {
+    "name": "nrc",
+    "description": {
+      "de": "Niederländische Qualitätszeitung (#eBlocker community)",
+      "en": "Dutch quality newspaper (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "images.nrc.nl",
+      "assets.nrc.nl",
+      "content2.nrc.nl",
+      "content3.nrc.nl",
+      "images.nrc.nl",
+      "klik.nrc.nl",
+      "load.sst.nrc.nl",
+      "nh-apps-backend.nrc.nl",
+      "static.nrc.nl",
+      "www.nrc.nl"
+    ],
+    "whitelistedIPs": [],
+    "id": 5300
+  },
+  {
+    "name": "Bitpanda",
+    "description": {
+      "de": "Bitpanda App (#eBlocker community)",
+      "en": "Bitpanda App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "bitpanda.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5301
+  },
+  {
+    "name": "Zoll-Portal",
+    "description": {
+      "de": "Dienstleistungen des Zolls online (#eBlocker community)",
+      "en": "Dienstleistungen des Zolls online (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.zoll-portal.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5302
+  },
+  {
+    "name": "Native Instruments Traktor + Beatport Steaming",
+    "description": {
+      "de": "Traktor DJ Software + Beatport Streaming (#eBlocker Community) (#eBlocker community)",
+      "en": "Traktor DJ software + Beatport Streaming (#eBlocker Community) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "api.native-instruments.com",
+      "api.beatport.com",
+      "geo-media.beatport.com",
+      "storage.googleapis.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5303
+  },
+  {
+    "name": "Nooie camera",
+    "description": {
+      "de": "camera (#eBlocker community)",
+      "en": "Camera and camera-app from Nooie Inc. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "brain.nooie.com",
+      "eu.nooie.com",
+      "global.nooie.com",
+      "h1-eu.iot-dns.com",
+      "h2-eu.iot-dns.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5304
+  },
+  {
+    "name": "Ikea",
+    "description": {
+      "de": "Ikea App (#eBlocker community)",
+      "en": "Ikea App (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "shop.api.ingka.ikea.com",
+      "api.home-design.ikea.com",
+      "web-api.ikea.com",
+      "www.ikea.com",
+      "shop.static.ingka.ikea.com",
+      "de.accounts.ikea.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5305
+  },
+  {
+    "name": "AeroWeather",
+    "description": {
+      "de": "Software für Flug Enthusiasten (#eBlocker community)",
+      "en": "Software für Flug Enthusiasten (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "www.aviationweather.gov"
+    ],
+    "whitelistedIPs": [],
+    "id": 5306
+  },
+  {
+    "name": "Magic Earth Navigation & Maps",
+    "description": {
+      "de": "Find the best route to your destination even without an internet (#eBlocker community)",
+      "en": "Magic Earth Navigation & Maps (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "services.generalmagic.com",
+      "services.magicearthsdk.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5307
+  },
+  {
+    "name": "Bottles",
+    "description": {
+      "de": "Bottles lässt dich Windows Software auf Linux ausführen. (#eBlocker community)",
+      "en": "Bottles lässt dich Windows Software auf Linux ausführen. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "ping.usebottles.com",
+      "proxy.usebottles.com",
+      "download.lenovo.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5308
   }
 ]
