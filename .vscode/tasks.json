@@ -1,0 +1,18 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "convert mail to json",
+            "type": "shell",
+            "command": "python3 tools/mails2json.py lists/appModules.json new-apps.txt"
+        },
+        {
+            "label": "test trusted apps list",
+            "type": "shell",
+            "command": "python3 tools/testjson.py lists/appModules.json",
+            "problemMatcher": []
+        }
+    ]
+}
