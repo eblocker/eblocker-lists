@@ -387,6 +387,7 @@
                                         <classpath/>
                                         <argument>-DincludeProprietaryLists=${includeProprietaryLists}</argument>
                                         <argument>-DproprietaryProviderConfiguration=${proprietaryProviderConfiguration}</argument>
+                                        <argument>-Djdk.tls.maxCertificateChainLength=15</argument>
                                         <argument>org.eblocker.lists.tools.LazyMainRunner</argument>
                                         <argument>org.eblocker.lists.malware.MalwareListCreator</argument>
                                         <argument>org.eblocker.lists.easylist.DownloadLists</argument>
