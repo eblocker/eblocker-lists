@@ -1,0 +1,463 @@
+Von: "fdl.surohuette@t-online.de" <fdl.surohuette@t-online.de>
+Betreff: Suggestion for existing app: Telekom Kundenportal (ID 118)
+Datum: 4. August 2026 um 13:30:35 MESZ
+An: "appfeedback@eblocker.org" <appfeedback@eblocker.org>
+Antwort an: "fdl.surohuette@t-online.de" <fdl.surohuette@t-online.de>
+
+Name: Telekom Kundenportal
+
+Description:
+de: Telekom Deutschland GmbH Kundenportal
+en: Telekom Deutschland GmbH customer portal
+
+Domains:
+telekom.de
+www.t-online.de
+email.t-online.de
+ 
+﻿
+Von: Martin Götz <martin@goetz.com>
+Betreff: Suggestion for new app: AlertSwiss
+Datum: 27. Juni 2026 um 06:27:30 MESZ
+An: appfeedback@eblocker.org
+
+Name: AlertSwiss
+
+Description:
+de: Alarm App - Bundesamt für Bevölkerungsschutz BABS, Schweiz
+en: Alarm App - Bundesamt für Bevölkerungsschutz BABS, Schweiz
+
+Domains:
+alertswiss-app.ch
+
+Von: "Frank Domahs" <info@seitenbildner.de>
+Betreff: Suggestion for new app: emClient
+Datum: 24. Juni 2026 um 16:04:53 MESZ
+An: appfeedback@eblocker.org
+Antwort an: "Frank Domahs" <info@seitenbildner.de>
+
+Name: emClient
+
+Description:
+de: eMail-Client für macOS
+en: eMail-Client for macOS
+
+Domains:
+translate.emclient.com
+licensing.emclient.com
+
+
+
+Von: Andreas Deppenbrock <deppenbrock@gmail.com>
+Betreff: Suggestion for new app: Ecovacs
+Datum: 20. Mai 2026 um 04:13:06 MESZ
+An: appfeedback@eblocker.org
+
+Name: Ecovacs
+
+Description:
+de: Diese Regel verhindert das Ecovacs Geräte nach Hause telefonieren
+en: Diese Regel verhindert das Ecovacs Geräte nach Hause telefonieren
+
+Domains:
+log.ecovacs.com
+telemetry.ecovacs.com
+
+Von: Andreas Deppenbrock <deppenbrock@gmail.com>
+Betreff: Suggestion for new app: Amazon Here Map
+Datum: 16. April 2026 um 16:35:16 MESZ
+An: appfeedback@eblocker.org
+
+Name: Amazon Here Map
+
+Description:
+de: Diese Regel ermöglicht es die Here Map bei der Sendungsverfolgung auf Amazon anzuzeigen
+en: Diese Regel ermöglicht es die Here Map bei der Sendungsverfolgung auf Amazon anzuzeigen
+
+Domains:
+maps.hereapi.com
+
+Von: Andreas Deppenbrock <deppenbrock@gmail.com>
+Betreff: Suggestion for new app: E-Rezept
+Datum: 2. April 2026 um 16:38:58 MESZ
+An: appfeedback@eblocker.org
+
+Name: E-Rezept
+
+Description:
+de: Eine Regel damit die E-Rezept App auf Android funktioniert
+en: E-Rezept
+
+Domains:
+idp-pairing.zentral.idp.splitdns.ti-dienste.de
+idp.app.ti-dienste.de
+
+Von: Andreas Deppenbrock <deppenbrock@gmail.com>
+Betreff: Suggestion for new app: Intel Treiber Update
+Datum: 2. April 2026 um 16:34:07 MESZ
+An: appfeedback@eblocker.org
+
+Name: Intel Treiber Update
+
+Description:
+de: Intel® Treiber- und Support-Assistent. Damit Intel nach neuen Treiber scannen kann
+en: Intel Treiber Update
+
+Domains:
+dsadata.intel.com
+
+Von: Andreas Deppenbrock <deppenbrock@gmail.com>
+Betreff: Suggestion for new app: Intel Treiber Update
+Datum: 2. April 2026 um 16:24:41 MESZ
+An: appfeedback@eblocker.org
+
+Name: Intel Treiber Update
+
+Description:
+de: Intel® Treiber- und Support-Assistent. Damit Intel nach neuen Treiber scannen kann
+en: Intel Treiber Update
+
+Domains:
+dsadata.intel.com
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: Clamav_self
+Datum: 16. Januar 2026 um 08:35:08 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: Clamav_self
+ 
+Für alle Linux User wichtig !
+ 
+Description:
+de: für update von Clamav
+en: für update von Clamav
+
+Domains:
+clamav.net
+talos.cisco.com
+database.clamav.net
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: mvketelhodt_com <mvketelhodt@protonmail.com>
+Betreff: Suggestion for new app: Proton VPN
+Datum: 4. Januar 2026 um 22:42:11 MEZ
+An: appfeedback@eblocker.org
+
+Name: Proton VPN
+
+Description:
+de: VPN Anbieter
+en: VPN Anbieter
+
+Domains:
+account.protonvpn.com
+proton.me
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for new app: i-Kfz
+Datum: 24. Dezember 2025 um 15:34:26 MEZ
+An: appfeedback@eblocker.org
+
+Name: i-Kfz
+
+Description:
+de: Fahrzeugschein - Digital und Sicher Verwalten
+en: Fahrzeugschein - Digital und Sicher Verwalten
+
+Domains:
+app.dfz.bundesdruckerei.de
+eid-identification.dfz.bundesdruckerei.de
+eid-dfz1-prod.eid-service.de
+attestation.dfz.bundesdruckerei.de
+discovery.dfz.bundesdruckerei.de
+status.dfz.bundesdruckerei.de
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: VisualStudioCode_selbst
+Datum: 19. Dezember 2025 um 15:34:22 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: VisualStudioCode_selbst
+
+Description:
+de: Verbindungen zum Marktplatz, Github von VSC (Ergänzungen)
+en: Verbindungen zum Marktplatz von VSC
+
+Domains:
+ms-vscode-remote.gallery.vsassets.io
+marketplace.visualstudio.com
+ms-vscode-remote.gallerycdn.vsassets.io
+main.vscode-cdn.net
+github.gallery.vsassets.io
+github.gallerycdn.vsassets.io
+ms-python.gallery.vsassets.io
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: Paramount_self
+Datum: 19. Dezember 2025 um 14:42:56 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: Paramount_self
+
+Description:
+de: Für Paramount+ zu schauen.
+en: Für Paramount+ zu schauen.
+
+Domains:
+js-prod-intl.paramountplus.com
+sparrow.intl.paramountplus.com
+www.paramountplus.com
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for existing app: TK App (ID 130)
+Datum: 12. Dezember 2025 um 07:56:59 MEZ
+An: appfeedback@eblocker.org
+
+Name: TK App
+
+Description:
+de: Techniker Krankenkasse (TK)
+en: Techniker Krankenkasse (TK) - German health insurance App
+
+Domains:
+tk.de
+kobil.tk.de
+agembi.com
+sigd.egk-tsp.de
+tk.ibmepa.de
+tk.prod.ehealth-epa.de
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: Sereni_self
+Datum: 1. Dezember 2025 um 15:49:08 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: Sereni_self
+
+Description:
+de: Bestattungen Sereni Personal Software
+en: Bestattungen Sereni Personal Software
+
+Domains:
+sereni.de
+sereni-deutschland-gmbh.personio.de
+sereni-deutschland-gmbh.app-personio.de
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: KDE Desktop
+Datum: 29. November 2025 um 06:16:47 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: KDE Desktop
+
+Description:
+de: KDE Plasma Desktop (LINUX)
+en: KDE Plasma Desktop (LINUX)
+
+Domains:
+download.kde.org
+store.kde.org
+api.kde-look.org
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for new app: C24 Bank
+Datum: 21. November 2025 um 07:58:02 MEZ
+An: appfeedback@eblocker.org
+
+Name: C24 Bank
+
+Description:
+de: C24 Bank GmbH
+en: C24 Bank GmbH
+
+Domains:
+pay-api.gini.net
+c24.de
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for existing app: TK App (ID 130)
+Datum: 21. November 2025 um 07:57:05 MEZ
+An: appfeedback@eblocker.org
+
+Name: TK App
+
+Description:
+de: Techniker Krankenkasse (TK)
+en: Techniker Krankenkasse (TK) - German health insurance App
+
+Domains:
+tk.de
+kobil.tk.de
+agembi.com
+sigd.egk-tsp.de
+tk.ibmepa.de
+tk.prod.ehealth-epa.de
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for new app: TK Ident
+Datum: 21. November 2025 um 07:56:36 MEZ
+An: appfeedback@eblocker.org
+
+Name: TK Ident
+
+Description:
+de: Mit TK-Ident können Sie sich an digitalen Gesundheitsanwendungen anmelden.
+en: Mit TK-Ident können Sie sich an digitalen Gesundheitsanwendungen anmelden.
+
+Domains:
+tk.ehealth-id.de
+ehealth-ega.de
+
+Von: "joemizi@gmx.de" <joemizi@gmx.de>
+Betreff: Suggestion for new app: i-Kfz
+Datum: 21. November 2025 um 07:50:18 MEZ
+An: appfeedback@eblocker.org
+
+Name: i-Kfz
+
+Description:
+de: Fahrzeugschein - Digital und Sicher Verwalten
+en: Fahrzeugschein - Digital und Sicher Verwalten
+
+Domains:
+app.dfz.bundesdruckerei.de
+eid-identification.dfz.bundesdruckerei.de
+eid-dfz1-prod.eid-service.de
+attestation.dfz.bundesdruckerei.de
+discovery.dfz.bundesdruckerei.de
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: ChatGPT_self
+Datum: 9. November 2025 um 12:37:46 MEZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: ChatGPT_self
+
+Description:
+de: fehlende Domäne
+en: fehlende Domäne
+
+Domains:
+auth.openai.com
+auth0.openai.com
+chat.openai.com
+chatgpt.com
+api.openai.com
+cdn.openai.com
+openaicom-cdn.openai.com
+platform.openai.com
+oaiusercontent.com
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: RockstarGames
+Datum: 14. Oktober 2025 um 12:10:49 MESZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Wird benötigt für GamesPlattform.
+
+
+Name: RockstarGames
+
+
+Description:
+de: Hersteller RockStarGames
+en: Hersteller RockStarGames
+
+Domains:
+prod.ros.rockstargames.com
+ps-rgl-prod.ros.rockstargames.com
+prs-rgl-prod.ros.rockstargames.com
+tm-rgl-prod.ros.rockstargames.com
+rgl-prod.ros.rockstargames.com
+auth-rgl-prod.ros.rockstargames.com
+cs-rgl-prod.ros.rockstargames.com
+prod.cloud.rockstargames.com
+
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: Tesla,Inc.
+Datum: 26. September 2025 um 10:32:00 MESZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: Tesla,Inc.
+
+Description:
+de: vom Auto aus verlangt !
+en: vom Auto aus verlangt !
+
+Domains:
+hermes-prd.ap.tesla.services
+api.mp.tesla.services
+t1.cnrd.io
+daws.tesla.services
+telemetry-prd.ap.tesla.services
+telemetry-prd.vn.tesla.services
+x1.ap.tesla.services
+maps-eu-prd.go.tesla.services
+device-api.prd.eu.vn.cloud.tesla.com
+hermes-stream-api.prd.eu.vn.cloud.tesla.com
+
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
+
+Von: Holger Mangold <holger.mangold@netcologne.de>
+Betreff: Suggestion for new app: Sparkasse Köln APP IOS
+Datum: 26. September 2025 um 08:40:01 MESZ
+An: appfeedback@eblocker.org
+Antwort an: holger.mangold@netcologne.de
+
+Name: Sparkasse Köln APP IOS
+
+Description:
+de: für Fingerprint nötig !
+en: für Fingerprint nötig !
+
+Domains:
+rl06p.sfg-mkg.de
+gw.s-pushtan-rl06.de
+
+-- 
+----------------------
+mit freundlichem Gruß
+H. Mangold
+
