@@ -2088,7 +2088,9 @@
       "de": "Telekom Deutschland GmbH Kundenportal"
     },
     "whitelistedDomains": [
-      "telekom.de"
+      "telekom.de",
+      "www.t-online.de",
+      "email.t-online.de"
     ],
     "whitelistedIPs": [],
     "id": 118,
@@ -2306,7 +2308,8 @@
       "kobil.tk.de",
       "agembi.com",
       "sigd.egk-tsp.de",
-      "tk.ibmepa.de"
+      "tk.ibmepa.de",
+      "tk.prod.ehealth-epa.de"
     ],
     "whitelistedIPs": [],
     "id": 130,
@@ -7391,5 +7394,283 @@
     ],
     "whitelistedIPs": [],
     "id": 5308
+  },
+  {
+    "name": "AlertSwiss",
+    "description": {
+      "de": "Alarm App - Bundesamt für Bevölkerungsschutz BABS, Schweiz (#eBlocker community)",
+      "en": "Alarm App - Bundesamt für Bevölkerungsschutz BABS, Schweiz (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "alertswiss-app.ch"
+    ],
+    "whitelistedIPs": [],
+    "id": 5309
+  },
+  {
+    "name": "emClient",
+    "description": {
+      "de": "eMail-Client für macOS (#eBlocker community)",
+      "en": "eMail-Client for macOS (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "translate.emclient.com",
+      "licensing.emclient.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5310
+  },
+  {
+    "name": "Ecovacs",
+    "description": {
+      "de": "Diese Regel verhindert das Ecovacs Geräte nach Hause telefonieren (#eBlocker community)",
+      "en": "Diese Regel verhindert das Ecovacs Geräte nach Hause telefonieren (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "log.ecovacs.com",
+      "telemetry.ecovacs.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5311
+  },
+  {
+    "name": "Amazon Here Map",
+    "description": {
+      "de": "Diese Regel ermöglicht es die Here Map bei der Sendungsverfolgung auf Amazon anzuzeigen (#eBlocker community)",
+      "en": "Diese Regel ermöglicht es die Here Map bei der Sendungsverfolgung auf Amazon anzuzeigen (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "maps.hereapi.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5312
+  },
+  {
+    "name": "E-Rezept",
+    "description": {
+      "de": "Eine Regel damit die E-Rezept App auf Android funktioniert (#eBlocker community)",
+      "en": "E-Rezept (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "idp-pairing.zentral.idp.splitdns.ti-dienste.de",
+      "idp.app.ti-dienste.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5313
+  },
+  {
+    "name": "Intel Treiber Update",
+    "description": {
+      "de": "Intel® Treiber- und Support-Assistent. Damit Intel nach neuen Treiber scannen kann (#eBlocker community)",
+      "en": "Intel Treiber Update (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "dsadata.intel.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5314
+  },
+  {
+    "name": "Clamav_self",
+    "description": {
+      "de": "für update von Clamav (#eBlocker community)",
+      "en": "für update von Clamav (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "clamav.net",
+      "talos.cisco.com",
+      "database.clamav.net"
+    ],
+    "whitelistedIPs": [],
+    "id": 5315
+  },
+  {
+    "name": "Proton VPN",
+    "description": {
+      "de": "VPN Anbieter (#eBlocker community)",
+      "en": "VPN Anbieter (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "account.protonvpn.com",
+      "proton.me"
+    ],
+    "whitelistedIPs": [],
+    "id": 5316
+  },
+  {
+    "name": "i-Kfz",
+    "description": {
+      "de": "Fahrzeugschein - Digital und Sicher Verwalten (#eBlocker community)",
+      "en": "Fahrzeugschein - Digital und Sicher Verwalten (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "app.dfz.bundesdruckerei.de",
+      "eid-identification.dfz.bundesdruckerei.de",
+      "eid-dfz1-prod.eid-service.de",
+      "attestation.dfz.bundesdruckerei.de",
+      "discovery.dfz.bundesdruckerei.de",
+      "status.dfz.bundesdruckerei.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5317
+  },
+  {
+    "name": "VisualStudioCode_selbst",
+    "description": {
+      "de": "Verbindungen zum Marktplatz, Github von VSC (Ergänzungen) (#eBlocker community)",
+      "en": "Verbindungen zum Marktplatz von VSC (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "ms-vscode-remote.gallery.vsassets.io",
+      "marketplace.visualstudio.com",
+      "ms-vscode-remote.gallerycdn.vsassets.io",
+      "main.vscode-cdn.net",
+      "github.gallery.vsassets.io",
+      "github.gallerycdn.vsassets.io",
+      "ms-python.gallery.vsassets.io"
+    ],
+    "whitelistedIPs": [],
+    "id": 5318
+  },
+  {
+    "name": "Paramount_self",
+    "description": {
+      "de": "Für Paramount+ zu schauen. (#eBlocker community)",
+      "en": "Für Paramount+ zu schauen. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "js-prod-intl.paramountplus.com",
+      "sparrow.intl.paramountplus.com",
+      "www.paramountplus.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5319
+  },
+  {
+    "name": "Sereni_self",
+    "description": {
+      "de": "Bestattungen Sereni Personal Software (#eBlocker community)",
+      "en": "Bestattungen Sereni Personal Software (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "sereni.de",
+      "sereni-deutschland-gmbh.personio.de",
+      "sereni-deutschland-gmbh.app-personio.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5320
+  },
+  {
+    "name": "KDE Desktop",
+    "description": {
+      "de": "KDE Plasma Desktop (LINUX) (#eBlocker community)",
+      "en": "KDE Plasma Desktop (LINUX) (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "download.kde.org",
+      "store.kde.org",
+      "api.kde-look.org"
+    ],
+    "whitelistedIPs": [],
+    "id": 5321
+  },
+  {
+    "name": "C24 Bank",
+    "description": {
+      "de": "C24 Bank GmbH (#eBlocker community)",
+      "en": "C24 Bank GmbH (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "pay-api.gini.net",
+      "c24.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5322
+  },
+  {
+    "name": "TK Ident",
+    "description": {
+      "de": "Mit TK-Ident können Sie sich an digitalen Gesundheitsanwendungen anmelden. (#eBlocker community)",
+      "en": "Mit TK-Ident können Sie sich an digitalen Gesundheitsanwendungen anmelden. (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "tk.ehealth-id.de",
+      "ehealth-ega.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5323
+  },
+  {
+    "name": "ChatGPT_self",
+    "description": {
+      "de": "fehlende Domäne (#eBlocker community)",
+      "en": "fehlende Domäne (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "auth.openai.com",
+      "auth0.openai.com",
+      "chat.openai.com",
+      "chatgpt.com",
+      "api.openai.com",
+      "cdn.openai.com",
+      "openaicom-cdn.openai.com",
+      "platform.openai.com",
+      "oaiusercontent.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5324
+  },
+  {
+    "name": "RockstarGames",
+    "description": {
+      "de": "Hersteller RockStarGames (#eBlocker community)",
+      "en": "Hersteller RockStarGames (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "prod.ros.rockstargames.com",
+      "ps-rgl-prod.ros.rockstargames.com",
+      "prs-rgl-prod.ros.rockstargames.com",
+      "tm-rgl-prod.ros.rockstargames.com",
+      "rgl-prod.ros.rockstargames.com",
+      "auth-rgl-prod.ros.rockstargames.com",
+      "cs-rgl-prod.ros.rockstargames.com",
+      "prod.cloud.rockstargames.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5325
+  },
+  {
+    "name": "Tesla,Inc.",
+    "description": {
+      "de": "vom Auto aus verlangt ! (#eBlocker community)",
+      "en": "vom Auto aus verlangt ! (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "hermes-prd.ap.tesla.services",
+      "api.mp.tesla.services",
+      "t1.cnrd.io",
+      "daws.tesla.services",
+      "telemetry-prd.ap.tesla.services",
+      "telemetry-prd.vn.tesla.services",
+      "x1.ap.tesla.services",
+      "maps-eu-prd.go.tesla.services",
+      "device-api.prd.eu.vn.cloud.tesla.com",
+      "hermes-stream-api.prd.eu.vn.cloud.tesla.com"
+    ],
+    "whitelistedIPs": [],
+    "id": 5326
+  },
+  {
+    "name": "Sparkasse Köln APP IOS",
+    "description": {
+      "de": "für Fingerprint nötig ! (#eBlocker community)",
+      "en": "für Fingerprint nötig ! (#eBlocker community)"
+    },
+    "whitelistedDomains": [
+      "rl06p.sfg-mkg.de",
+      "gw.s-pushtan-rl06.de"
+    ],
+    "whitelistedIPs": [],
+    "id": 5327
   }
 ]
