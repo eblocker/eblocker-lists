@@ -449,6 +449,9 @@
     "whitelistedDomains": [
       "threema.ch"
     ],
+    "whitelistedIPs": [
+      "203.56.112.0/23"
+    ],
     "id": 10,
     "enabledPerDefault": false
   },
