@@ -447,7 +447,8 @@
       "de": "Instant Messaging Dienst"
     },
     "whitelistedDomains": [
-      "threema.ch"
+      "threema.ch",
+      "threema.com"
     ],
     "whitelistedIPs": [
       "203.56.112.0/23"
