@@ -14,6 +14,7 @@
       <debTargetDir>${project.build.directory}</debTargetDir>
       <type>daily+</type>
       <includeProprietaryLists>false</includeProprietaryLists>
+      <scriptlets.source.directory>scriptlets</scriptlets.source.directory>
       <proprietaryProviderConfiguration></proprietaryProviderConfiguration>
       <version.slf4j>1.7.32</version.slf4j>
       <version.log4j2>2.17.1</version.log4j2>
@@ -177,9 +178,11 @@
                             <outputDirectory>${project.build.directory}/package/eblocker-lists/scriptlets</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>scriptlets</directory>
+                                    <directory>${scriptlets.source.directory}</directory>
                                     <filtering>false</filtering>
                                     <include>**/*.js</include>
+                                    <include>manifest.json</include>
+                                    <include>LICENSE-UBLOCK.txt</include>
                                 </resource>
                             </resources>
                         </configuration>
@@ -226,6 +229,40 @@
         </plugins>
     </build>
     <profiles>
+        <profile>
+            <!-- Build standalone page-world scriptlets from a reviewed uBlock checkout. -->
+            <id>scriptlets-v2</id>
+            <properties>
+                <scriptlets.source.directory>${project.build.directory}/scriptlets-v2</scriptlets.source.directory>
+                <ublock.scriptlets.commit>765c51daa13143b5a7cbf60be4633fb8e7d324a5</ublock.scriptlets.commit>
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.5.0</version>
+                        <executions>
+                            <execution>
+                                <id>generate-scriptlets-v2</id>
+                                <phase>generate-test-resources</phase>
+                                <goals><goal>exec</goal></goals>
+                                <configuration>
+                                    <executable>node</executable>
+                                    <arguments>
+                                        <argument>${project.basedir}/tools/build-scriptlets-v2.mjs</argument>
+                                        <argument>${ublock.source}</argument>
+                                        <argument>${scriptlets.source.directory}</argument>
+                                        <argument>${ublock.scriptlets.commit}</argument>
+                                    </arguments>
+                                    <workingDirectory>${project.basedir}</workingDirectory>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
         <profile>
             <id>base-release</id>
             <build>
