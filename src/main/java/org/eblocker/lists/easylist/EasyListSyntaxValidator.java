@@ -48,7 +48,9 @@ public class EasyListSyntaxValidator {
     public static void verifyAndRepair(EasyListDescription list) throws IOException {
 
         Path src = Paths.get(list.getFilename());
-        Path tmp = Files.createTempFile("easylist.", ".tmp");
+        // The repaired list is atomically moved over src, so the temporary file
+        // must be created on the same filesystem as src.
+        Path tmp = Files.createTempFile(src.toAbsolutePath().getParent(), "easylist.", ".tmp");
         boolean appliedFix = false;
 
         try (BufferedReader reader = Files.newBufferedReader(src);
@@ -110,7 +112,7 @@ public class EasyListSyntaxValidator {
      * @return
      */
     private static Path recalculateChecksum(Path source) throws IOException {
-        Path tmp = Files.createTempFile("easylist.recalculated.checksum.", ".tmp");
+        Path tmp = Files.createTempFile(source.toAbsolutePath().getParent(), "easylist.recalculated.checksum.", ".tmp");
         ChecksumValidator checksumValidator = new ChecksumValidator();
         Checksums checksums;
         try {
