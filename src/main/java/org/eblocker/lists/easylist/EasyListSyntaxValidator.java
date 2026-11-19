@@ -25,6 +25,7 @@ import org.slf4j.LoggerFactory;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -51,58 +52,66 @@ public class EasyListSyntaxValidator {
         // The repaired list is atomically moved over src, so the temporary file
         // must be created on the same filesystem as src.
         Path tmp = Files.createTempFile(src.toAbsolutePath().getParent(), "easylist.", ".tmp");
-        boolean appliedFix = false;
+        try {
+            boolean appliedFix = false;
 
-        try (BufferedReader reader = Files.newBufferedReader(src);
-             BufferedWriter writer = Files.newBufferedWriter(tmp)) {
-            String line;
+            try (BufferedReader reader = Files.newBufferedReader(src);
+                 BufferedWriter writer = Files.newBufferedWriter(tmp)) {
+                String line;
 
-            while ((line = reader.readLine()) != null) {
-                // Hotfix for global $ping rule matching all URLs
-                if (line.startsWith("$ping")) {
-                    LOG.info("Removing global '$ping' rule: [{}]", line);
-                    appliedFix = true;
-                    continue;
-                }
+                while ((line = reader.readLine()) != null) {
+                    // Hotfix for global $ping rule matching all URLs
+                    if (line.startsWith("$ping")) {
+                        LOG.info("Removing global '$ping' rule: [{}]", line);
+                        appliedFix = true;
+                        continue;
+                    }
 
-                // Parse rule to identify rules we are interested in. E.g. we skip CSS hiding rules.
-                if (line.startsWith("!") || new EasyListLineParser().parseLine(line) == null) {
+                    // Parse rule to identify rules we are interested in. E.g. we skip CSS hiding rules.
+                    if (line.startsWith("!") || new EasyListLineParser().parseLine(line) == null) {
+                        writer.write(line);
+                        writer.newLine();
+                        continue;
+                    }
+
+                    // Repair rule with ambiguous dollar in pattern
+                    int dollar = line.lastIndexOf('$');
+                    if (dollar >= 0) {
+                        String potentialOptions = line.substring(dollar+1);
+                        if (!OPTIONS_PATTERN.matcher(potentialOptions).matches()) {
+                            LOG.info("Found rule with ambiguous dollar sign in rule: [{}] - masking the dollar with dummy option", line);
+                            line = line + "$dummy";
+                            appliedFix = true;
+                        }
+                    }
                     writer.write(line);
                     writer.newLine();
-                    continue;
-                }
 
-                // Repair rule with ambiguous dollar in pattern
-                int dollar = line.lastIndexOf('$');
-                if (dollar >= 0) {
-                    String potentialOptions = line.substring(dollar+1);
-                    if (!OPTIONS_PATTERN.matcher(potentialOptions).matches()) {
-                        LOG.info("Found rule with ambiguous dollar sign in rule: [{}] - masking the dollar with dummy option", line);
-                        line = line + "$dummy";
-                        appliedFix = true;
-                    }
-                }
-                writer.write(line);
-                writer.newLine();
+                    // Parse line again
+                    Filter filter = new EasyListLineParser().parseLine(line);
 
-                // Parse line again
-                Filter filter = new EasyListLineParser().parseLine(line);
-
-                // Run test set against this filter
-                for (EasyListRuleTest easyListRuleTest: list.getEasyListRuleTests()) {
-                    Decision decision = filter.filter(easyListRuleTest).getDecision();
-                    if (!easyListRuleTest.isAllowed(decision)) {
-                        String msg = "Unexpected filter result " + decision + " by filter [" + line + "] for test " + easyListRuleTest;
-                        LOG.error(msg);
-                        throw new IOException(msg);
+                    // Run test set against this filter
+                    for (EasyListRuleTest easyListRuleTest: list.getEasyListRuleTests()) {
+                        Decision decision = filter.filter(easyListRuleTest).getDecision();
+                        if (!easyListRuleTest.isAllowed(decision)) {
+                            String msg = "Unexpected filter result " + decision + " by filter [" + line + "] for test " + easyListRuleTest;
+                            LOG.error(msg);
+                            throw new IOException(msg);
+                        }
                     }
                 }
             }
-        }
 
-        if (appliedFix) {
-            Path tmp2 = recalculateChecksum(tmp);
-            Files.move(tmp2, src, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+            if (appliedFix) {
+                Path tmp2 = recalculateChecksum(tmp);
+                try {
+                    Files.move(tmp2, src, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.ATOMIC_MOVE);
+                } finally {
+                    Files.deleteIfExists(tmp2);
+                }
+            }
+        } finally {
+            Files.deleteIfExists(tmp);
         }
     }
 
@@ -113,25 +122,30 @@ public class EasyListSyntaxValidator {
      */
     private static Path recalculateChecksum(Path source) throws IOException {
         Path tmp = Files.createTempFile(source.toAbsolutePath().getParent(), "easylist.recalculated.checksum.", ".tmp");
-        ChecksumValidator checksumValidator = new ChecksumValidator();
-        Checksums checksums;
         try {
-            checksums = checksumValidator.getChecksums(Files.newInputStream(source));
-        } catch (NoSuchAlgorithmException e) {
-            throw new IOException("Could not get checksum from file " + source, e);
-        }
-        try (BufferedReader reader = Files.newBufferedReader(source);
-             BufferedWriter writer = Files.newBufferedWriter(tmp)) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                Matcher matcher = CHECKSUM_PATTERN.matcher(line);
-                if (matcher.matches()) {
-                    line = CHECKSUM_PREFIX + checksums.getCalculatedDigest();
-                }
-                writer.write(line);
-                writer.newLine();
+            ChecksumValidator checksumValidator = new ChecksumValidator();
+            Checksums checksums;
+            try (InputStream input = Files.newInputStream(source)) {
+                checksums = checksumValidator.getChecksums(input);
+            } catch (NoSuchAlgorithmException e) {
+                throw new IOException("Could not get checksum from file " + source, e);
             }
+            try (BufferedReader reader = Files.newBufferedReader(source);
+                 BufferedWriter writer = Files.newBufferedWriter(tmp)) {
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    Matcher matcher = CHECKSUM_PATTERN.matcher(line);
+                    if (matcher.matches()) {
+                        line = CHECKSUM_PREFIX + checksums.getCalculatedDigest();
+                    }
+                    writer.write(line);
+                    writer.newLine();
+                }
+            }
+            return tmp;
+        } catch (IOException | RuntimeException e) {
+            Files.deleteIfExists(tmp);
+            throw e;
         }
-        return tmp;
     }
 }
