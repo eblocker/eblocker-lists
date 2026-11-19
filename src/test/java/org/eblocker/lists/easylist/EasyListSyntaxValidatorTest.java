@@ -17,19 +17,27 @@
 package org.eblocker.lists.easylist;
 
 import org.eblocker.server.common.transaction.Decision;
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import org.junit.rules.TemporaryFolder;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Stream;
 
 public class EasyListSyntaxValidatorTest {
     private static final String EASYLIST_FILE = "src/test/resources/easyprivacy_general.txt";
 
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();
+
+    @Rule
+    public TemporaryFolder temporaryFolder = new TemporaryFolder();
 
     @Test
     public void testRuleFails() throws IOException {
@@ -59,4 +67,17 @@ public class EasyListSyntaxValidatorTest {
         EasyListSyntaxValidator.verifyAndRepair(list);
     }
 
+    @Test
+    public void removesTemporaryFilesAfterRepair() throws IOException {
+        Path source = temporaryFolder.newFile("repair.txt").toPath();
+        Files.writeString(source, "[Adblock Plus 2.0]\n! Checksum: old\n$ping\n");
+        EasyListDescription list = new EasyListDescription("", source.toString(), 0, 999, 100, true, new HashSet<>());
+
+        EasyListSyntaxValidator.verifyAndRepair(list);
+
+        Assert.assertFalse(Files.readString(source).contains("$ping"));
+        try (Stream<Path> files = Files.list(source.getParent())) {
+            Assert.assertEquals(1, files.count());
+        }
+    }
 }
