@@ -126,7 +126,7 @@ await writeFile(join(output, 'manifest.json'), JSON.stringify({
     source: 'https://github.com/gorhill/uBlock',
     sourceCommit,
     entryPoint: 'src/js/resources/scriptlets.js',
-    license: 'GPL-3.0-or-later',
+    license: 'GPL-3.0',
     generated,
     legacyCommit,
     legacyFallback,
